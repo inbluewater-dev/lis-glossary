@@ -9,8 +9,12 @@ categories:
     name: 도서관과 서비스
   - id: collections
     name: 장서와 자료
+  - id: bibliography-books
+    name: 책과 서지학
   - id: cataloging
     name: 목록과 메타데이터
+  - id: cataloging-rules
+    name: 목록규칙과 표목
   - id: classification
     name: 분류와 주제
   - id: identifiers
@@ -423,6 +427,62 @@ terms:
   related: [digital-library, collection]
   sources: [iso5127]
 
+# ───────── 책과 서지학 ─────────
+- id: book-format
+  term: 판형
+  en: Format (Bibliographical)
+  aka: [2절판, 4절판, 8절판, folio, quarto, octavo]
+  category: bibliography-books
+  definition: >-
+    서지학에서 인쇄용 전지를 몇 번 접어 책을 만들었는지에 따른 책의 형태입니다.
+    한 번 접어 2장(4쪽)이 되면 2절판(folio), 두 번 접어 4장이면 4절판(quarto, 4to), 세 번 접어 8장이면 8절판(octavo, 8vo)입니다. 실제 크기(cm)를 뜻하는 「크기」와는 구별해 씁니다.
+  related: [signature-mark, old-book, edition]
+  sources: [gaskell]
+
+- id: signature-mark
+  term: 시그니처
+  en: Signature (Mark) / Register
+  aka: [접장 기호, 레지스터]
+  category: bibliography-books
+  definition: >-
+    접은 종이 묶음(접장)을 순서대로 엮도록 각 묶음 첫 장 아래에 인쇄한 문자나 숫자입니다.
+    시그니처를 차례로 적어 둔 목록을 「레지스터」라고 하며, 쪽 번호가 없는 옛 책에서는 시그니처로 위치를 가리키고 빠진 장이 없는지 확인합니다.
+  related: [book-format, old-book]
+  sources: [gaskell]
+
+- id: caption-title
+  term: 권두표제
+  en: Caption Title / Head-title
+  aka: [권두서명, 권수제]
+  category: bibliography-books
+  definition: >-
+    본문 첫머리 위에 인쇄된 표제입니다.
+    표제지가 없거나 떨어져 나간 옛 책에서는 권두표제나 간기 등을 대신 보고 표제를 정합니다. 우리 고서 목록에서는 「권수제」라고 부릅니다.
+  related: [colophon, title-proper, old-book]
+  sources: [gaskell, kcr]
+
+- id: colophon
+  term: 간기
+  en: Colophon
+  aka: [콜로폰, 판권지, 판권면]
+  category: bibliography-books
+  definition: >-
+    책의 끝(또는 앞)에 언제, 어디서, 누가 찍어 냈는지를 적은 부분입니다.
+    표제지가 생기기 전의 서양 초기 인쇄본과 우리 고서에서 중요한 정보원이며, 오늘날 우리 책의 「판권지(판권면)」가 같은 역할을 합니다.
+  related: [caption-title, old-book, edition]
+  sources: [gaskell]
+
+- id: editio-princeps
+  term: 초간본
+  en: Editio Princeps
+  aka: [초인본, 에디티오 프린켑스, ED. PR.]
+  category: bibliography-books
+  definition: >-
+    손으로 베껴 전해지던 작품이 처음으로 인쇄되어 나온 판입니다. 특히 그리스·로마 고전의 첫 인쇄본을 가리킬 때 많이 씁니다.
+    출판된 책의 첫 판을 뜻하는 일반적인 「초판」보다 좁은 말입니다.
+  related: [edition, old-book]
+  sources: [gaskell]
+
 # ───────── 목록과 메타데이터 (16) ─────────
 - id: catalog
   term: 목록
@@ -468,58 +528,170 @@ terms:
   related: [dublin-core, bibliographic-record, marc, linked-data]
   sources: [iso5127, dublin-core]
 
+- id: cataloging-code
+  term: 목록규칙
+  en: Cataloging Code / Cataloging Rules
+  aka: [목록규칙집, 목록법]
+  category: cataloging-rules
+  definition: >-
+    도서관 목록을 일관되게 만들기 위해 무엇을 어떤 형태로 기록하고 어떤 접근점을 둘지를 정해 놓은 규칙의 체계입니다.
+    파니치의 91개조 규칙(1841), 커터의 사전체 목록 규칙(1876), 영미목록규칙(AACR2), RDA, 우리나라의 한국목록규칙(KCR) 등이 이어져 왔습니다.
+  related: [panizzi-91-rules, kcr, rda, isbd, catalog]
+  sources: [foundations, cutter1876, rda, kcr]
+
+- id: panizzi-91-rules
+  term: 파니치의 91개조 규칙
+  en: Panizzi's Ninety-One Rules
+  aka: [91개조 규칙, 91조 규칙, 대영박물관 목록규칙]
+  category: cataloging-rules
+  definition: >-
+    영국 대영박물관 도서관의 앤서니 파니치(Anthony Panizzi)가 동료들과 함께 만들어 1841년 인쇄본 장서목록 첫 권 앞에 실은 91개 조의 목록 규칙입니다.
+    저자명의 선택과 형태, 익명·필명 저작, 참조, 성서, 형식표목 등을 체계적으로 다루어, 이후 19~20세기 목록규칙의 출발점으로 평가받습니다.
+  related: [cataloging-code, heading, cross-reference, uniform-title, catalog-slip]
+  sources: [foundations, guerrini2023]
+
+- id: entry
+  term: 기입
+  en: Entry
+  aka: [목록기입]
+  category: cataloging-rules
+  definition: >-
+    목록에서 자료 하나를 나타내는 기록 한 건입니다. 카드 목록에서는 카드 한 장이 기입 하나였습니다.
+    자료를 대표하는 완전한 기입을 「기본기입」, 다른 이름이나 표제로도 찾을 수 있게 덧붙인 기입을 「부출기입」이라고 합니다. 오늘날 컴퓨터 목록에서는 「서지 레코드」라는 말을 주로 씁니다.
+  related: [heading, main-entry, added-entry, bibliographic-record]
+  sources: [iso5127, foundations]
+
+- id: heading
+  term: 표목
+  en: Heading
+  aka: [헤딩]
+  category: cataloging-rules
+  definition: >-
+    기입의 맨 앞에 두어 목록에서 배열하고 찾는 기준이 되는 이름, 표제, 주제명입니다.
+    저자명표목, 서명표목, 주제명표목 등이 있고, 「성서」나 「학회」처럼 자료의 종류로 모으는 표목을 「형식표목」이라고 했습니다. 국제목록원칙(2009)과 RDA에서는 이 역할을 「접근점」이라고 부릅니다.
+  related: [access-point, entry, main-entry, qualifier, corporate-heading, subject-heading]
+  sources: [icp2009, foundations]
+
+- id: added-entry
+  term: 부출표목
+  en: Added Entry
+  aka: [부출기입]
+  category: cataloging-rules
+  definition: >-
+    기본표목 말고도, 공저자·옮긴이·총서명·다른 표제 등으로도 자료를 찾을 수 있도록 덧붙이는 표목입니다.
+    MARC에서는 7XX 필드(예: 700 개인명 부출표목)에 기록합니다.
+  related: [main-entry, entry, heading, access-point]
+  sources: [aacr2, marc21]
+
+- id: authorized-access-point
+  term: 전거형 접근점
+  en: Authorized Access Point
+  aka: [통제된 접근점, 전거형]
+  category: cataloging-rules
+  definition: >-
+    같은 사람·단체·저작을 가리킬 때 목록에서 늘 쓰기로 정한 하나의 공식 형태입니다. 이와 달리 참조로 이어 주는 다른 형태를 「이형 접근점」이라고 합니다.
+    저작의 전거형 접근점은 보통 「창작자 이름 + 저작의 우선표제」로 만들어, 예전의 기본표목과 통일표제가 하던 일을 함께 합니다.
+  example: "「Tolstoy, Leo, graf, 1828-1910」을 전거형으로 정하면 「톨스토이」, 「Толстой」 같은 형태는 이형 접근점이 됩니다."
+  related: [authority-control, access-point, main-entry, uniform-title, qualifier]
+  sources: [rda, icp2009]
+
+- id: cross-reference
+  term: 참조
+  en: Cross-reference
+  aka: [참조표, 보라 참조, 도보라 참조]
+  category: cataloging-rules
+  definition: >-
+    목록에서 한 표목으로부터 다른 표목으로 이용자를 안내하는 장치입니다.
+    쓰지 않는 이름에서 쓰는 이름으로 보내는 「보라(see) 참조」와, 서로 관련 있는 표목끼리 이어 주는 「도보라(see also) 참조」가 대표적입니다.
+  example: "「춘원 → 보라: 이광수」"
+  related: [authority-control, authorized-access-point, heading, pseudonym]
+  sources: [aacr2, foundations]
+
+- id: corporate-heading
+  term: 단체표목
+  en: Corporate Heading / Corporate Entry
+  aka: [단체명표목, 단체기입]
+  category: cataloging-rules
+  definition: >-
+    정부 기관, 학회, 회사, 회의처럼 단체가 자료에 책임을 질 때 그 단체 이름을 표목으로 삼는 것, 또는 그 표목입니다.
+    단체를 저자로 볼 것인가는 오래 논쟁거리였습니다. 파니치 규칙에서는 학회 자료를 「학회(Academies)」 같은 형식표목 아래 모았고, 단체를 저자로 보는 생각은 주잇(1850)과 커터(1876)의 규칙을 거쳐 자리 잡았습니다.
+  related: [heading, authorship, authority-control]
+  sources: [foundations, cutter1876]
+
+- id: pseudonym
+  term: 필명
+  en: Pseudonym
+  aka: [가명, 펜네임]
+  category: cataloging-rules
+  definition: >-
+    저자가 본명 대신 쓰는 이름입니다. 목록에서는 어느 이름을 표목으로 삼을지가 문제가 되는데, 오늘날 RDA는 한 사람이 쓴 서로 다른 필명을 각각 별개의 서지적 정체성으로 보고 관계로 이어 줍니다.
+  example: 시인 이상(본명 김해경)의 작품은 보통 「이상」으로 찾고, 「김해경」에서는 참조로 이어 줍니다.
+  related: [authorship, cross-reference, authority-control]
+  sources: [rda, foundations]
+
+- id: catalog-slip
+  term: 슬립
+  en: Slip
+  aka: [목록 슬립, 카드 목록]
+  category: cataloging-rules
+  definition: >-
+    목록 기록을 한 건씩 적어 두는, 크기가 같은 종이쪽지입니다.
+    한 장에 한 건씩 적으면 새 자료가 들어와도 알맞은 자리에 끼워 넣어 순서를 유지할 수 있습니다. 같은 원리가 이후 카드 목록으로 이어졌습니다.
+  related: [entry, catalog, panizzi-91-rules]
+  sources: [foundations]
+
 - id: access-point
   term: 접근점
   en: Access Point
-  aka: [표목]
-  category: cataloging
+  aka: []
+  category: cataloging-rules
   definition: >-
     이용자가 목록에서 자료를 찾아낼 때 실마리가 되는 이름이나 낱말입니다.
-    저자명, 서명(제목), 주제명 등이 대표적인 접근점입니다.
-  related: [authority-control, main-entry, qualifier, subject-heading, bibliographic-record]
+    저자명, 서명(제목), 주제명 등이 대표적인 접근점입니다. 예전에는 「표목」이라고 불렀고, 국제목록원칙(2009)과 RDA 이후 「접근점」이라는 말을 씁니다.
+  related: [heading, authorized-access-point, authority-control, main-entry, qualifier, subject-heading]
   sources: [rda, iso5127]
 
 - id: main-entry
   term: 기본표목
-  en: Main Entry
-  aka: [기본기입, 주기입]
-  category: cataloging
+  en: Main Entry / Principal Entry
+  aka: [기본기입, 주기입, 주된 표목]
+  category: cataloging-rules
   definition: >-
     한 자료의 목록 기록을 대표하는 주된 표목으로, 보통 그 자료에 가장 큰 책임이 있는 저자를, 저자가 분명하지 않으면 표제를 택합니다.
     카드 목록 시절 한 자료를 어느 이름 아래 대표로 배열할지 정하던 개념이며, MARC에서는 1XX 필드(예: 100 개인명)가 이 자리입니다.
     우리나라 한국목록규칙 제4판(2003)은 기본표목을 정하지 않는 방식을 택했고, RDA에서는 「저작의 전거형 접근점」 개념이 그 역할을 이어받았습니다.
-  related: [access-point, uniform-title, kcr, marc, rda]
+  related: [entry, heading, added-entry, uniform-title, authorship, kcr]
   sources: [paris-principles, aacr2, marc21, doh2010, rda]
 
 - id: uniform-title
   term: 통일표제
   en: Uniform Title
   aka: [통일서명]
-  category: cataloging
+  category: cataloging-rules
   definition: >-
     같은 저작이 번역·개정·이본 등으로 서로 다른 제목을 달고 나올 때, 목록에서 그것들을 한데 모으기 위해 정해 둔 하나의 표준 제목입니다.
-    MARC에서는 130·240 필드에 기록하며, RDA에서는 「저작의 우선표제」라는 개념으로 이어집니다.
+    MARC에서는 130·240 필드에 기록하며, RDA에서는 「저작의 우선표제」라는 개념으로 이어집니다. 성서처럼 판본과 번역이 아주 많은 경전을 「Bible」이라는 하나의 표목 아래 모으던 19세기 목록 관행(파니치의 91개조 규칙 등)이 그 뿌리로 꼽힙니다.
   example: "셰익스피어의 『햄릿』이 여러 번역 제목으로 나와도, 통일표제 「Hamlet」으로 모으면 한 번에 찾을 수 있습니다."
   related: [main-entry, authority-control, wemi, access-point]
-  sources: [aacr2, marc21, rda]
+  sources: [aacr2, marc21, rda, foundations]
 
 - id: qualifier
   term: 한정어구
   en: Qualifier / Qualifying Phrase
   aka: [한정어, qualifying phrases, qualifiers]
-  category: cataloging
+  category: cataloging-rules
   definition: >-
     이름이나 표제, 주제명이 같아 서로 다른 대상을 구별하기 어려울 때, 표목(접근점) 뒤에 덧붙여 뜻을 좁혀 주는 낱말이나 구입니다.
-    주로 괄호 안에 생몰년, 직업, 장소, 분야, 회의 차수·연도 등을 넣어 구별합니다.
+    괄호 안에 생몰년, 직업, 장소, 분야, 회의 차수·연도 등을 넣거나, 인명 뒤에 작위·직함 같은 말을 덧붙여 구별합니다.
   example: "미국 의회도서관 주제명표목표의 「Mercury (Planet)」는 괄호 속 한정어구로 원소 수은이 아닌 행성 수성임을 나타냅니다."
-  related: [access-point, authority-control, subject-heading, uniform-title]
+  related: [heading, access-point, authority-control, subject-heading, uniform-title]
   sources: [aacr2, rda, lcsh]
 
 - id: authority-control
   term: 전거제어
   en: Authority Control
   aka: [전거통제]
-  category: cataloging
+  category: cataloging-rules
   definition: >-
     같은 사람·단체·주제가 여러 이름으로 쓰여도 목록에서 하나로 모여 찾히도록 이름의 형태를 통일하고 관리하는 일입니다.
     통일한 이름과 다른 이름들의 관계를 적어 둔 기록을 「전거레코드」라고 합니다.
@@ -531,7 +703,7 @@ terms:
   term: 한국목록규칙
   en: Korean Cataloging Rules (KCR)
   aka: [KCR]
-  category: cataloging
+  category: cataloging-rules
   definition: >-
     우리나라 도서관이 자료의 서지 정보를 기록할 때 따르는 목록 규칙입니다.
     한국도서관협회가 만들어 왔으며, 국제 기준인 ISBD와 RDA 등의 흐름을 반영해 개정되어 왔습니다.
@@ -542,7 +714,7 @@ terms:
   term: RDA
   en: "RDA: Resource Description and Access"
   aka: [자원의 기술과 접근]
-  category: cataloging
+  category: cataloging-rules
   definition: >-
     자료를 기술하고 접근점을 정하는 방법을 정한 국제 목록 규칙입니다.
     영미목록규칙(AACR2)의 뒤를 이어 2010년에 나왔으며, 개념 모형(FRBR, 뒤에는 IFLA LRM)을 바탕으로 만들어져 디지털 환경에 맞게 설계되었습니다.
@@ -553,12 +725,123 @@ terms:
   term: ISBD
   en: International Standard Bibliographic Description
   aka: [국제표준서지기술]
-  category: cataloging
+  category: cataloging-rules
   definition: >-
     국제도서관연맹(IFLA)이 정한 서지 기술의 국제 표준입니다.
     어떤 정보를 어떤 순서로, 어떤 구두점(예: 제목과 저자 사이의 「 / 」)으로 구분해 적을지를 정해, 나라와 언어가 달라도 서지 정보를 알아볼 수 있게 합니다.
   related: [kcr, catalog, bibliographic-record]
   sources: [isbd]
+
+- id: descriptive-cataloging
+  term: 기술목록
+  en: Descriptive Cataloging
+  aka: [기술목록법]
+  category: cataloging
+  definition: >-
+    목록작업 가운데 자료의 표제, 책임표시, 판, 발행, 형태 같은 서지적 특징을 기록하고, 저자·표제 같은 접근점을 정하는 부분입니다.
+    자료가 「무엇에 관한 것인가」를 다루는 주제목록과 짝을 이룹니다.
+  related: [subject-cataloging, isbd-areas, catalog, access-point]
+  sources: [iso5127, foundations]
+
+- id: subject-cataloging
+  term: 주제목록
+  en: Subject Cataloging
+  aka: [주제분석]
+  category: cataloging
+  definition: >-
+    목록작업 가운데 자료의 내용이 무엇에 관한 것인지 분석해 주제명을 붙이고 분류기호를 주는 부분입니다.
+    자료의 겉모습과 책임 관계를 다루는 기술목록과 짝을 이룹니다.
+  related: [descriptive-cataloging, subject-heading, classification]
+  sources: [iso5127]
+
+- id: isbd-areas
+  term: 서지기술 영역
+  en: Areas of Bibliographic Description
+  aka: [기술 영역, 기술사항]
+  category: cataloging
+  definition: >-
+    서지 정보를 적는 순서와 묶음을 정한 칸들입니다. ISBD 통합판(2011)은 0 내용형식·매체유형, 1 표제와 책임표시, 2 판, 3 자료(또는 간행) 특성, 4 발행·제작·배포 등, 5 형태사항, 6 총서, 7 주기, 8 자원식별자와 입수조건의 아홉 영역을 둡니다.
+    영역을 정해 두면 어느 나라 목록이든 같은 자리에서 같은 정보를 찾을 수 있습니다.
+  related: [isbd, statement-of-responsibility, title-proper, note, series, descriptive-cataloging]
+  sources: [isbd]
+
+- id: title-proper
+  term: 본표제
+  en: Title Proper
+  aka: [본서명]
+  category: cataloging
+  definition: >-
+    자료의 대표 이름으로 기록하는 주된 표제입니다. 다른 언어로 나란히 적힌 표제는 「대등표제」, 본표제를 보충하는 부제목은 「부표제(표제관련정보)」라고 해서 따로 기록합니다.
+  example: "『코스모스: 우주의 기원과 진화』라면 「코스모스」가 본표제, 「우주의 기원과 진화」가 부표제입니다."
+  related: [statement-of-responsibility, collective-title, uniform-title, isbd-areas]
+  sources: [isbd, kcr]
+
+- id: statement-of-responsibility
+  term: 책임표시
+  en: Statement of Responsibility
+  aka: [책임표시사항]
+  category: cataloging
+  definition: >-
+    자료의 내용을 만드는 데 책임이 있는 사람이나 단체(지은이, 엮은이, 옮긴이, 그린이 등)를 자료에 적힌 대로 기록한 것입니다.
+    ISBD에서는 표제 뒤에 빗금(/)을 두고 적습니다.
+  example: "어린 왕자 / 앙투안 드 생텍쥐페리 지음 ; 김화영 옮김"
+  related: [authorship, title-proper, isbd-areas]
+  sources: [isbd, kcr]
+
+- id: note
+  term: 주기
+  en: Note
+  aka: [주기사항]
+  category: cataloging
+  definition: >-
+    정해진 다른 영역에 넣기 어려운 정보를 보충해 적는 영역입니다.
+    원서명, 수록 내용, 서지 참고, 이용 제한, 소장본만의 특징 등을 자유로운 문장으로 적습니다.
+  related: [isbd-areas, bibliographic-record]
+  sources: [isbd]
+
+- id: series
+  term: 총서
+  en: Series
+  aka: [총서사항, 시리즈]
+  category: cataloging
+  definition: >-
+    각각 제목을 가진 여러 자료를 하나의 공통 제목 아래 묶어 펴내는 것, 또는 그 공통 제목입니다.
+    목록에서는 총서명과 총서 안의 번호를 따로 기록해, 같은 총서에 속한 책을 모아 찾을 수 있게 합니다.
+  example: 「민음사 세계문학전집 1」에서 「민음사 세계문학전집」이 총서명, 「1」이 총서 번호입니다.
+  related: [isbd-areas, serial, collective-title]
+  sources: [isbd]
+
+- id: collective-title
+  term: 종합표제
+  en: Collective Title
+  category: cataloging
+  definition: >-
+    여러 개의 작품을 한 자료에 모았을 때, 그 자료 전체를 가리키는 하나의 표제입니다.
+    종합표제가 없이 작품 제목만 나란히 적힌 자료는 각 작품의 표제를 차례로 기록합니다.
+  example: 『김유정 단편선』은 「동백꽃」, 「봄봄」 등을 모은 자료의 종합표제입니다.
+  related: [title-proper, series, uniform-title]
+  sources: [isbd, kcr, foundations]
+
+- id: authorship
+  term: 저자성
+  en: Authorship
+  aka: [저작자성]
+  category: cataloging
+  definition: >-
+    어떤 저작의 내용을 만들어 낸 책임이 누구에게 있는가 하는 개념입니다.
+    목록에서는 저자성이 책임표시를 적고 기본표목이나 저작의 접근점을 정하는 근거가 되어, 「누구의 책인가」로 자료를 찾게 해 줍니다. 단체나 여러 사람이 함께 만든 자료에서 누구를 저자로 볼지는 목록규칙마다 다르게 정해 왔습니다.
+  related: [statement-of-responsibility, main-entry, corporate-heading, pseudonym]
+  sources: [foundations, rda]
+
+- id: bibliographic-relationships
+  term: 서지적 관계
+  en: Bibliographic Relationships
+  category: cataloging
+  definition: >-
+    서로 다른 자료나 저작 사이의 관계입니다. 바바라 틸렛(Barbara Tillett)은 이를 동등(같은 내용의 복제·재쇄), 파생(번역·개작), 기술(비평·해설), 전체-부분, 딸림(부록·해답집), 연속(속편·후속 간행물), 공통 특성의 일곱 가지로 정리했습니다.
+    이런 관계를 기록하면 목록이 단순한 찾기 목록을 넘어, 한 저작의 여러 판과 번역과 해설서를 함께 보여 줄 수 있습니다.
+  related: [wemi, ifla-lrm, uniform-title, cross-reference]
+  sources: [tillett1987, ifla-lrm, foundations]
 
 - id: marc
   term: MARC

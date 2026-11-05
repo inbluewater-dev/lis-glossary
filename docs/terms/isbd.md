@@ -1,6 +1,6 @@
 # ISBD (International Standard Bibliographic Description)
 
-- 분야: 목록과 메타데이터
+- 분야: 목록규칙과 표목
 - 주소: https://inbluewater-dev.github.io/lis-glossary/terms/isbd/
 - 다른 이름: 국제표준서지기술
 

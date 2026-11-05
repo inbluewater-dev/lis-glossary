@@ -1,6 +1,6 @@
 # 전거제어 (Authority Control)
 
-- 분야: 목록과 메타데이터
+- 분야: 목록규칙과 표목
 - 주소: https://inbluewater-dev.github.io/lis-glossary/terms/authority-control/
 - 다른 이름: 전거통제
 

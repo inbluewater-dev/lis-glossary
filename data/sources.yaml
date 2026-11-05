@@ -152,3 +152,21 @@
 - id: doh2010
   name: "도태현, 「도서관 목록에서 표목의 취급 실태에 관한 연구」, 한국도서관·정보학회지 41(4), 2010"
   url: "https://koreascience.kr/article/JAKO201013351026350.pdf"
+- id: foundations
+  name: "Michael Carpenter, Elaine Svenonius (eds.), Foundations of Cataloging: A Sourcebook (Libraries Unlimited, 1985)"
+  url: ""
+- id: guerrini2023
+  name: "Mauro Guerrini, Stefano Gambari, ‘Definite cataloguing rules set down in writing’: Antonio Panizzi’s Rules and the catalogue’s manifestations (JLIS.it 14(2), 2023)"
+  url: "https://www.jlis.it/index.php/jlis/article/view/528"
+- id: icp2009
+  name: "IFLA, Statement of International Cataloguing Principles (2009, 2016 개정)"
+  url: ""
+- id: tillett1987
+  name: "Barbara B. Tillett, Bibliographic Relationships: Toward a Conceptual Structure of Bibliographic Information Used in Cataloging (박사학위논문, UCLA, 1987)"
+  url: ""
+- id: cutter1876
+  name: "Charles A. Cutter, Rules for a Printed Dictionary Catalogue (1876)"
+  url: ""
+- id: gaskell
+  name: "Philip Gaskell, A New Introduction to Bibliography (Oxford University Press, 1972)"
+  url: ""

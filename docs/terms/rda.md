@@ -1,6 +1,6 @@
 # RDA (RDA: Resource Description and Access)
 
-- 분야: 목록과 메타데이터
+- 분야: 목록규칙과 표목
 - 주소: https://inbluewater-dev.github.io/lis-glossary/terms/rda/
 - 다른 이름: 자원의 기술과 접근
 
