@@ -6,6 +6,7 @@
 - 판: 1.0 (2026-11-05)
 - 이용 허락: CC BY 4.0 <https://creativecommons.org/licenses/by/4.0/> — 출처「문헌정보학 용어사전 (https://inbluewater-dev.github.io/lis-glossary/)」를 밝히면 자유롭게 이용 가능
 - 정의는 모두 새로 쓴 문장이며, '근거'는 정의를 쓸 때 기댄 표준·법령·기관 자료입니다.
+- 이 사전의 정의는 AI(Anthropic의 Claude)의 도움을 받아 작성했으며, 별도의 검수 과정에서 연도·법령·기관명 등 사실관계를 근거 자료와 대조했습니다.
 
 ## 기초 개념
 

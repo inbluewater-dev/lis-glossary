@@ -157,7 +157,7 @@ def head(title, desc, canonical, jsonld, prefix=""):
 def footer():
     return f"""<footer><div class="wrap">
 <p>{TITLE} · 판 {VERSION} · 마지막 갱신 {UPDATED}<br>
-본문은 <a href="{LICENSE_URL}" rel="license">크리에이티브 커먼즈 저작자표시 4.0 국제 라이선스(CC BY 4.0)</a>로 공개합니다. 출처를 밝히면 누구나 자유롭게 쓸 수 있습니다.<br>
+AI(Claude)의 도움으로 작성하고 검수했습니다. 본문은 <a href="{LICENSE_URL}" rel="license">크리에이티브 커먼즈 저작자표시 4.0 국제 라이선스(CC BY 4.0)</a>로 공개합니다. 출처를 밝히면 누구나 자유롭게 쓸 수 있습니다.<br>
 기계용 데이터: <a href="{BASE_URL}glossary.json">glossary.json</a> · <a href="{BASE_URL}llms.txt">llms.txt</a> · <a href="{BASE_URL}llms-full.txt">llms-full.txt</a></p>
 </div></footer>
 </body>
@@ -276,6 +276,7 @@ def build_index(cats, terms, by_id, src, sources):
 <h2>이 사전에 대해</h2>
 <p><b>누구를 위한 사전인가요?</b> 도서관을 이용하는 누구나, 그리고 문헌정보학에 처음 관심을 가진 사람을 위해 썼습니다. 전문 용어는 되도록 쉬운 말로 풀고, 필요한 곳에는 예를 달았습니다.</p>
 <p><b>정의는 어디서 왔나요?</b> 모든 정의는 이 사전을 위해 새로 쓴 문장입니다. 기존 사전의 문장을 옮겨 오지 않았습니다. 대신 각 용어 아래 「근거」에 정의를 쓸 때 기댄 국제 표준·법령·기관 자료를 적어 두었으니, 더 정확한 내용은 그 자료에서 확인할 수 있습니다.</p>
+<p><b>AI가 썼나요?</b> 네, 밝혀 둡니다. 이 사전의 정의는 AI(Anthropic의 Claude)의 도움을 받아 작성했으며, 별도의 검수 과정에서 연도·법령·기관명 등 사실관계를 근거 자료와 대조했습니다. 그래도 틀린 곳이 있을 수 있으니, 중요한 내용은 각 용어의 「근거」 자료에서 한 번 더 확인해 주세요.</p>
 <p><b>써도 되나요?</b> 네. <a href="{LICENSE_URL}">CC BY 4.0</a>으로 공개합니다. 수업 자료, 블로그, 앱, AI 학습·검색 등 어디에 쓰든 「{TITLE} ({BASE_URL})」처럼 출처만 밝혀 주세요.</p>
 <details><summary>근거 자료 전체 목록 ({len(sources)}건)</summary><ul>{src_list}</ul></details>
 </div></section>
@@ -386,6 +387,8 @@ def build_machine(cats, terms, by_id, src, sources):
         "license": {"name": LICENSE_NAME, "url": LICENSE_URL_EN},
         "attribution": f"{TITLE} ({BASE_URL}), {LICENSE_NAME}",
         "note": "모든 정의는 이 사전을 위해 새로 쓴 문장이다. sources는 정의를 쓸 때 기댄 자료이며 문장을 옮겨 온 출처가 아니다.",
+        "ai_assisted": True,
+        "ai_disclosure": "이 사전의 정의는 AI(Anthropic의 Claude)의 도움을 받아 작성했으며, 별도의 검수 과정에서 연도·법령·기관명 등 사실관계를 근거 자료와 대조했습니다.",
         "categories": cats,
         "sources": sources,
         "terms": [
@@ -417,6 +420,7 @@ def build_machine(cats, terms, by_id, src, sources):
         f"- 판: {VERSION} ({UPDATED})",
         f"- 이용 허락: {LICENSE_NAME} <{LICENSE_URL_EN}> — 출처「{TITLE} ({BASE_URL})」를 밝히면 자유롭게 이용 가능",
         "- 정의는 모두 새로 쓴 문장이며, '근거'는 정의를 쓸 때 기댄 표준·법령·기관 자료입니다.",
+        "- 이 사전의 정의는 AI(Anthropic의 Claude)의 도움을 받아 작성했으며, 별도의 검수 과정에서 연도·법령·기관명 등 사실관계를 근거 자료와 대조했습니다.",
         "",
     ]
     for c in cats:
@@ -434,6 +438,7 @@ def build_machine(cats, terms, by_id, src, sources):
         "",
         "한국어 문헌정보학(도서관학·정보학) 기본 용어사전입니다. 일반인 눈높이로 쓰였으며, 용어마다 영어 표제어·다른 이름·관련어·근거 자료가 있습니다.",
         "각 용어는 고유 주소 `terms/<id>/`(HTML)와 `terms/<id>.md`(Markdown)를 가집니다.",
+        "이 사전의 정의는 AI(Anthropic의 Claude)의 도움을 받아 작성했으며, 별도의 검수 과정에서 연도·법령·기관명 등 사실관계를 근거 자료와 대조했습니다.",
         "",
         "## 전체 데이터",
         "",

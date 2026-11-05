@@ -12,6 +12,8 @@
   },
   "attribution": "문헌정보학 용어사전 (https://inbluewater-dev.github.io/lis-glossary/), CC BY 4.0",
   "note": "모든 정의는 이 사전을 위해 새로 쓴 문장이다. sources는 정의를 쓸 때 기댄 자료이며 문장을 옮겨 온 출처가 아니다.",
+  "ai_assisted": true,
+  "ai_disclosure": "이 사전의 정의는 AI(Anthropic의 Claude)의 도움을 받아 작성했으며, 별도의 검수 과정에서 연도·법령·기관명 등 사실관계를 근거 자료와 대조했습니다.",
   "categories": [
     {
       "id": "basics",
