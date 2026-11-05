@@ -1,9 +1,9 @@
 {
   "name": "문헌정보학 용어사전",
   "name_en": "Korean Glossary of Library and Information Science",
-  "description": "도서관과 정보에 관한 핵심 용어 100개를 누구나 이해할 수 있는 말로 풀어 쓴 문헌정보학 용어사전입니다. 모든 정의는 새로 썼으며, 각 용어마다 영어 표제어·관련어·근거 자료를 함께 적었습니다.",
+  "description": "도서관과 정보에 관한 핵심 용어 103개를 누구나 이해할 수 있는 말로 풀어 쓴 문헌정보학 용어사전입니다. 모든 정의는 새로 썼으며, 각 용어마다 영어 표제어·관련어·근거 자료를 함께 적었습니다.",
   "url": "https://inbluewater-dev.github.io/lis-glossary/",
-  "version": "1.0",
+  "version": "1.1",
   "updated": "2026-11-05",
   "language": "ko",
   "license": {
@@ -282,6 +282,26 @@
       "id": "lee-jaechul",
       "name": "리재철, 『한글순도서기호법』(한국도서관협회); Cutter-Sanborn Three-Figure Author Table",
       "url": ""
+    },
+    {
+      "id": "nlk-seoji-history",
+      "name": "국립중앙도서관 ISBN·ISSN·납본 시스템 연혁 (2019.2 ISBN·CIP 통합 운영, 2020.12 CIP 제도 운영 중지)",
+      "url": "https://www.nl.go.kr/seoji/contents/S20101020000.do"
+    },
+    {
+      "id": "paris-principles",
+      "name": "International Conference on Cataloguing Principles, Statement of Principles (Paris, 1961)",
+      "url": ""
+    },
+    {
+      "id": "aacr2",
+      "name": "Anglo-American Cataloguing Rules, 2nd ed. (AACR2)",
+      "url": ""
+    },
+    {
+      "id": "doh2010",
+      "name": "도태현, 「도서관 목록에서 표목의 취급 실태에 관한 연구」, 한국도서관·정보학회지 41(4), 2010",
+      "url": "https://koreascience.kr/article/JAKO201013351026350.pdf"
     }
   ],
   "terms": [
@@ -1151,12 +1171,92 @@
       "example": null,
       "related": [
         "authority-control",
+        "main-entry",
+        "qualifier",
         "subject-heading",
         "bibliographic-record"
       ],
       "sources": [
         "rda",
         "iso5127"
+      ]
+    },
+    {
+      "id": "main-entry",
+      "url": "https://inbluewater-dev.github.io/lis-glossary/terms/main-entry/",
+      "term": "기본표목",
+      "en": "Main Entry",
+      "aka": [
+        "기본기입",
+        "주기입"
+      ],
+      "category": "cataloging",
+      "category_name": "목록과 메타데이터",
+      "definition": "한 자료의 목록 기록을 대표하는 주된 표목으로, 보통 그 자료에 가장 큰 책임이 있는 저자를, 저자가 분명하지 않으면 표제를 택합니다. 카드 목록 시절 한 자료를 어느 이름 아래 대표로 배열할지 정하던 개념이며, MARC에서는 1XX 필드(예: 100 개인명)가 이 자리입니다. 우리나라 한국목록규칙 제4판(2003)은 기본표목을 정하지 않는 방식을 택했고, RDA에서는 「저작의 전거형 접근점」 개념이 그 역할을 이어받았습니다.",
+      "example": null,
+      "related": [
+        "access-point",
+        "uniform-title",
+        "kcr",
+        "marc",
+        "rda"
+      ],
+      "sources": [
+        "paris-principles",
+        "aacr2",
+        "marc21",
+        "doh2010",
+        "rda"
+      ]
+    },
+    {
+      "id": "uniform-title",
+      "url": "https://inbluewater-dev.github.io/lis-glossary/terms/uniform-title/",
+      "term": "통일표제",
+      "en": "Uniform Title",
+      "aka": [
+        "통일서명"
+      ],
+      "category": "cataloging",
+      "category_name": "목록과 메타데이터",
+      "definition": "같은 저작이 번역·개정·이본 등으로 서로 다른 제목을 달고 나올 때, 목록에서 그것들을 한데 모으기 위해 정해 둔 하나의 표준 제목입니다. MARC에서는 130·240 필드에 기록하며, RDA에서는 「저작의 우선표제」라는 개념으로 이어집니다.",
+      "example": "셰익스피어의 『햄릿』이 여러 번역 제목으로 나와도, 통일표제 「Hamlet」으로 모으면 한 번에 찾을 수 있습니다.",
+      "related": [
+        "main-entry",
+        "authority-control",
+        "wemi",
+        "access-point"
+      ],
+      "sources": [
+        "aacr2",
+        "marc21",
+        "rda"
+      ]
+    },
+    {
+      "id": "qualifier",
+      "url": "https://inbluewater-dev.github.io/lis-glossary/terms/qualifier/",
+      "term": "한정어구",
+      "en": "Qualifier / Qualifying Phrase",
+      "aka": [
+        "한정어",
+        "qualifying phrases",
+        "qualifiers"
+      ],
+      "category": "cataloging",
+      "category_name": "목록과 메타데이터",
+      "definition": "이름이나 표제, 주제명이 같아 서로 다른 대상을 구별하기 어려울 때, 표목(접근점) 뒤에 덧붙여 뜻을 좁혀 주는 낱말이나 구입니다. 주로 괄호 안에 생몰년, 직업, 장소, 분야, 회의 차수·연도 등을 넣어 구별합니다.",
+      "example": "미국 의회도서관 주제명표목표의 「Mercury (Planet)」는 괄호 속 한정어구로 원소 수은이 아닌 행성 수성임을 나타냅니다.",
+      "related": [
+        "access-point",
+        "authority-control",
+        "subject-heading",
+        "uniform-title"
+      ],
+      "sources": [
+        "aacr2",
+        "rda",
+        "lcsh"
       ]
     },
     {
@@ -1174,6 +1274,8 @@
       "related": [
         "access-point",
         "controlled-vocabulary",
+        "uniform-title",
+        "qualifier",
         "orcid"
       ],
       "sources": [
@@ -1766,7 +1868,7 @@
       ],
       "category": "identifiers",
       "category_name": "식별자와 표준",
-      "definition": "책이 나오기 전에 국가도서관이 미리 만들어 출판사에 주는 서지 정보입니다. 책에 함께 실리거나 공유되어, 도서관들이 책을 받자마자 빠르게 목록을 만들 수 있게 돕습니다.",
+      "definition": "책이 나오기 전에 국가도서관이 미리 만들어 출판사에 주는 서지 정보입니다. 책에 함께 실리거나 공유되어, 도서관들이 책을 받자마자 빠르게 목록을 만들 수 있게 돕습니다. 미국·캐나다 등 여러 나라에서 운영하며, 우리나라에서도 국립중앙도서관이 운영했으나 2019년 ISBN 신청과 통합한 뒤 2020년 12월에 제도 운영을 중지했습니다.",
       "example": null,
       "related": [
         "isbn",
@@ -1774,7 +1876,7 @@
         "national-library"
       ],
       "sources": [
-        "nlk"
+        "nlk-seoji-history"
       ]
     },
     {

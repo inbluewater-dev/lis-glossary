@@ -140,3 +140,15 @@
 - id: lee-jaechul
   name: "리재철, 『한글순도서기호법』(한국도서관협회); Cutter-Sanborn Three-Figure Author Table"
   url: ""
+- id: nlk-seoji-history
+  name: "국립중앙도서관 ISBN·ISSN·납본 시스템 연혁 (2019.2 ISBN·CIP 통합 운영, 2020.12 CIP 제도 운영 중지)"
+  url: "https://www.nl.go.kr/seoji/contents/S20101020000.do"
+- id: paris-principles
+  name: "International Conference on Cataloguing Principles, Statement of Principles (Paris, 1961)"
+  url: ""
+- id: aacr2
+  name: "Anglo-American Cataloguing Rules, 2nd ed. (AACR2)"
+  url: ""
+- id: doh2010
+  name: "도태현, 「도서관 목록에서 표목의 취급 실태에 관한 연구」, 한국도서관·정보학회지 41(4), 2010"
+  url: "https://koreascience.kr/article/JAKO201013351026350.pdf"

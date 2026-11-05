@@ -476,8 +476,44 @@ terms:
   definition: >-
     이용자가 목록에서 자료를 찾아낼 때 실마리가 되는 이름이나 낱말입니다.
     저자명, 서명(제목), 주제명 등이 대표적인 접근점입니다.
-  related: [authority-control, subject-heading, bibliographic-record]
+  related: [authority-control, main-entry, qualifier, subject-heading, bibliographic-record]
   sources: [rda, iso5127]
+
+- id: main-entry
+  term: 기본표목
+  en: Main Entry
+  aka: [기본기입, 주기입]
+  category: cataloging
+  definition: >-
+    한 자료의 목록 기록을 대표하는 주된 표목으로, 보통 그 자료에 가장 큰 책임이 있는 저자를, 저자가 분명하지 않으면 표제를 택합니다.
+    카드 목록 시절 한 자료를 어느 이름 아래 대표로 배열할지 정하던 개념이며, MARC에서는 1XX 필드(예: 100 개인명)가 이 자리입니다.
+    우리나라 한국목록규칙 제4판(2003)은 기본표목을 정하지 않는 방식을 택했고, RDA에서는 「저작의 전거형 접근점」 개념이 그 역할을 이어받았습니다.
+  related: [access-point, uniform-title, kcr, marc, rda]
+  sources: [paris-principles, aacr2, marc21, doh2010, rda]
+
+- id: uniform-title
+  term: 통일표제
+  en: Uniform Title
+  aka: [통일서명]
+  category: cataloging
+  definition: >-
+    같은 저작이 번역·개정·이본 등으로 서로 다른 제목을 달고 나올 때, 목록에서 그것들을 한데 모으기 위해 정해 둔 하나의 표준 제목입니다.
+    MARC에서는 130·240 필드에 기록하며, RDA에서는 「저작의 우선표제」라는 개념으로 이어집니다.
+  example: "셰익스피어의 『햄릿』이 여러 번역 제목으로 나와도, 통일표제 「Hamlet」으로 모으면 한 번에 찾을 수 있습니다."
+  related: [main-entry, authority-control, wemi, access-point]
+  sources: [aacr2, marc21, rda]
+
+- id: qualifier
+  term: 한정어구
+  en: Qualifier / Qualifying Phrase
+  aka: [한정어, qualifying phrases, qualifiers]
+  category: cataloging
+  definition: >-
+    이름이나 표제, 주제명이 같아 서로 다른 대상을 구별하기 어려울 때, 표목(접근점) 뒤에 덧붙여 뜻을 좁혀 주는 낱말이나 구입니다.
+    주로 괄호 안에 생몰년, 직업, 장소, 분야, 회의 차수·연도 등을 넣어 구별합니다.
+  example: "미국 의회도서관 주제명표목표의 「Mercury (Planet)」는 괄호 속 한정어구로 원소 수은이 아닌 행성 수성임을 나타냅니다."
+  related: [access-point, authority-control, subject-heading, uniform-title]
+  sources: [aacr2, rda, lcsh]
 
 - id: authority-control
   term: 전거제어
@@ -488,7 +524,7 @@ terms:
     같은 사람·단체·주제가 여러 이름으로 쓰여도 목록에서 하나로 모여 찾히도록 이름의 형태를 통일하고 관리하는 일입니다.
     통일한 이름과 다른 이름들의 관계를 적어 둔 기록을 「전거레코드」라고 합니다.
   example: "「이광수」와 호인 「춘원」을 같은 사람으로 묶어, 어느 이름으로 검색해도 그의 책이 모두 나오게 하는 것."
-  related: [access-point, controlled-vocabulary, orcid]
+  related: [access-point, controlled-vocabulary, uniform-title, qualifier, orcid]
   sources: [ifla-lrm, rda]
 
 - id: kcr
@@ -799,8 +835,9 @@ terms:
   definition: >-
     책이 나오기 전에 국가도서관이 미리 만들어 출판사에 주는 서지 정보입니다.
     책에 함께 실리거나 공유되어, 도서관들이 책을 받자마자 빠르게 목록을 만들 수 있게 돕습니다.
+    미국·캐나다 등 여러 나라에서 운영하며, 우리나라에서도 국립중앙도서관이 운영했으나 2019년 ISBN 신청과 통합한 뒤 2020년 12월에 제도 운영을 중지했습니다.
   related: [isbn, catalog, national-library]
-  sources: [nlk]
+  sources: [nlk-seoji-history]
 
 - id: rfid
   term: RFID

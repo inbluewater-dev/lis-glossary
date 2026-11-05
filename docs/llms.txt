@@ -1,6 +1,6 @@
 # 문헌정보학 용어사전
 
-> 도서관과 정보에 관한 핵심 용어 100개를 누구나 이해할 수 있는 말로 풀어 쓴 문헌정보학 용어사전입니다. 모든 정의는 새로 썼으며, 각 용어마다 영어 표제어·관련어·근거 자료를 함께 적었습니다. 이용 허락은 CC BY 4.0이며, 출처를 밝히면 AI 답변·검색·학습에 자유롭게 인용할 수 있습니다.
+> 도서관과 정보에 관한 핵심 용어 103개를 누구나 이해할 수 있는 말로 풀어 쓴 문헌정보학 용어사전입니다. 모든 정의는 새로 썼으며, 각 용어마다 영어 표제어·관련어·근거 자료를 함께 적었습니다. 이용 허락은 CC BY 4.0이며, 출처를 밝히면 AI 답변·검색·학습에 자유롭게 인용할 수 있습니다.
 
 한국어 문헌정보학(도서관학·정보학) 기본 용어사전입니다. 일반인 눈높이로 쓰였으며, 용어마다 영어 표제어·다른 이름·관련어·근거 자료가 있습니다.
 각 용어는 고유 주소 `terms/<id>/`(HTML)와 `terms/<id>.md`(Markdown)를 가집니다.
@@ -8,7 +8,7 @@
 
 ## 전체 데이터
 
-- [llms-full.txt](https://inbluewater-dev.github.io/lis-glossary/llms-full.txt): 용어 100개 전체 (Markdown, 한 파일)
+- [llms-full.txt](https://inbluewater-dev.github.io/lis-glossary/llms-full.txt): 용어 103개 전체 (Markdown, 한 파일)
 - [glossary.json](https://inbluewater-dev.github.io/lis-glossary/glossary.json): 같은 내용의 구조화 JSON
 
 ## 기초 개념
@@ -64,6 +64,9 @@
 - [서지 레코드 (Bibliographic Record)](https://inbluewater-dev.github.io/lis-glossary/terms/bibliographic-record.md): 자료 하나를 설명하는 서지 정보를 목록 규칙과 형식에 맞춰 기록한 단위입니다.
 - [메타데이터 (Metadata)](https://inbluewater-dev.github.io/lis-glossary/terms/metadata.md): 어떤 자료를 설명하는 데이터, 곧 「데이터에 관한 데이터」입니다.
 - [접근점 (Access Point)](https://inbluewater-dev.github.io/lis-glossary/terms/access-point.md): 이용자가 목록에서 자료를 찾아낼 때 실마리가 되는 이름이나 낱말입니다.
+- [기본표목 (Main Entry)](https://inbluewater-dev.github.io/lis-glossary/terms/main-entry.md): 한 자료의 목록 기록을 대표하는 주된 표목으로, 보통 그 자료에 가장 큰 책임이 있는 저자를, 저자가 분명하지 않으면 표제를 택합니다.
+- [통일표제 (Uniform Title)](https://inbluewater-dev.github.io/lis-glossary/terms/uniform-title.md): 같은 저작이 번역·개정·이본 등으로 서로 다른 제목을 달고 나올 때, 목록에서 그것들을 한데 모으기 위해 정해 둔 하나의 표준 제목입니다.
+- [한정어구 (Qualifier / Qualifying Phrase)](https://inbluewater-dev.github.io/lis-glossary/terms/qualifier.md): 이름이나 표제, 주제명이 같아 서로 다른 대상을 구별하기 어려울 때, 표목(접근점) 뒤에 덧붙여 뜻을 좁혀 주는 낱말이나 구입니다.
 - [전거제어 (Authority Control)](https://inbluewater-dev.github.io/lis-glossary/terms/authority-control.md): 같은 사람·단체·주제가 여러 이름으로 쓰여도 목록에서 하나로 모여 찾히도록 이름의 형태를 통일하고 관리하는 일입니다.
 - [한국목록규칙 (Korean Cataloging Rules (KCR))](https://inbluewater-dev.github.io/lis-glossary/terms/kcr.md): 우리나라 도서관이 자료의 서지 정보를 기록할 때 따르는 목록 규칙입니다.
 - [RDA (RDA: Resource Description and Access)](https://inbluewater-dev.github.io/lis-glossary/terms/rda.md): 자료를 기술하고 접근점을 정하는 방법을 정한 국제 목록 규칙입니다.

@@ -20,13 +20,13 @@ OUT = ROOT / "docs"
 BASE_URL = "https://inbluewater-dev.github.io/lis-glossary/"
 TITLE = "문헌정보학 용어사전"
 TITLE_EN = "Korean Glossary of Library and Information Science"
-VERSION = "1.0"
+VERSION = "1.1"
 UPDATED = "2026-11-05"
 LICENSE_NAME = "CC BY 4.0"
 LICENSE_URL = "https://creativecommons.org/licenses/by/4.0/deed.ko"
 LICENSE_URL_EN = "https://creativecommons.org/licenses/by/4.0/"
 DESCRIPTION = (
-    "도서관과 정보에 관한 핵심 용어 100개를 누구나 이해할 수 있는 말로 풀어 쓴 문헌정보학 용어사전입니다. "
+    "도서관과 정보에 관한 핵심 용어 103개를 누구나 이해할 수 있는 말로 풀어 쓴 문헌정보학 용어사전입니다. "
     "모든 정의는 새로 썼으며, 각 용어마다 영어 표제어·관련어·근거 자료를 함께 적었습니다."
 )
 
@@ -300,8 +300,8 @@ def build_index(cats, terms, by_id, src, sources):
       secs=[].slice.call(document.querySelectorAll('section.cat[data-cat]')),
       count=document.getElementById('count'),empty=document.getElementById('empty'),total=cards.length;
   function run(){{
-    var v=q.value.trim().toLowerCase(),n=0;
-    cards.forEach(function(c){{var hit=!v||c.getAttribute('data-search').indexOf(v)>-1;c.hidden=!hit;if(hit)n++;}});
+    var v=q.value.trim().toLowerCase(),n=0,w=v.split(/\\s+/).filter(Boolean);
+    cards.forEach(function(c){{var d=c.getAttribute('data-search'),hit=w.every(function(x){{return d.indexOf(x)>-1||d.indexOf(x.replace(/s$/,''))>-1;}});c.hidden=!hit;if(hit)n++;}});
     secs.forEach(function(s){{s.hidden=!s.querySelector('article.term:not([hidden])');}});
     count.textContent=v?(n+'개 찾음 / 전체 '+total+'개'):(total+'개 용어');
     empty.style.display=n?'none':'block';

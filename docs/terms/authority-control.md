@@ -8,5 +8,5 @@
 
 예: 「이광수」와 호인 「춘원」을 같은 사람으로 묶어, 어느 이름으로 검색해도 그의 책이 모두 나오게 하는 것.
 
-관련어: 접근점(access-point), 통제어휘(controlled-vocabulary), ORCID(orcid)
+관련어: 접근점(access-point), 통제어휘(controlled-vocabulary), 통일표제(uniform-title), 한정어구(qualifier), ORCID(orcid)
 근거: IFLA Library Reference Model (IFLA LRM), 2017 <https://repository.ifla.org/items/214c74cb-c075-4428-a138-39f8d06c55aa>; RDA: Resource Description and Access (RDA Toolkit) <https://www.rdatoolkit.org/>
