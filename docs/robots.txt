@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://inbluewater-dev.github.io/lis-glossary/sitemap.xml

@@ -1,0 +1,142 @@
+# 근거 목록 — 정의를 쓸 때 기댄 표준·문헌·기관.
+# 사전의 정의 문장은 모두 새로 쓴 것이며, 아래 자료의 문장을 옮겨 온 것이 아니다.
+# url은 확인된 공식 주소만 적는다. 모르면 비워 둔다.
+
+- id: iso5127
+  name: "ISO 5127:2017 Information and documentation — Foundation and vocabulary"
+  url: "https://www.iso.org/standard/59743.html"
+- id: ifla-lrm
+  name: "IFLA Library Reference Model (IFLA LRM), 2017"
+  url: "https://repository.ifla.org/items/214c74cb-c075-4428-a138-39f8d06c55aa"
+- id: isbd
+  name: "IFLA, ISBD: International Standard Bibliographic Description, Consolidated Edition (2011)"
+  url: "https://www.ifla.org/isbd-editions/"
+- id: rda
+  name: "RDA: Resource Description and Access (RDA Toolkit)"
+  url: "https://www.rdatoolkit.org/"
+- id: kcr
+  name: "한국도서관협회, 한국목록규칙(KCR)"
+  url: ""
+- id: marc21
+  name: "Library of Congress, MARC 21 Formats"
+  url: "https://www.loc.gov/marc/"
+- id: kormarc
+  name: "KS X 6006 한국문헌자동화목록형식(KORMARC) — 국립중앙도서관 안내"
+  url: "https://librarian.nl.go.kr/LI/contents/L10101000000.do"
+- id: dublin-core
+  name: "DCMI Metadata Terms / ISO 15836"
+  url: "https://www.dublincore.org/"
+- id: bibframe
+  name: "Library of Congress, BIBFRAME"
+  url: "https://www.loc.gov/bibframe/"
+- id: linked-data
+  name: "Tim Berners-Lee, Linked Data — Design Issues (2006)"
+  url: "https://www.w3.org/DesignIssues/LinkedData.html"
+- id: kdc
+  name: "한국도서관협회, 한국십진분류법(KDC) 제6판 (2013)"
+  url: ""
+- id: ddc
+  name: "OCLC, Dewey Decimal Classification (DDC) 23판(2011) 및 이후 갱신판"
+  url: "https://www.oclc.org/en/dewey.html"
+- id: udc
+  name: "UDC Consortium, Universal Decimal Classification"
+  url: "https://udcc.org/"
+- id: colon
+  name: "S. R. Ranganathan, Colon Classification (1933)"
+  url: ""
+- id: lcsh
+  name: "Library of Congress Subject Headings (LCSH)"
+  url: "https://id.loc.gov/authorities/subjects.html"
+- id: iso25964
+  name: "ISO 25964 Thesauri and interoperability with other vocabularies"
+  url: "https://www.iso.org/standard/53657.html"
+- id: isbn
+  name: "International ISBN Agency / ISO 2108"
+  url: "https://www.isbn-international.org/"
+- id: issn
+  name: "ISSN International Centre / ISO 3297"
+  url: "https://www.issn.org/"
+- id: doi
+  name: "DOI Foundation / ISO 26324"
+  url: "https://www.doi.org/"
+- id: orcid
+  name: "ORCID"
+  url: "https://orcid.org/"
+- id: nlk
+  name: "국립중앙도서관"
+  url: "https://www.nl.go.kr/"
+- id: z3950
+  name: "ANSI/NISO Z39.50 / ISO 23950 (Library of Congress Z39.50 Maintenance Agency)"
+  url: "https://www.loc.gov/z3950/agency/"
+- id: oai-pmh
+  name: "Open Archives Initiative Protocol for Metadata Harvesting (OAI-PMH)"
+  url: "https://www.openarchives.org/pmh/"
+- id: library-act
+  name: "대한민국 도서관법 (국가법령정보센터)"
+  url: "https://www.law.go.kr/법령/도서관법"
+- id: school-library-act
+  name: "대한민국 학교도서관진흥법 (국가법령정보센터)"
+  url: "https://www.law.go.kr/법령/학교도서관진흥법"
+- id: copyright-act
+  name: "대한민국 저작권법 (국가법령정보센터)"
+  url: "https://www.law.go.kr/법령/저작권법"
+- id: ifla-unesco-public
+  name: "IFLA-UNESCO Public Library Manifesto (2022)"
+  url: "https://www.ifla.org/public-library-manifesto/"
+- id: ifla-school
+  name: "IFLA School Library Guidelines, 2nd ed. (2015)"
+  url: "https://repository.ifla.org/handle/123456789/58"
+- id: ranganathan
+  name: "S. R. Ranganathan, The Five Laws of Library Science (1931)"
+  url: ""
+- id: ala-il
+  name: "American Library Association, Presidential Committee on Information Literacy: Final Report (1989)"
+  url: "https://www.ala.org/acrl/publications/whitepapers/presidential"
+- id: acrl-framework
+  name: "ACRL, Framework for Information Literacy for Higher Education (2015)"
+  url: "https://www.ala.org/sites/default/files/acrl/content/issues/infolit/framework1.pdf"
+- id: iir
+  name: "C. D. Manning, P. Raghavan, H. Schütze, Introduction to Information Retrieval (Cambridge University Press, 2008)"
+  url: "https://nlp.stanford.edu/IR-book/"
+- id: garfield
+  name: "E. Garfield, Citation Indexes for Science (Science, 1955)"
+  url: "https://doi.org/10.1126/science.122.3159.108"
+- id: hirsch
+  name: "J. E. Hirsch, An index to quantify an individual's scientific research output (PNAS, 2005)"
+  url: "https://doi.org/10.1073/pnas.0507655102"
+- id: bradford
+  name: "S. C. Bradford, Sources of information on specific subjects (Engineering, 1934)"
+  url: ""
+- id: kci
+  name: "한국연구재단, 한국학술지인용색인(KCI)"
+  url: "https://www.kci.go.kr/"
+- id: boai
+  name: "Budapest Open Access Initiative (2002)"
+  url: "https://www.budapestopenaccessinitiative.org/"
+- id: creative-commons
+  name: "Creative Commons"
+  url: "https://creativecommons.org/"
+- id: oais
+  name: "ISO 14721:2025 Open Archival Information System (OAIS) Reference Model"
+  url: "https://www.iso.org/standard/87471.html"
+- id: iipc
+  name: "International Internet Preservation Consortium (IIPC)"
+  url: "https://netpreserve.org/"
+- id: ica
+  name: "International Council on Archives (ICA)"
+  url: "https://www.ica.org/"
+- id: small-library-act
+  name: "대한민국 작은도서관 진흥법 (국가법령정보센터)"
+  url: ""
+- id: university-library-act
+  name: "대한민국 대학도서관진흥법 (국가법령정보센터)"
+  url: "https://www.law.go.kr/법령/대학도서관진흥법"
+- id: elementary-secondary-act
+  name: "대한민국 초·중등교육법 (국가법령정보센터)"
+  url: ""
+- id: iso28560
+  name: "ISO 28560 Information and documentation — RFID in libraries"
+  url: ""
+- id: lee-jaechul
+  name: "리재철, 『한글순도서기호법』(한국도서관협회); Cutter-Sanborn Three-Figure Author Table"
+  url: ""

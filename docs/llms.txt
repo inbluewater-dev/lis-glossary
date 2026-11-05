@@ -1,0 +1,138 @@
+# 문헌정보학 용어사전
+
+> 도서관과 정보에 관한 핵심 용어 100개를 누구나 이해할 수 있는 말로 풀어 쓴 문헌정보학 용어사전입니다. 모든 정의는 새로 썼으며, 각 용어마다 영어 표제어·관련어·근거 자료를 함께 적었습니다. 이용 허락은 CC BY 4.0이며, 출처를 밝히면 AI 답변·검색·학습에 자유롭게 인용할 수 있습니다.
+
+한국어 문헌정보학(도서관학·정보학) 기본 용어사전입니다. 일반인 눈높이로 쓰였으며, 용어마다 영어 표제어·다른 이름·관련어·근거 자료가 있습니다.
+각 용어는 고유 주소 `terms/<id>/`(HTML)와 `terms/<id>.md`(Markdown)를 가집니다.
+
+## 전체 데이터
+
+- [llms-full.txt](https://inbluewater-dev.github.io/lis-glossary/llms-full.txt): 용어 100개 전체 (Markdown, 한 파일)
+- [glossary.json](https://inbluewater-dev.github.io/lis-glossary/glossary.json): 같은 내용의 구조화 JSON
+
+## 기초 개념
+
+- [문헌정보학 (Library and Information Science (LIS))](https://inbluewater-dev.github.io/lis-glossary/terms/library-and-information-science.md): 기록된 지식과 정보를 모으고, 정리하고, 보존하고, 필요한 사람에게 찾아 주는 일을 연구하는 학문입니다.
+- [정보 (Information)](https://inbluewater-dev.github.io/lis-glossary/terms/information.md): 어떤 사실이나 자료가 사람에게 의미를 갖도록 정리되어, 판단이나 행동에 쓰일 수 있게 된 것입니다.
+- [문헌 (Document)](https://inbluewater-dev.github.io/lis-glossary/terms/document.md): 정보가 어떤 매체에 기록되어 하나의 단위로 다룰 수 있게 된 것입니다.
+- [정보리터러시 (Information Literacy)](https://inbluewater-dev.github.io/lis-glossary/terms/information-literacy.md): 정보가 필요하다는 것을 알아차리고, 그 정보를 찾아내고, 믿을 만한지 따져 보고, 올바르게 활용하는 능력입니다.
+- [랑가나단의 도서관학 5법칙 (Ranganathan's Five Laws of Library Science)](https://inbluewater-dev.github.io/lis-glossary/terms/five-laws-of-library-science.md): 인도의 도서관학자 랑가나단(S. R. Ranganathan)이 1931년에 제시한 도서관 운영의 다섯 원칙입니다.
+- [1차 자료 (Primary Source)](https://inbluewater-dev.github.io/lis-glossary/terms/primary-source.md): 어떤 사건이나 연구를 직접 겪거나 수행한 사람이 처음 남긴 자료입니다.
+- [2차 자료 (Secondary Source)](https://inbluewater-dev.github.io/lis-glossary/terms/secondary-source.md): 1차 자료를 바탕으로 해석하거나 분석하거나 정리한 자료입니다.
+- [3차 자료 (Tertiary Source)](https://inbluewater-dev.github.io/lis-glossary/terms/tertiary-source.md): 1차·2차 자료를 다시 가려 뽑고 정리해, 어떤 분야를 빠르게 훑어보거나 2차 자료를 찾아가게 해 주는 자료입니다.
+
+## 도서관과 서비스
+
+- [도서관 (Library)](https://inbluewater-dev.github.io/lis-glossary/terms/library.md): 책을 비롯한 여러 자료를 모으고 정리하고 보존해서, 이용자가 읽고 배우고 연구할 수 있도록 제공하는 기관이나 시설입니다.
+- [국가도서관 (National Library)](https://inbluewater-dev.github.io/lis-glossary/terms/national-library.md): 한 나라에서 나온 출판물을 빠짐없이 모아 영구히 보존하고, 그 나라의 서지 정보를 만드는 책임을 진 도서관입니다.
+- [공공도서관 (Public Library)](https://inbluewater-dev.github.io/lis-glossary/terms/public-library.md): 지역 주민 누구나 나이·직업·배경에 상관없이 이용할 수 있는 도서관입니다.
+- [학교도서관 (School Library)](https://inbluewater-dev.github.io/lis-glossary/terms/school-library.md): 초·중·고등학교 안에 두어 학생과 교사의 수업, 독서, 탐구 활동을 지원하는 도서관입니다.
+- [대학도서관 (Academic Library)](https://inbluewater-dev.github.io/lis-glossary/terms/academic-library.md): 대학의 교육과 연구를 지원하기 위해 대학 안에 둔 도서관입니다.
+- [전문도서관 (Special Library)](https://inbluewater-dev.github.io/lis-glossary/terms/special-library.md): 특정한 기관이나 분야의 필요에 맞춰 그 분야 자료를 집중적으로 모은 도서관입니다.
+- [작은도서관 (Small Library)](https://inbluewater-dev.github.io/lis-glossary/terms/small-library.md): 아파트 단지, 주민센터, 종교시설 등 생활 가까운 곳에 작은 규모로 운영되는 공공도서관입니다.
+- [사서 (Librarian)](https://inbluewater-dev.github.io/lis-glossary/terms/librarian.md): 도서관에서 자료를 고르고 정리하며, 이용자가 필요한 정보를 찾도록 돕는 전문직입니다.
+- [사서교사 (Teacher Librarian)](https://inbluewater-dev.github.io/lis-glossary/terms/teacher-librarian.md): 교사 자격과 사서 전문성을 함께 갖추고 학교도서관을 운영하며, 독서교육과 정보리터러시 교육을 맡는 교사입니다
+- [참고서비스 (Reference Service)](https://inbluewater-dev.github.io/lis-glossary/terms/reference-service.md): 사서가 이용자의 질문을 받아 필요한 자료나 정보를 찾아 주거나, 찾는 방법을 안내하는 서비스입니다.
+- [참고면담 (Reference Interview)](https://inbluewater-dev.github.io/lis-glossary/terms/reference-interview.md): 이용자가 처음 꺼낸 질문 뒤에 있는 진짜 필요를 알아내기 위해 사서가 묻고 확인하는 대화입니다.
+- [대출 (Lending / Circulation)](https://inbluewater-dev.github.io/lis-glossary/terms/lending.md): 도서관 자료를 정해진 기간 동안 도서관 밖으로 빌려 가도록 하는 서비스입니다.
+- [상호대차 (Interlibrary Loan (ILL))](https://inbluewater-dev.github.io/lis-glossary/terms/interlibrary-loan.md): 내가 다니는 도서관에 없는 자료를 다른 도서관에서 빌려 와 이용할 수 있게 해 주는 도서관끼리의 협력 서비스입니다.
+- [개가제 (Open Stacks / Open Access Shelving)](https://inbluewater-dev.github.io/lis-glossary/terms/open-stacks.md): 이용자가 서가에 직접 가서 책을 꺼내 보고 고를 수 있게 하는 운영 방식입니다.
+- [북큐레이션 (Book Curation)](https://inbluewater-dev.github.io/lis-glossary/terms/book-curation.md): 특정 주제나 독자, 시기에 맞춰 책을 골라 묶고 소개하는 일입니다.
+
+## 장서와 자료
+
+- [장서 (Collection)](https://inbluewater-dev.github.io/lis-glossary/terms/collection.md): 한 도서관이 가지고 있는 자료 전체입니다.
+- [장서개발 (Collection Development)](https://inbluewater-dev.github.io/lis-glossary/terms/collection-development.md): 도서관이 이용자에게 필요한 자료를 계획적으로 고르고 사들이고, 평가하고, 낡은 자료를 정리하는 전체 과정입니다.
+- [수서 (Acquisitions)](https://inbluewater-dev.github.io/lis-glossary/terms/acquisitions.md): 도서관이 자료를 들여오는 일입니다.
+- [납본 (Legal Deposit)](https://inbluewater-dev.github.io/lis-glossary/terms/legal-deposit.md): 출판사나 발행자가 새로 낸 출판물을 법에 따라 국가도서관에 의무적으로 보내는 제도입니다.
+- [제적 (Weeding / Deselection)](https://inbluewater-dev.github.io/lis-glossary/terms/weeding.md): 낡거나 내용이 오래되었거나 더 이상 이용되지 않는 자료를 장서에서 빼는 일입니다.
+- [단행본 (Monograph)](https://inbluewater-dev.github.io/lis-glossary/terms/monograph.md): 한 권으로 끝나거나, 정해진 몇 권으로 완결되는 출판물입니다.
+- [연속간행물 (Serial)](https://inbluewater-dev.github.io/lis-glossary/terms/serial.md): 끝을 정하지 않고 같은 제목으로 권호를 이어 가며 계속 나오는 출판물입니다.
+- [학술지 (Academic Journal / Scholarly Journal)](https://inbluewater-dev.github.io/lis-glossary/terms/academic-journal.md): 연구자들이 연구 결과를 논문으로 발표하는 연속간행물입니다.
+- [회색문헌 (Grey Literature)](https://inbluewater-dev.github.io/lis-glossary/terms/grey-literature.md): 일반 출판사·서점 유통을 거치지 않아 구하거나 찾기 어려운 자료입니다.
+- [참고자료 (Reference Material / Reference Work)](https://inbluewater-dev.github.io/lis-glossary/terms/reference-material.md): 처음부터 끝까지 읽기보다 필요한 부분을 찾아보도록 만든 자료입니다.
+- [학위논문 (Thesis / Dissertation)](https://inbluewater-dev.github.io/lis-glossary/terms/thesis.md): 석사나 박사 학위를 받기 위해 제출하는 연구 논문입니다.
+- [고서 (Old Book / Antiquarian Book)](https://inbluewater-dev.github.io/lis-glossary/terms/old-book.md): 오래전에 만들어져 역사적·문화적 가치가 있는 책입니다.
+- [판 (Edition)](https://inbluewater-dev.github.io/lis-glossary/terms/edition.md): 같은 원고로 같은 모양을 갖추어 펴낸 책 전체를 묶어 부르는 단위입니다.
+- [전자책 (E-book)](https://inbluewater-dev.github.io/lis-glossary/terms/ebook.md): 종이 대신 디지털 파일로 만들어 화면으로 읽는 책입니다.
+
+## 목록과 메타데이터
+
+- [목록 (Catalog / Catalogue)](https://inbluewater-dev.github.io/lis-glossary/terms/catalog.md): 도서관이 가진 자료를 찾을 수 있도록 각 자료의 정보를 일정한 규칙에 따라 기록해 모아 놓은 것입니다.
+- [서지 (Bibliography)](https://inbluewater-dev.github.io/lis-glossary/terms/bibliography.md): 책이나 자료에 관한 정보(제목, 저자, 출판사, 출판연도 등)를 뜻하기도 하고, 그런 정보를 모아 놓은 목록을 뜻하기도 합니다.
+- [서지 레코드 (Bibliographic Record)](https://inbluewater-dev.github.io/lis-glossary/terms/bibliographic-record.md): 자료 하나를 설명하는 서지 정보를 목록 규칙과 형식에 맞춰 기록한 단위입니다.
+- [메타데이터 (Metadata)](https://inbluewater-dev.github.io/lis-glossary/terms/metadata.md): 어떤 자료를 설명하는 데이터, 곧 「데이터에 관한 데이터」입니다.
+- [접근점 (Access Point)](https://inbluewater-dev.github.io/lis-glossary/terms/access-point.md): 이용자가 목록에서 자료를 찾아낼 때 실마리가 되는 이름이나 낱말입니다.
+- [전거제어 (Authority Control)](https://inbluewater-dev.github.io/lis-glossary/terms/authority-control.md): 같은 사람·단체·주제가 여러 이름으로 쓰여도 목록에서 하나로 모여 찾히도록 이름의 형태를 통일하고 관리하는 일입니다.
+- [한국목록규칙 (Korean Cataloging Rules (KCR))](https://inbluewater-dev.github.io/lis-glossary/terms/kcr.md): 우리나라 도서관이 자료의 서지 정보를 기록할 때 따르는 목록 규칙입니다.
+- [RDA (RDA: Resource Description and Access)](https://inbluewater-dev.github.io/lis-glossary/terms/rda.md): 자료를 기술하고 접근점을 정하는 방법을 정한 국제 목록 규칙입니다.
+- [ISBD (International Standard Bibliographic Description)](https://inbluewater-dev.github.io/lis-glossary/terms/isbd.md): 국제도서관연맹(IFLA)이 정한 서지 기술의 국제 표준입니다.
+- [MARC (Machine-Readable Cataloging)](https://inbluewater-dev.github.io/lis-glossary/terms/marc.md): 서지 정보를 컴퓨터가 읽고 주고받을 수 있도록 정한 데이터 형식입니다.
+- [KORMARC (Korean MARC)](https://inbluewater-dev.github.io/lis-glossary/terms/kormarc.md): MARC를 우리나라 실정에 맞게 만든 서지 데이터 형식입니다.
+- [더블린 코어 (Dublin Core)](https://inbluewater-dev.github.io/lis-glossary/terms/dublin-core.md): 웹 자원을 비롯한 다양한 자료를 간단히 설명하기 위한 메타데이터 표준입니다.
+- [IFLA LRM (IFLA Library Reference Model)](https://inbluewater-dev.github.io/lis-glossary/terms/ifla-lrm.md): 서지 정보가 무엇을 설명하는지를 개념적으로 정리한 국제도서관연맹(IFLA)의 모형입니다.
+- [저작·표현형·구현형·개별자료 (Work, Expression, Manifestation, Item (WEMI))](https://inbluewater-dev.github.io/lis-glossary/terms/wemi.md): 하나의 작품을 네 층으로 나누어 보는 IFLA LRM의 개념입니다.
+- [BIBFRAME (Bibliographic Framework)](https://inbluewater-dev.github.io/lis-glossary/terms/bibframe.md): 미국 의회도서관이 MARC를 대신하기 위해 개발해 실제로 쓰기 시작한 새로운 서지 데이터 모형입니다.
+- [연결데이터 (Linked Data)](https://inbluewater-dev.github.io/lis-glossary/terms/linked-data.md): 데이터 하나하나에 웹 주소 형태의 고유 이름(URI)을 붙이고 데이터끼리의 관계를 표준 방식으로 적어, 웹 전체에서 서로 연결되고 기계가 읽을 수 있게 하는 방식입니다.
+
+## 분류와 주제
+
+- [분류 (Classification)](https://inbluewater-dev.github.io/lis-glossary/terms/classification.md): 자료를 주제나 성격이 비슷한 것끼리 모으고, 기호를 붙여 일정한 순서로 배열하는 일입니다.
+- [분류표 (Classification Scheme)](https://inbluewater-dev.github.io/lis-glossary/terms/classification-scheme.md): 지식 전체를 주제별로 나누고 각 주제에 기호를 정해 놓은 표입니다.
+- [한국십진분류법 (Korean Decimal Classification (KDC))](https://inbluewater-dev.github.io/lis-glossary/terms/kdc.md): 한국도서관협회가 만든 우리나라의 표준 분류표로, 국내 공공도서관과 학교도서관 대부분이 씁니다.
+- [듀이십진분류법 (Dewey Decimal Classification (DDC))](https://inbluewater-dev.github.io/lis-glossary/terms/ddc.md): 미국의 멜빌 듀이가 1876년에 처음 발표한 분류표로, 세계에서 가장 널리 쓰이는 십진 분류법입니다.
+- [국제십진분류법 (Universal Decimal Classification (UDC))](https://inbluewater-dev.github.io/lis-glossary/terms/udc.md): 벨기에의 오틀레와 라퐁텐이 듀이십진분류법을 바탕으로 만든 분류표입니다.
+- [패싯 분류 (Faceted Classification)](https://inbluewater-dev.github.io/lis-glossary/terms/facet-classification.md): 주제를 여러 측면(패싯)으로 쪼갠 뒤, 필요한 측면들을 조합해 분류 기호를 만드는 방식입니다.
+- [청구기호 (Call Number)](https://inbluewater-dev.github.io/lis-glossary/terms/call-number.md): 도서관에서 자료 하나하나가 서가의 어느 자리에 있는지를 알려 주는 기호입니다.
+- [도서기호 (Book Number)](https://inbluewater-dev.github.io/lis-glossary/terms/book-number.md): 같은 분류기호를 가진 책들을 서가에서 다시 순서대로 줄 세우기 위해 붙이는 기호입니다.
+- [주제명표목 (Subject Heading)](https://inbluewater-dev.github.io/lis-glossary/terms/subject-heading.md): 자료의 주제를 나타내기 위해 정해진 목록에서 골라 붙이는 통제된 낱말이나 구입니다.
+- [시소러스 (Thesaurus)](https://inbluewater-dev.github.io/lis-glossary/terms/thesaurus.md): 색인과 검색에 쓰는 낱말들을 모아 서로의 관계를 정리해 둔 어휘 사전입니다.
+- [통제어휘 (Controlled Vocabulary)](https://inbluewater-dev.github.io/lis-glossary/terms/controlled-vocabulary.md): 같은 개념을 하나의 정해진 말로만 쓰도록 미리 정해 놓은 어휘입니다.
+- [색인 (Index)](https://inbluewater-dev.github.io/lis-glossary/terms/index.md): 자료 안의 낱말이나 주제가 어디에 있는지 찾아갈 수 있도록 정리한 목록입니다.
+- [초록 (Abstract)](https://inbluewater-dev.github.io/lis-glossary/terms/abstract.md): 논문이나 보고서의 내용을 짧게 요약해 앞에 붙인 글입니다.
+
+## 식별자와 표준
+
+- [국제표준도서번호 (International Standard Book Number (ISBN))](https://inbluewater-dev.github.io/lis-glossary/terms/isbn.md): 책마다 붙이는 세계 공통의 고유 번호입니다.
+- [국제표준연속간행물번호 (International Standard Serial Number (ISSN))](https://inbluewater-dev.github.io/lis-glossary/terms/issn.md): 잡지·학술지·신문 같은 연속간행물에 붙이는 8자리 고유 번호입니다.
+- [디지털객체식별자 (Digital Object Identifier (DOI))](https://inbluewater-dev.github.io/lis-glossary/terms/doi.md): 학술 논문 같은 디지털 자료에 붙이는 영구 식별자입니다.
+- [ORCID (Open Researcher and Contributor ID)](https://inbluewater-dev.github.io/lis-glossary/terms/orcid.md): 연구자 한 사람에게 하나씩 주는 16자리 국제 식별번호입니다(마지막 자리는 검사용이라 X가 올 수 있습니다). 이름이 같은 연구자를 구별하고, 이름 표기가 바뀌어도 그 사람의 연구 실적을 하나로 모아 줍니다
+- [출판예정도서목록 (Cataloging in Publication (CIP))](https://inbluewater-dev.github.io/lis-glossary/terms/cip.md): 책이 나오기 전에 국가도서관이 미리 만들어 출판사에 주는 서지 정보입니다.
+- [RFID (Radio-Frequency Identification)](https://inbluewater-dev.github.io/lis-glossary/terms/rfid.md): 무선 신호로 태그의 정보를 읽어 내는 기술입니다.
+- [Z39.50 (Z39.50 Information Retrieval Protocol)](https://inbluewater-dev.github.io/lis-glossary/terms/z3950.md): 서로 다른 도서관의 목록 데이터베이스를 하나의 방식으로 검색할 수 있게 해 주는 통신 규약입니다.
+- [OAI-PMH (Open Archives Initiative Protocol for Metadata Harvesting)](https://inbluewater-dev.github.io/lis-glossary/terms/oai-pmh.md): 여러 저장소(리포지터리)의 메타데이터를 한곳에서 자동으로 모아 갈 수 있게(하베스팅) 해 주는 규약입니다.
+
+## 정보검색
+
+- [정보검색 (Information Retrieval (IR))](https://inbluewater-dev.github.io/lis-glossary/terms/information-retrieval.md): 많은 자료 가운데서 이용자의 필요에 맞는 정보를 찾아내는 일, 또는 그것을 가능하게 하는 시스템과 기술을 연구하는 분야입니다.
+- [OPAC (Online Public Access Catalog)](https://inbluewater-dev.github.io/lis-glossary/terms/opac.md): 이용자가 컴퓨터나 스마트폰으로 도서관 소장 자료를 검색할 수 있게 공개한 온라인 목록입니다.
+- [디스커버리 서비스 (Discovery Service)](https://inbluewater-dev.github.io/lis-glossary/terms/discovery-service.md): 도서관이 가진 책과 구독 중인 전자저널·데이터베이스·논문을 한 번의 검색으로 함께 찾아 주는 통합 검색 서비스입니다.
+- [불리언 검색 (Boolean Search)](https://inbluewater-dev.github.io/lis-glossary/terms/boolean-search.md): AND(그리고), OR(또는), NOT(빼기) 같은 논리 연산자로 검색어를 조합해 결과를 좁히거나 넓히는 검색 방법입니다
+- [절단검색 (Truncation)](https://inbluewater-dev.github.io/lis-glossary/terms/truncation.md): 낱말의 일부만 입력하고 나머지를 기호(* 등)로 비워 두어, 그 부분으로 시작하거나 끝나는 낱말을 한꺼번에 찾는 방법입니다
+- [재현율 (Recall)](https://inbluewater-dev.github.io/lis-glossary/terms/recall.md): 찾아야 할 적합한 자료 전체 가운데 실제로 검색되어 나온 비율입니다.
+- [정확률 (Precision)](https://inbluewater-dev.github.io/lis-glossary/terms/precision.md): 검색되어 나온 자료 가운데 실제로 적합한 자료의 비율입니다.
+- [인용색인 (Citation Index)](https://inbluewater-dev.github.io/lis-glossary/terms/citation-index.md): 어떤 논문이 어떤 논문을 인용했는지를 기록해, 인용 관계를 따라가며 자료를 찾을 수 있게 만든 색인입니다.
+
+## 학술정보와 저작권
+
+- [동료심사 (Peer Review)](https://inbluewater-dev.github.io/lis-glossary/terms/peer-review.md): 논문을 학술지에 싣기 전에 같은 분야의 다른 전문가들이 내용을 검토해 실을지 말지를 판단하는 과정입니다.
+- [오픈액세스 (Open Access (OA))](https://inbluewater-dev.github.io/lis-glossary/terms/open-access.md): 학술 논문 등 연구 결과를 누구나 인터넷에서 비용 없이 읽고 내려받을 수 있게 공개하는 것입니다.
+- [기관 리포지터리 (Institutional Repository (IR))](https://inbluewater-dev.github.io/lis-glossary/terms/institutional-repository.md): 대학이나 연구기관이 소속 구성원의 논문, 보고서, 데이터 같은 연구 결과를 모아 보존하고 온라인으로 공개하는 저장소입니다
+- [인용 (Citation)](https://inbluewater-dev.github.io/lis-glossary/terms/citation.md): 글을 쓸 때 다른 사람의 글이나 생각을 가져다 쓰고 그 출처를 밝히는 것입니다.
+- [계량서지학 (Bibliometrics)](https://inbluewater-dev.github.io/lis-glossary/terms/bibliometrics.md): 논문 수, 인용 횟수, 저자·학술지 분포 같은 서지 데이터를 숫자로 세고 분석해 학술 활동의 경향을 밝히는 연구 분야입니다
+- [영향력지수 (Journal Impact Factor (JIF))](https://inbluewater-dev.github.io/lis-glossary/terms/impact-factor.md): 학술지에 실린 논문이 평균적으로 얼마나 자주 인용되는지를 나타내는 지표입니다.
+- [h지수 (h-index)](https://inbluewater-dev.github.io/lis-glossary/terms/h-index.md): 연구자의 논문 수와 인용 수를 함께 반영한 지표로, 물리학자 허시가 2005년에 제안했습니다.
+- [브래드포드 법칙 (Bradford's Law)](https://inbluewater-dev.github.io/lis-glossary/terms/bradfords-law.md): 한 주제의 논문은 소수의 핵심 학술지에 몰려 있고, 나머지는 많은 학술지에 조금씩 흩어져 있다는 법칙입니다.
+- [저작권 (Copyright)](https://inbluewater-dev.github.io/lis-glossary/terms/copyright.md): 글, 그림, 음악, 영상, 프로그램 같은 창작물을 만든 사람에게 법이 주는 권리입니다.
+- [공정이용 (Fair Use)](https://inbluewater-dev.github.io/lis-glossary/terms/fair-use.md): 저작권자의 허락을 받지 않아도, 정당한 목적으로 저작물을 쓸 수 있도록 법이 허용하는 범위입니다.
+- [크리에이티브 커먼즈 라이선스 (Creative Commons License (CCL))](https://inbluewater-dev.github.io/lis-glossary/terms/creative-commons.md): 저작자가 미리 정한 조건만 지키면 누구나 허락을 따로 받지 않고 저작물을 쓸 수 있게 하는 공개 이용 허락 표시입니다.
+- [퍼블릭 도메인 (Public Domain)](https://inbluewater-dev.github.io/lis-glossary/terms/public-domain.md): 저작권 보호 기간이 끝났거나 저작권자가 재산적 권리(저작재산권)를 포기해, 누구나 자유롭게 쓸 수 있는 상태의 저작물입니다
+
+## 디지털과 보존
+
+- [디지털도서관 (Digital Library)](https://inbluewater-dev.github.io/lis-glossary/terms/digital-library.md): 디지털 형태의 자료를 모아 정리하고, 인터넷으로 언제 어디서나 이용할 수 있게 제공하는 도서관 또는 서비스입니다
+- [디지털화 (Digitization)](https://inbluewater-dev.github.io/lis-glossary/terms/digitization.md): 종이책, 사진, 필름, 음반 같은 아날로그 자료를 스캔하거나 촬영해 디지털 파일로 바꾸는 일입니다.
+- [디지털 보존 (Digital Preservation)](https://inbluewater-dev.github.io/lis-glossary/terms/digital-preservation.md): 디지털 자료를 오랜 세월이 지나도 읽고 쓸 수 있도록 지키는 일입니다.
+- [웹 아카이빙 (Web Archiving)](https://inbluewater-dev.github.io/lis-glossary/terms/web-archiving.md): 사라지거나 바뀌기 쉬운 웹사이트를 일정한 때마다 수집해 그 모습을 그대로 보존하는 일입니다.
+- [아카이브 (Archives)](https://inbluewater-dev.github.io/lis-glossary/terms/archives.md): 개인이나 기관이 활동하며 남긴 기록 가운데 오래 남길 가치가 있는 것을 보존하고 이용하게 하는 곳, 또는 그 기록 묶음 자체를 말합니다.
+- [보존 (Preservation)](https://inbluewater-dev.github.io/lis-glossary/terms/preservation.md): 자료가 손상되지 않고 오래 이용될 수 있도록 보호하는 모든 활동입니다.
