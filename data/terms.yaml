@@ -445,8 +445,8 @@ terms:
   aka: [접장 기호, 레지스터]
   category: bibliography-books
   definition: >-
-    접은 종이 묶음(접장)을 순서대로 엮도록 각 묶음 첫 장 아래에 인쇄한 문자나 숫자입니다.
-    시그니처를 차례로 적어 둔 목록을 「레지스터」라고 하며, 쪽 번호가 없는 옛 책에서는 시그니처로 위치를 가리키고 빠진 장이 없는지 확인합니다.
+    접은 종이 묶음(접장)을 순서대로 엮도록 각 묶음의 첫 장(과 앞쪽 몇 장) 아래에 인쇄한 문자나 숫자입니다.
+    시그니처 문자의 차례, 또는 그것을 적어 둔 목록을 「레지스터」라고 하며, 쪽 번호가 없는 옛 책에서는 시그니처로 위치를 가리키고 빠진 장이 없는지 확인합니다.
   related: [book-format, old-book]
   sources: [gaskell]
 
@@ -464,7 +464,7 @@ terms:
 - id: colophon
   term: 간기
   en: Colophon
-  aka: [콜로폰, 판권지, 판권면]
+  aka: [콜로폰]
   category: bibliography-books
   definition: >-
     책의 끝(또는 앞)에 언제, 어디서, 누가 찍어 냈는지를 적은 부분입니다.
@@ -475,11 +475,11 @@ terms:
 - id: editio-princeps
   term: 초간본
   en: Editio Princeps
-  aka: [초인본, 에디티오 프린켑스, ED. PR.]
+  aka: [에디티오 프린켑스, ED. PR.]
   category: bibliography-books
   definition: >-
     손으로 베껴 전해지던 작품이 처음으로 인쇄되어 나온 판입니다. 특히 그리스·로마 고전의 첫 인쇄본을 가리킬 때 많이 씁니다.
-    출판된 책의 첫 판을 뜻하는 일반적인 「초판」보다 좁은 말입니다.
+    서양어 editio princeps는 일반적인 「초판」보다 좁은 말입니다. 다만 한국어 「초간본」은 『진달래꽃』(1925) 초간본처럼 어떤 책의 첫 판을 넓게 가리키기도 합니다.
   related: [edition, old-book]
   sources: [gaskell]
 
@@ -548,7 +548,7 @@ terms:
     영국 대영박물관 도서관의 앤서니 파니치(Anthony Panizzi)가 동료들과 함께 만들어 1841년 인쇄본 장서목록 첫 권 앞에 실은 91개 조의 목록 규칙입니다.
     저자명의 선택과 형태, 익명·필명 저작, 참조, 성서, 형식표목 등을 체계적으로 다루어, 이후 19~20세기 목록규칙의 출발점으로 평가받습니다.
   related: [cataloging-code, heading, cross-reference, uniform-title, catalog-slip]
-  sources: [foundations, guerrini2023]
+  sources: [foundations, guerrini2023, lehnus1972]
 
 - id: entry
   term: 기입
@@ -568,7 +568,7 @@ terms:
   category: cataloging-rules
   definition: >-
     기입의 맨 앞에 두어 목록에서 배열하고 찾는 기준이 되는 이름, 표제, 주제명입니다.
-    저자명표목, 서명표목, 주제명표목 등이 있고, 「성서」나 「학회」처럼 자료의 종류로 모으는 표목을 「형식표목」이라고 했습니다. 국제목록원칙(2009)과 RDA에서는 이 역할을 「접근점」이라고 부릅니다.
+    저자명표목, 서명표목, 주제명표목 등이 있고, 「학회(Academies)」나 「정기간행물(Periodical Publications)」처럼 자료의 종류로 모으는 표목을 「형식표목」이라고 했습니다. 국제목록원칙(2009)과 RDA에서는 이 역할을 「접근점」이라고 부릅니다.
   related: [access-point, entry, main-entry, qualifier, corporate-heading, subject-heading]
   sources: [icp2009, foundations]
 
@@ -579,14 +579,14 @@ terms:
   category: cataloging-rules
   definition: >-
     기본표목 말고도, 공저자·옮긴이·총서명·다른 표제 등으로도 자료를 찾을 수 있도록 덧붙이는 표목입니다.
-    MARC에서는 7XX 필드(예: 700 개인명 부출표목)에 기록합니다.
+    MARC에서는 7XX 필드(예: 700 개인명 부출표목)에, 총서명 부출은 8XX 필드에 기록합니다.
   related: [main-entry, entry, heading, access-point]
   sources: [aacr2, marc21]
 
 - id: authorized-access-point
   term: 전거형 접근점
   en: Authorized Access Point
-  aka: [통제된 접근점, 전거형]
+  aka: [전거형, 전거형 표목]
   category: cataloging-rules
   definition: >-
     같은 사람·단체·저작을 가리킬 때 목록에서 늘 쓰기로 정한 하나의 공식 형태입니다. 이와 달리 참조로 이어 주는 다른 형태를 「이형 접근점」이라고 합니다.
@@ -614,9 +614,9 @@ terms:
   category: cataloging-rules
   definition: >-
     정부 기관, 학회, 회사, 회의처럼 단체가 자료에 책임을 질 때 그 단체 이름을 표목으로 삼는 것, 또는 그 표목입니다.
-    단체를 저자로 볼 것인가는 오래 논쟁거리였습니다. 파니치 규칙에서는 학회 자료를 「학회(Academies)」 같은 형식표목 아래 모았고, 단체를 저자로 보는 생각은 주잇(1850)과 커터(1876)의 규칙을 거쳐 자리 잡았습니다.
+    단체를 저자로 볼 것인가는 오래 논쟁거리였습니다. 파니치의 91개조 규칙은 의회·관청 같은 단체의 문서를 나라나 장소 이름 아래 기입하게 하고(9조), 학회 자료는 「학회(Academies)」라는 형식표목 아래 모았습니다(80조). 단체를 저자로 보는 생각은 주잇(1852)과 커터(1876)의 규칙을 거쳐 자리 잡았습니다.
   related: [heading, authorship, authority-control]
-  sources: [foundations, cutter1876]
+  sources: [lehnus1972, jewett1852, cutter1876, foundations]
 
 - id: pseudonym
   term: 필명
@@ -632,7 +632,7 @@ terms:
 - id: catalog-slip
   term: 슬립
   en: Slip
-  aka: [목록 슬립, 카드 목록]
+  aka: [목록 슬립]
   category: cataloging-rules
   definition: >-
     목록 기록을 한 건씩 적어 두는, 크기가 같은 종이쪽지입니다.
@@ -647,14 +647,14 @@ terms:
   category: cataloging-rules
   definition: >-
     이용자가 목록에서 자료를 찾아낼 때 실마리가 되는 이름이나 낱말입니다.
-    저자명, 서명(제목), 주제명 등이 대표적인 접근점입니다. 예전에는 「표목」이라고 불렀고, 국제목록원칙(2009)과 RDA 이후 「접근점」이라는 말을 씁니다.
+    저자명, 서명(제목), 주제명 등이 대표적인 접근점입니다. 예전에는 「표목」이라고 불렀습니다. 「접근점」이라는 말은 영미목록규칙 제2판(AACR2, 1978) 때부터 쓰였고, 국제목록원칙(2009)과 RDA에서 「표목」을 대신하는 기본 용어가 되었습니다.
   related: [heading, authorized-access-point, authority-control, main-entry, qualifier, subject-heading]
   sources: [rda, iso5127]
 
 - id: main-entry
   term: 기본표목
   en: Main Entry / Principal Entry
-  aka: [기본기입, 주기입, 주된 표목]
+  aka: [기본기입, 주된 표목]
   category: cataloging-rules
   definition: >-
     한 자료의 목록 기록을 대표하는 주된 표목으로, 보통 그 자료에 가장 큰 책임이 있는 저자를, 저자가 분명하지 않으면 표제를 택합니다.
@@ -682,7 +682,7 @@ terms:
   category: cataloging-rules
   definition: >-
     이름이나 표제, 주제명이 같아 서로 다른 대상을 구별하기 어려울 때, 표목(접근점) 뒤에 덧붙여 뜻을 좁혀 주는 낱말이나 구입니다.
-    괄호 안에 생몰년, 직업, 장소, 분야, 회의 차수·연도 등을 넣거나, 인명 뒤에 작위·직함 같은 말을 덧붙여 구별합니다.
+    괄호 안에 생몰년, 직업, 장소, 분야, 회의 차수·연도 등을 넣거나, 인명에 작위·직함 같은 말을 덧붙여 구별합니다.
   example: "미국 의회도서관 주제명표목표의 「Mercury (Planet)」는 괄호 속 한정어구로 원소 수은이 아닌 행성 수성임을 나타냅니다."
   related: [heading, access-point, authority-control, subject-heading, uniform-title]
   sources: [aacr2, rda, lcsh]
@@ -760,7 +760,7 @@ terms:
   aka: [기술 영역, 기술사항]
   category: cataloging
   definition: >-
-    서지 정보를 적는 순서와 묶음을 정한 칸들입니다. ISBD 통합판(2011)은 0 내용형식·매체유형, 1 표제와 책임표시, 2 판, 3 자료(또는 간행) 특성, 4 발행·제작·배포 등, 5 형태사항, 6 총서, 7 주기, 8 자원식별자와 입수조건의 아홉 영역을 둡니다.
+    서지 정보를 적는 순서와 묶음을 정한 칸들입니다. ISBD 통합판(2011)은 0 내용형식·매체유형, 1 표제와 책임표시, 2 판, 3 자료 또는 자원유형 특성, 4 발행·제작·배포 등, 5 형태사항, 6 총서·다권단행자원, 7 주기, 8 자원식별자와 입수조건의 아홉 영역을 둡니다.
     영역을 정해 두면 어느 나라 목록이든 같은 자리에서 같은 정보를 찾을 수 있습니다.
   related: [isbd, statement-of-responsibility, title-proper, note, series, descriptive-cataloging]
   sources: [isbd]
@@ -772,7 +772,7 @@ terms:
   category: cataloging
   definition: >-
     자료의 대표 이름으로 기록하는 주된 표제입니다. 다른 언어로 나란히 적힌 표제는 「대등표제」, 본표제를 보충하는 부제목은 「부표제(표제관련정보)」라고 해서 따로 기록합니다.
-  example: "『코스모스: 우주의 기원과 진화』라면 「코스모스」가 본표제, 「우주의 기원과 진화」가 부표제입니다."
+  example: "(가상의 예) 『바다의 시간: 남해 어촌 백 년의 기록』이라면 「바다의 시간」이 본표제, 「남해 어촌 백 년의 기록」이 부표제입니다."
   related: [statement-of-responsibility, collective-title, uniform-title, isbd-areas]
   sources: [isbd, kcr]
 
@@ -807,7 +807,7 @@ terms:
   definition: >-
     각각 제목을 가진 여러 자료를 하나의 공통 제목 아래 묶어 펴내는 것, 또는 그 공통 제목입니다.
     목록에서는 총서명과 총서 안의 번호를 따로 기록해, 같은 총서에 속한 책을 모아 찾을 수 있게 합니다.
-  example: 「민음사 세계문학전집 1」에서 「민음사 세계문학전집」이 총서명, 「1」이 총서 번호입니다.
+  example: 「(세계문학전집 ; 1)」은 「세계문학전집」이라는 총서의 1번이라는 뜻입니다.
   related: [isbd-areas, serial, collective-title]
   sources: [isbd]
 

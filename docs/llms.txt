@@ -60,7 +60,7 @@
 ## 책과 서지학
 
 - [판형 (Format (Bibliographical))](https://inbluewater-dev.github.io/lis-glossary/terms/book-format.md): 서지학에서 인쇄용 전지를 몇 번 접어 책을 만들었는지에 따른 책의 형태입니다.
-- [시그니처 (Signature (Mark) / Register)](https://inbluewater-dev.github.io/lis-glossary/terms/signature-mark.md): 접은 종이 묶음(접장)을 순서대로 엮도록 각 묶음 첫 장 아래에 인쇄한 문자나 숫자입니다.
+- [시그니처 (Signature (Mark) / Register)](https://inbluewater-dev.github.io/lis-glossary/terms/signature-mark.md): 접은 종이 묶음(접장)을 순서대로 엮도록 각 묶음의 첫 장(과 앞쪽 몇 장) 아래에 인쇄한 문자나 숫자입니다.
 - [권두표제 (Caption Title / Head-title)](https://inbluewater-dev.github.io/lis-glossary/terms/caption-title.md): 본문 첫머리 위에 인쇄된 표제입니다.
 - [간기 (Colophon)](https://inbluewater-dev.github.io/lis-glossary/terms/colophon.md): 책의 끝(또는 앞)에 언제, 어디서, 누가 찍어 냈는지를 적은 부분입니다.
 - [초간본 (Editio Princeps)](https://inbluewater-dev.github.io/lis-glossary/terms/editio-princeps.md): 손으로 베껴 전해지던 작품이 처음으로 인쇄되어 나온 판입니다.
