@@ -6,5 +6,5 @@
 
 기본표목 말고도, 공저자·옮긴이·총서명·다른 표제 등으로도 자료를 찾을 수 있도록 덧붙이는 표목입니다. MARC에서는 7XX 필드(예: 700 개인명 부출표목)에, 총서명 부출은 8XX 필드에 기록합니다.
 
-관련어: 기본표목(main-entry), 기입(entry), 표목(heading), 접근점(access-point)
+관련어: 기본표목(main-entry), 분출기입(analytical-entry), 기입(entry), 표목(heading), 접근점(access-point)
 근거: Anglo-American Cataloguing Rules, 2nd ed. (AACR2); Library of Congress, MARC 21 Formats <https://www.loc.gov/marc/>

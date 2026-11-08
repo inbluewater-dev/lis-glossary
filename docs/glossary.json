@@ -1,7 +1,7 @@
 {
   "name": "문헌정보학 용어사전",
   "name_en": "Korean Glossary of Library and Information Science",
-  "description": "도서관과 정보에 관한 핵심 용어 131개를 누구나 이해할 수 있는 말로 풀어 쓴 문헌정보학 용어사전입니다. 모든 정의는 새로 썼으며, 각 용어마다 영어 표제어·관련어·근거 자료를 함께 적었습니다.",
+  "description": "도서관과 정보에 관한 핵심 용어 132개를 누구나 이해할 수 있는 말로 풀어 쓴 문헌정보학 용어사전입니다. 모든 정의는 새로 썼으며, 각 용어마다 영어 표제어·관련어·근거 자료를 함께 적었습니다.",
   "url": "https://inbluewater-dev.github.io/lis-glossary/",
   "version": "1.6",
   "updated": "2026-11-09",
@@ -369,6 +369,16 @@
       "id": "fattahi-panizzi",
       "name": "Rahmatollah Fattahi, 강의자료 「Developments in the nineteenth century」 — 파니치 80조(ACADEMIES) 범위 설명",
       "url": "https://profsite.um.ac.ir/fattahi/cha2.htm"
+    },
+    {
+      "id": "saa-dictionary",
+      "name": "Society of American Archivists, Dictionary of Archives Terminology — analytical entry",
+      "url": "https://dictionary.archivists.org/entry/analytical-entry.html"
+    },
+    {
+      "id": "kormarc-644",
+      "name": "국립중앙도서관, KORMARC(KS X 6006-4) 644 총서분출방법(Series Analysis Practice)",
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-4/sub/64X_644.html"
     }
   ],
   "terms": [
@@ -1480,6 +1490,7 @@
       "example": null,
       "related": [
         "main-entry",
+        "analytical-entry",
         "entry",
         "heading",
         "access-point"
@@ -1487,6 +1498,33 @@
       "sources": [
         "aacr2",
         "marc21"
+      ]
+    },
+    {
+      "id": "analytical-entry",
+      "url": "https://inbluewater-dev.github.io/lis-glossary/terms/analytical-entry/",
+      "term": "분출기입",
+      "en": "Analytical Entry / Analytic",
+      "aka": [
+        "분석기입",
+        "분출",
+        "analytical entries",
+        "analytics"
+      ],
+      "category": "cataloging-rules",
+      "category_name": "목록규칙과 표목",
+      "definition": "목록에 이미 올라 있는 더 큰 자료의 한 부분, 예를 들어 논문집에 실린 논문 한 편이나 책의 한 장, 총서의 한 권을 따로 기술해 찾을 수 있게 한 기입입니다. 전체 자료의 기록만 있으면 그 안에 든 개별 작품은 목록에서 보이지 않기 때문에, 필요한 부분을 「분출」해 따로 기입합니다. 우리 국가표준 KORMARC도 총서를 분출하는 방법을 「완전 분출 · 부분 분출 · 분출하지 않음」으로 나누어 기록합니다. 한 글자 차이인 「부출기입(added entry)」과 헷갈리기 쉽습니다. 분출기입은 자료의 「일부」를 따로 적는 기입이고, 부출기입은 같은 자료를 「다른 이름으로도」 찾게 하는 기입입니다.",
+      "example": "(가상의 예) 논문집 『한국 도서관의 백 년』에 실린 「일제강점기 공공도서관」이라는 논문을 따로 기입해, 그 논문 제목과 필자로도 찾을 수 있게 하는 것.",
+      "related": [
+        "added-entry",
+        "entry",
+        "series",
+        "collective-title"
+      ],
+      "sources": [
+        "saa-dictionary",
+        "kormarc-644",
+        "foundations"
       ]
     },
     {
