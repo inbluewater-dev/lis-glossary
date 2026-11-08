@@ -775,8 +775,20 @@ terms:
   definition: >-
     자료의 대표 이름으로 기록하는 주된 표제입니다. 다른 언어로 나란히 적힌 표제는 「대등표제」, 본표제를 보충하는 부제목은 「부표제(표제관련정보)」라고 해서 따로 기록합니다.
   example: "(가상의 예) 『바다의 시간: 남해 어촌 백 년의 기록』이라면 「바다의 시간」이 본표제, 「남해 어촌 백 년의 기록」이 부표제입니다."
-  related: [statement-of-responsibility, collective-title, uniform-title, isbd-areas]
+  related: [statement-of-responsibility, abridgment-of-titles, collective-title, uniform-title, isbd-areas]
   sources: [isbd, kcr]
+
+- id: abridgment-of-titles
+  term: 표제 축약
+  en: Abridgment of Titles
+  aka: [표제의 생략, abridgement of titles]
+  category: cataloging
+  definition: >-
+    아주 긴 표제를 목록에 적을 때 중요하지 않은 뒷부분을 줄여 적는 일입니다. 줄인 자리에는 생략부호(...)를 넣어 표시합니다.
+    영미목록규칙 제2판(AACR2)은 본표제를 줄이는 것은 꼭 필요한 정보를 잃지 않을 때만 허용하고, 본표제의 처음 다섯 단어는 절대 생략하지 않도록 정했습니다.
+  example: "(가상의 예) 『작은 마을 도서관이 들려주는 오래된 책들과 그 책을 사랑한 사람들의 이야기』 → 「작은 마을 도서관이 들려주는 오래된 ...」"
+  related: [title-proper, isbd-areas, descriptive-cataloging]
+  sources: [aacr2-1b4]
 
 - id: statement-of-responsibility
   term: 책임표시

@@ -179,3 +179,6 @@
 - id: ala
   name: "American Library Association, ALA Fact Sheet"
   url: "https://www.ala.org/news/american-library-association-fact-sheet"
+- id: aacr2-1b4
+  name: "AACR2 1.1B4 (Abridgement of title proper) — IASA Cataloguing Rules 1.B에 인용된 원문"
+  url: "https://iasa-web.org/node/198"
