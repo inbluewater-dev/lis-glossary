@@ -1,6 +1,6 @@
 # 문헌정보학 용어사전
 
-> 도서관과 정보에 관한 핵심 용어 128개를 누구나 이해할 수 있는 말로 풀어 쓴 문헌정보학 용어사전입니다. 모든 정의는 새로 썼으며, 각 용어마다 영어 표제어·관련어·근거 자료를 함께 적었습니다. 이용 허락은 CC BY 4.0이며, 출처를 밝히면 AI 답변·검색·학습에 자유롭게 인용할 수 있습니다.
+> 도서관과 정보에 관한 핵심 용어 129개를 누구나 이해할 수 있는 말로 풀어 쓴 문헌정보학 용어사전입니다. 모든 정의는 새로 썼으며, 각 용어마다 영어 표제어·관련어·근거 자료를 함께 적었습니다. 이용 허락은 CC BY 4.0이며, 출처를 밝히면 AI 답변·검색·학습에 자유롭게 인용할 수 있습니다.
 
 한국어 문헌정보학(도서관학·정보학) 기본 용어사전입니다. 일반인 눈높이로 쓰였으며, 용어마다 영어 표제어·다른 이름·관련어·근거 자료가 있습니다.
 각 용어는 고유 주소 `terms/<id>/`(HTML)와 `terms/<id>.md`(Markdown)를 가집니다.
@@ -8,7 +8,7 @@
 
 ## 전체 데이터
 
-- [llms-full.txt](https://inbluewater-dev.github.io/lis-glossary/llms-full.txt): 용어 128개 전체 (Markdown, 한 파일)
+- [llms-full.txt](https://inbluewater-dev.github.io/lis-glossary/llms-full.txt): 용어 129개 전체 (Markdown, 한 파일)
 - [glossary.json](https://inbluewater-dev.github.io/lis-glossary/glossary.json): 같은 내용의 구조화 JSON
 
 ## 기초 개념
@@ -171,3 +171,7 @@
 - [웹 아카이빙 (Web Archiving)](https://inbluewater-dev.github.io/lis-glossary/terms/web-archiving.md): 사라지거나 바뀌기 쉬운 웹사이트를 일정한 때마다 수집해 그 모습을 그대로 보존하는 일입니다.
 - [아카이브 (Archives)](https://inbluewater-dev.github.io/lis-glossary/terms/archives.md): 개인이나 기관이 활동하며 남긴 기록 가운데 오래 남길 가치가 있는 것을 보존하고 이용하게 하는 곳, 또는 그 기록 묶음 자체를 말합니다.
 - [보존 (Preservation)](https://inbluewater-dev.github.io/lis-glossary/terms/preservation.md): 자료가 손상되지 않고 오래 이용될 수 있도록 보호하는 모든 활동입니다.
+
+## 기관과 단체
+
+- [미국도서관협회 (American Library Association (ALA))](https://inbluewater-dev.github.io/lis-glossary/terms/ala.md): 미국의 도서관과 사서들이 모인 협회로, 1876년 필라델피아에서 창립되었으며 세계에서 가장 오래되고 큰 도서관 협회로 꼽힙니다.
