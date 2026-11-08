@@ -3,7 +3,7 @@
 > 도서관과 정보에 관한 핵심 용어 130개를 누구나 이해할 수 있는 말로 풀어 쓴 문헌정보학 용어사전입니다. 모든 정의는 새로 썼으며, 각 용어마다 영어 표제어·관련어·근거 자료를 함께 적었습니다.
 
 - 주소: https://inbluewater-dev.github.io/lis-glossary/
-- 판: 1.4 (2026-11-09)
+- 판: 1.5 (2026-11-09)
 - 이용 허락: CC BY 4.0 <https://creativecommons.org/licenses/by/4.0/> — 출처「문헌정보학 용어사전 (https://inbluewater-dev.github.io/lis-glossary/)」를 밝히면 자유롭게 이용 가능
 - 정의는 모두 새로 쓴 문장이며, '근거'는 정의를 쓸 때 기댄 표준·법령·기관 자료입니다.
 - 이 사전의 정의는 AI(Anthropic의 Claude)의 도움을 받아 작성했으며, 별도의 검수 과정에서 연도·법령·기관명 등 사실관계를 근거 자료와 대조했습니다.
@@ -560,16 +560,16 @@
 
 예: (가상의 예) 『바다의 시간: 남해 어촌 백 년의 기록』이라면 「바다의 시간」이 본표제, 「남해 어촌 백 년의 기록」이 부표제입니다.
 
-관련어: 책임표시(statement-of-responsibility), 표제 축약(abridgment-of-titles), 종합표제(collective-title), 통일표제(uniform-title), 서지기술 영역(isbd-areas)
+관련어: 책임표시(statement-of-responsibility), 축약표제(abridgment-of-titles), 종합표제(collective-title), 통일표제(uniform-title), 서지기술 영역(isbd-areas)
 근거: IFLA, ISBD: International Standard Bibliographic Description, Consolidated Edition (2011) <https://www.ifla.org/isbd-editions/>; 한국도서관협회, 한국목록규칙(KCR)
 
-### 표제 축약 (Abridgment of Titles)
+### 축약표제 (Abridged Title / Abridgment of Titles)
 
 - 분야: 목록과 메타데이터
 - 주소: https://inbluewater-dev.github.io/lis-glossary/terms/abridgment-of-titles/
-- 다른 이름: 표제의 생략, abridgement of titles
+- 다른 이름: 표제 축약, 표제의 생략, abridgement of titles
 
-아주 긴 표제를 목록에 적을 때 중요하지 않은 뒷부분을 줄여 적는 일입니다. 줄인 자리에는 생략부호(...)를 넣어 표시합니다. 영미목록규칙 제2판(AACR2)은 본표제를 줄이는 것은 꼭 필요한 정보를 잃지 않을 때만 허용하고, 본표제의 처음 다섯 단어는 절대 생략하지 않도록 정했습니다.
+아주 긴 표제를 목록에 적을 때 중요하지 않은 뒷부분을 줄여 적은 표제, 또는 그렇게 줄여 적는 일입니다. 줄인 자리에는 생략부호(...)를 넣어 표시합니다. 영미목록규칙 제2판(AACR2)은 본표제를 줄이는 것은 꼭 필요한 정보를 잃지 않을 때만 허용하고, 본표제의 처음 다섯 단어는 절대 생략하지 않도록 정했습니다. 본문 앞 낱장에 표제만 적어 둔 면을 가리키는 「약표제(half title)」와는 다른 말입니다.
 
 예: (가상의 예) 『작은 마을 도서관이 들려주는 오래된 책들과 그 책을 사랑한 사람들의 이야기』 → 「작은 마을 도서관이 들려주는 오래된 ...」
 

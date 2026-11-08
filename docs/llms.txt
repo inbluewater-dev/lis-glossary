@@ -75,7 +75,7 @@
 - [주제목록 (Subject Cataloging)](https://inbluewater-dev.github.io/lis-glossary/terms/subject-cataloging.md): 목록작업 가운데 자료의 내용이 무엇에 관한 것인지 분석해 주제명을 붙이고 분류기호를 주는 부분입니다.
 - [서지기술 영역 (Areas of Bibliographic Description)](https://inbluewater-dev.github.io/lis-glossary/terms/isbd-areas.md): 서지 정보를 적는 순서와 묶음을 정한 칸들입니다.
 - [본표제 (Title Proper)](https://inbluewater-dev.github.io/lis-glossary/terms/title-proper.md): 자료의 대표 이름으로 기록하는 주된 표제입니다.
-- [표제 축약 (Abridgment of Titles)](https://inbluewater-dev.github.io/lis-glossary/terms/abridgment-of-titles.md): 아주 긴 표제를 목록에 적을 때 중요하지 않은 뒷부분을 줄여 적는 일입니다.
+- [축약표제 (Abridged Title / Abridgment of Titles)](https://inbluewater-dev.github.io/lis-glossary/terms/abridgment-of-titles.md): 아주 긴 표제를 목록에 적을 때 중요하지 않은 뒷부분을 줄여 적은 표제, 또는 그렇게 줄여 적는 일입니다.
 - [책임표시 (Statement of Responsibility)](https://inbluewater-dev.github.io/lis-glossary/terms/statement-of-responsibility.md): 자료의 내용을 만드는 데 책임이 있는 사람이나 단체(지은이, 엮은이, 옮긴이, 그린이 등)를 자료에 적힌 대로 기록한 것입니다.
 - [주기 (Note)](https://inbluewater-dev.github.io/lis-glossary/terms/note.md): 정해진 다른 영역에 넣기 어려운 정보를 보충해 적는 영역입니다.
 - [총서 (Series)](https://inbluewater-dev.github.io/lis-glossary/terms/series.md): 각각 제목을 가진 여러 자료를 하나의 공통 제목 아래 묶어 펴내는 것, 또는 그 공통 제목입니다.
