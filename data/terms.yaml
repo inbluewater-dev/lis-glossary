@@ -624,11 +624,12 @@ terms:
 - id: corporate-heading
   term: 단체표목
   en: Corporate Heading / Corporate Entry
-  aka: [단체명표목, 단체기입]
+  aka: [단체명표목, 단체기입, 미국식 관행, 독일식 관행, American practice, German practice]
   category: cataloging-rules
   definition: >-
     정부 기관, 학회, 회사, 회의처럼 단체가 자료에 책임을 질 때 그 단체 이름을 표목으로 삼는 것, 또는 그 표목입니다.
     단체를 저자로 볼 것인가는 오래 논쟁거리였습니다. 파니치의 91개조 규칙은 의회·관청 같은 단체의 문서를 나라나 장소 이름 아래 기입하게 하고(9조), 학술원·연구소·협회·대학·학회 같은 학술단체의 출판물은 「학술단체(ACADEMIES)」라는 형식표목 아래 단체가 있는 나라와 도시 순으로 모았습니다(80조). 단체를 저자로 보는 생각은 주잇(1852)과 커터(1876)의 규칙을 거쳐 자리 잡았습니다.
+    커터는 1897년 『Library Journal』에서, 단체를 자기 학회지·회의록의 저자로 보는 「미국식 관행」이 그런 저작을 익명 저작처럼 표제의 첫 명사 아래 흩어 놓는 「독일식 관행」보다 낫다고 주장했습니다.
   related: [heading, academies-heading, authorship, authority-control]
   sources: [lehnus1972, fattahi-panizzi, jewett1852, cutter1876, foundations]
 
