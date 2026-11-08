@@ -21,12 +21,16 @@ BASE_URL = "https://inbluewater-dev.github.io/lis-glossary/"
 TITLE = "문헌정보학 용어사전"
 TITLE_EN = "Korean Glossary of Library and Information Science"
 VERSION = "1.6"
-UPDATED = "2026-11-09"
+# 갱신일은 빌드할 때 자동으로 오늘 날짜(한국 시간)가 들어간다.
+# 판(VERSION)은 용어를 크게 묶어 더하거나 체계를 바꿀 때만 손으로 올린다 — 작은 수정·추가는 판을 그대로 둔다.
+import datetime as _dt
+from zoneinfo import ZoneInfo as _ZI
+UPDATED = _dt.datetime.now(_ZI("Asia/Seoul")).date().isoformat()
 LICENSE_NAME = "CC BY 4.0"
 LICENSE_URL = "https://creativecommons.org/licenses/by/4.0/deed.ko"
 LICENSE_URL_EN = "https://creativecommons.org/licenses/by/4.0/"
 DESCRIPTION = (
-    "도서관과 정보에 관한 핵심 용어 130개를 누구나 이해할 수 있는 말로 풀어 쓴 문헌정보학 용어사전입니다. "
+    "도서관과 정보에 관한 핵심 용어 {N}개를 누구나 이해할 수 있는 말로 풀어 쓴 문헌정보학 용어사전입니다. "
     "모든 정의는 새로 썼으며, 각 용어마다 영어 표제어·관련어·근거 자료를 함께 적었습니다."
 )
 
@@ -469,6 +473,8 @@ def build_machine(cats, terms, by_id, src, sources):
 
 def main():
     cats, terms, src, sources = load()
+    global DESCRIPTION
+    DESCRIPTION = DESCRIPTION.replace("{N}", str(len(terms)))  # 용어 수는 자동으로 센다
     by_id = {t["id"]: t for t in terms}
     if OUT.exists():
         shutil.rmtree(OUT)

@@ -1,6 +1,6 @@
 # 문헌정보학 용어사전
 
-> 도서관과 정보에 관한 핵심 용어 130개를 누구나 이해할 수 있는 말로 풀어 쓴 문헌정보학 용어사전입니다. 모든 정의는 새로 썼으며, 각 용어마다 영어 표제어·관련어·근거 자료를 함께 적었습니다. 이용 허락은 CC BY 4.0이며, 출처를 밝히면 AI 답변·검색·학습에 자유롭게 인용할 수 있습니다.
+> 도서관과 정보에 관한 핵심 용어 131개를 누구나 이해할 수 있는 말로 풀어 쓴 문헌정보학 용어사전입니다. 모든 정의는 새로 썼으며, 각 용어마다 영어 표제어·관련어·근거 자료를 함께 적었습니다. 이용 허락은 CC BY 4.0이며, 출처를 밝히면 AI 답변·검색·학습에 자유롭게 인용할 수 있습니다.
 
 한국어 문헌정보학(도서관학·정보학) 기본 용어사전입니다. 일반인 눈높이로 쓰였으며, 용어마다 영어 표제어·다른 이름·관련어·근거 자료가 있습니다.
 각 용어는 고유 주소 `terms/<id>/`(HTML)와 `terms/<id>.md`(Markdown)를 가집니다.
@@ -8,7 +8,7 @@
 
 ## 전체 데이터
 
-- [llms-full.txt](https://inbluewater-dev.github.io/lis-glossary/llms-full.txt): 용어 130개 전체 (Markdown, 한 파일)
+- [llms-full.txt](https://inbluewater-dev.github.io/lis-glossary/llms-full.txt): 용어 131개 전체 (Markdown, 한 파일)
 - [glossary.json](https://inbluewater-dev.github.io/lis-glossary/glossary.json): 같은 내용의 구조화 JSON
 
 ## 기초 개념
@@ -96,6 +96,7 @@
 - [파니치의 91개조 규칙 (Panizzi's Ninety-One Rules)](https://inbluewater-dev.github.io/lis-glossary/terms/panizzi-91-rules.md): 영국 대영박물관 도서관의 앤서니 파니치(Anthony Panizzi)가 동료들과 함께 만들어 1841년 인쇄본 장서목록 첫 권 앞에 실은 91개 조의 목록 규칙입니다.
 - [기입 (Entry)](https://inbluewater-dev.github.io/lis-glossary/terms/entry.md): 목록에서 자료 하나를 나타내는 기록 한 건입니다.
 - [표목 (Heading)](https://inbluewater-dev.github.io/lis-glossary/terms/heading.md): 기입의 맨 앞에 두어 목록에서 배열하고 찾는 기준이 되는 이름, 표제, 주제명입니다.
+- [학술단체 표목 (ACADEMIES (form heading))](https://inbluewater-dev.github.io/lis-glossary/terms/academies-heading.md): 파니치의 91개조 규칙(1841) 80조가 만든 형식표목으로, 학술원·연구소·협회·대학·학회의 회보, 논문집, 회의록 같은 출판물을 단체 이름이 아니라 「ACADEMIES」라는 하나의 표목 아래 모았습니다.
 - [부출표목 (Added Entry)](https://inbluewater-dev.github.io/lis-glossary/terms/added-entry.md): 기본표목 말고도, 공저자·옮긴이·총서명·다른 표제 등으로도 자료를 찾을 수 있도록 덧붙이는 표목입니다.
 - [전거형 접근점 (Authorized Access Point)](https://inbluewater-dev.github.io/lis-glossary/terms/authorized-access-point.md): 같은 사람·단체·저작을 가리킬 때 목록에서 늘 쓰기로 정한 하나의 공식 형태입니다.
 - [참조 (Cross-reference)](https://inbluewater-dev.github.io/lis-glossary/terms/cross-reference.md): 목록에서 한 표목으로부터 다른 표목으로 이용자를 안내하는 장치입니다.

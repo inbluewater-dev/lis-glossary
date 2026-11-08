@@ -571,8 +571,20 @@ terms:
   definition: >-
     기입의 맨 앞에 두어 목록에서 배열하고 찾는 기준이 되는 이름, 표제, 주제명입니다.
     저자명표목, 서명표목, 주제명표목 등이 있고, 「학술단체(ACADEMIES)」나 「정기간행물(PERIODICAL PUBLICATIONS)」처럼 자료의 종류로 모으는 표목을 「형식표목」이라고 했습니다. 국제목록원칙(2009)과 RDA에서는 이 역할을 「접근점」이라고 부릅니다.
-  related: [access-point, entry, main-entry, qualifier, corporate-heading, subject-heading]
+  related: [access-point, entry, main-entry, qualifier, corporate-heading, academies-heading, subject-heading]
   sources: [icp2009, foundations]
+
+- id: academies-heading
+  term: 학술단체 표목
+  en: ACADEMIES (form heading)
+  aka: [ACADEMIES, Academies, 아카데미 표목, 학술원 표목]
+  category: cataloging-rules
+  definition: >-
+    파니치의 91개조 규칙(1841) 80조가 만든 형식표목으로, 학술원·연구소·협회·대학·학회의 회보, 논문집, 회의록 같은 출판물을 단체 이름이 아니라 「ACADEMIES」라는 하나의 표목 아래 모았습니다.
+    그 안에서는 유럽·아시아·아프리카·아메리카의 네 대륙, 나라, 단체가 모이는 도시의 영어 이름 순으로 배열하고 맨 끝에 단체 이름을 두었습니다. 무엇을 학술단체로 볼지 가리기 어렵다는 문제는 파니치 자신도 1848년에 인정했고, 뒤의 대영박물관 목록은 대륙·나라 구분을 없애고 장소 아래로 기입하다가 결국 이 형식표목을 버렸습니다.
+    영어 낱말 「Academies」는 표목이 아닐 때는 보통 학술원이라는 기관을 가리킵니다.
+  related: [heading, corporate-heading, panizzi-91-rules, authorship]
+  sources: [foundations, lehnus1972, fattahi-panizzi]
 
 - id: added-entry
   term: 부출표목
@@ -617,7 +629,7 @@ terms:
   definition: >-
     정부 기관, 학회, 회사, 회의처럼 단체가 자료에 책임을 질 때 그 단체 이름을 표목으로 삼는 것, 또는 그 표목입니다.
     단체를 저자로 볼 것인가는 오래 논쟁거리였습니다. 파니치의 91개조 규칙은 의회·관청 같은 단체의 문서를 나라나 장소 이름 아래 기입하게 하고(9조), 학술원·연구소·협회·대학·학회 같은 학술단체의 출판물은 「학술단체(ACADEMIES)」라는 형식표목 아래 단체가 있는 나라와 도시 순으로 모았습니다(80조). 단체를 저자로 보는 생각은 주잇(1852)과 커터(1876)의 규칙을 거쳐 자리 잡았습니다.
-  related: [heading, authorship, authority-control]
+  related: [heading, academies-heading, authorship, authority-control]
   sources: [lehnus1972, fattahi-panizzi, jewett1852, cutter1876, foundations]
 
 - id: pseudonym
