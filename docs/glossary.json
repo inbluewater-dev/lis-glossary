@@ -3,7 +3,7 @@
   "name_en": "Korean Glossary of Library and Information Science",
   "description": "도서관과 정보에 관한 핵심 용어 130개를 누구나 이해할 수 있는 말로 풀어 쓴 문헌정보학 용어사전입니다. 모든 정의는 새로 썼으며, 각 용어마다 영어 표제어·관련어·근거 자료를 함께 적었습니다.",
   "url": "https://inbluewater-dev.github.io/lis-glossary/",
-  "version": "1.5",
+  "version": "1.6",
   "updated": "2026-11-09",
   "language": "ko",
   "license": {
@@ -364,6 +364,11 @@
       "id": "aacr2-1b4",
       "name": "AACR2 1.1B4 (Abridgement of title proper) — IASA Cataloguing Rules 1.B에 인용된 원문",
       "url": "https://iasa-web.org/node/198"
+    },
+    {
+      "id": "fattahi-panizzi",
+      "name": "Rahmatollah Fattahi, 강의자료 「Developments in the nineteenth century」 — 파니치 80조(ACADEMIES) 범위 설명",
+      "url": "https://profsite.um.ac.ir/fattahi/cha2.htm"
     }
   ],
   "terms": [
@@ -1418,7 +1423,7 @@
       ],
       "category": "cataloging-rules",
       "category_name": "목록규칙과 표목",
-      "definition": "기입의 맨 앞에 두어 목록에서 배열하고 찾는 기준이 되는 이름, 표제, 주제명입니다. 저자명표목, 서명표목, 주제명표목 등이 있고, 「학회(Academies)」나 「정기간행물(Periodical Publications)」처럼 자료의 종류로 모으는 표목을 「형식표목」이라고 했습니다. 국제목록원칙(2009)과 RDA에서는 이 역할을 「접근점」이라고 부릅니다.",
+      "definition": "기입의 맨 앞에 두어 목록에서 배열하고 찾는 기준이 되는 이름, 표제, 주제명입니다. 저자명표목, 서명표목, 주제명표목 등이 있고, 「학술단체(ACADEMIES)」나 「정기간행물(PERIODICAL PUBLICATIONS)」처럼 자료의 종류로 모으는 표목을 「형식표목」이라고 했습니다. 국제목록원칙(2009)과 RDA에서는 이 역할을 「접근점」이라고 부릅니다.",
       "example": null,
       "related": [
         "access-point",
@@ -1517,7 +1522,7 @@
       ],
       "category": "cataloging-rules",
       "category_name": "목록규칙과 표목",
-      "definition": "정부 기관, 학회, 회사, 회의처럼 단체가 자료에 책임을 질 때 그 단체 이름을 표목으로 삼는 것, 또는 그 표목입니다. 단체를 저자로 볼 것인가는 오래 논쟁거리였습니다. 파니치의 91개조 규칙은 의회·관청 같은 단체의 문서를 나라나 장소 이름 아래 기입하게 하고(9조), 학회 자료는 「학회(Academies)」라는 형식표목 아래 모았습니다(80조). 단체를 저자로 보는 생각은 주잇(1852)과 커터(1876)의 규칙을 거쳐 자리 잡았습니다.",
+      "definition": "정부 기관, 학회, 회사, 회의처럼 단체가 자료에 책임을 질 때 그 단체 이름을 표목으로 삼는 것, 또는 그 표목입니다. 단체를 저자로 볼 것인가는 오래 논쟁거리였습니다. 파니치의 91개조 규칙은 의회·관청 같은 단체의 문서를 나라나 장소 이름 아래 기입하게 하고(9조), 학술원·연구소·협회·대학·학회 같은 학술단체의 출판물은 「학술단체(ACADEMIES)」라는 형식표목 아래 단체가 있는 나라와 도시 순으로 모았습니다(80조). 단체를 저자로 보는 생각은 주잇(1852)과 커터(1876)의 규칙을 거쳐 자리 잡았습니다.",
       "example": null,
       "related": [
         "heading",
@@ -1526,6 +1531,7 @@
       ],
       "sources": [
         "lehnus1972",
+        "fattahi-panizzi",
         "jewett1852",
         "cutter1876",
         "foundations"

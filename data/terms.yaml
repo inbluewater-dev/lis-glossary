@@ -570,7 +570,7 @@ terms:
   category: cataloging-rules
   definition: >-
     기입의 맨 앞에 두어 목록에서 배열하고 찾는 기준이 되는 이름, 표제, 주제명입니다.
-    저자명표목, 서명표목, 주제명표목 등이 있고, 「학회(Academies)」나 「정기간행물(Periodical Publications)」처럼 자료의 종류로 모으는 표목을 「형식표목」이라고 했습니다. 국제목록원칙(2009)과 RDA에서는 이 역할을 「접근점」이라고 부릅니다.
+    저자명표목, 서명표목, 주제명표목 등이 있고, 「학술단체(ACADEMIES)」나 「정기간행물(PERIODICAL PUBLICATIONS)」처럼 자료의 종류로 모으는 표목을 「형식표목」이라고 했습니다. 국제목록원칙(2009)과 RDA에서는 이 역할을 「접근점」이라고 부릅니다.
   related: [access-point, entry, main-entry, qualifier, corporate-heading, subject-heading]
   sources: [icp2009, foundations]
 
@@ -616,9 +616,9 @@ terms:
   category: cataloging-rules
   definition: >-
     정부 기관, 학회, 회사, 회의처럼 단체가 자료에 책임을 질 때 그 단체 이름을 표목으로 삼는 것, 또는 그 표목입니다.
-    단체를 저자로 볼 것인가는 오래 논쟁거리였습니다. 파니치의 91개조 규칙은 의회·관청 같은 단체의 문서를 나라나 장소 이름 아래 기입하게 하고(9조), 학회 자료는 「학회(Academies)」라는 형식표목 아래 모았습니다(80조). 단체를 저자로 보는 생각은 주잇(1852)과 커터(1876)의 규칙을 거쳐 자리 잡았습니다.
+    단체를 저자로 볼 것인가는 오래 논쟁거리였습니다. 파니치의 91개조 규칙은 의회·관청 같은 단체의 문서를 나라나 장소 이름 아래 기입하게 하고(9조), 학술원·연구소·협회·대학·학회 같은 학술단체의 출판물은 「학술단체(ACADEMIES)」라는 형식표목 아래 단체가 있는 나라와 도시 순으로 모았습니다(80조). 단체를 저자로 보는 생각은 주잇(1852)과 커터(1876)의 규칙을 거쳐 자리 잡았습니다.
   related: [heading, authorship, authority-control]
-  sources: [lehnus1972, jewett1852, cutter1876, foundations]
+  sources: [lehnus1972, fattahi-panizzi, jewett1852, cutter1876, foundations]
 
 - id: pseudonym
   term: 필명
