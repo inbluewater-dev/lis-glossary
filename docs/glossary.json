@@ -1,7 +1,7 @@
 {
   "name": "문헌정보학 용어사전",
   "name_en": "Korean Glossary of Library and Information Science",
-  "description": "도서관과 정보에 관한 핵심 용어 132개를 누구나 이해할 수 있는 말로 풀어 쓴 문헌정보학 용어사전입니다. 모든 정의는 새로 썼으며, 각 용어마다 영어 표제어·관련어·근거 자료를 함께 적었습니다.",
+  "description": "도서관과 정보에 관한 핵심 용어 133개를 누구나 이해할 수 있는 말로 풀어 쓴 문헌정보학 용어사전입니다. 모든 정의는 새로 썼으며, 각 용어마다 영어 표제어·관련어·근거 자료를 함께 적었습니다.",
   "url": "https://inbluewater-dev.github.io/lis-glossary/",
   "version": "1.6",
   "updated": "2026-11-09",
@@ -379,6 +379,11 @@
       "id": "kormarc-644",
       "name": "국립중앙도서관, KORMARC(KS X 6006-4) 644 총서분출방법(Series Analysis Practice)",
       "url": "https://librarian.nl.go.kr/kormarc/KSX6006-4/sub/64X_644.html"
+    },
+    {
+      "id": "lc-relators",
+      "name": "Library of Congress, MARC Code List for Relators — Annotator [ann], Commentator for written text [cwt]",
+      "url": "https://www.loc.gov/marc//relaterm.html"
     }
   ],
   "terms": [
@@ -1984,6 +1989,32 @@
       ]
     },
     {
+      "id": "annotator",
+      "url": "https://inbluewater-dev.github.io/lis-glossary/terms/annotator/",
+      "term": "주해자",
+      "en": "Annotator",
+      "aka": [
+        "annotator",
+        "annotators"
+      ],
+      "category": "cataloging",
+      "category_name": "목록과 메타데이터",
+      "definition": "다른 사람의 저작이나 판본에 짧은 풀이, 곧 주해(notes)를 덧붙인 사람입니다. 본문을 길게 해석하고 논의하는 「주석자(commentator)」와 짝을 이루는 말입니다. 파니치의 91개조 규칙(1841)은 번역자·주석자·주해자의 이름에서 기본표목으로 참조를 두고(62조), 어떤 저자의 저작 전체나 상당 부분에 주석이나 주해가 붙었으면 그 저자 이름에서 주석자·주해자 이름으로도 참조를 두게 했습니다(65조). 오늘날 MARC 역할어의 Annotator는 「인쇄본에 손으로 주석을 써넣은 사람」이라는 좁은 뜻으로 쓰입니다. 목록학에서 「주기(注記)」는 목록자가 적는 주기사항(note area)을 가리키므로, 「주기자」라고 옮기면 뜻이 헷갈릴 수 있습니다.",
+      "example": null,
+      "related": [
+        "statement-of-responsibility",
+        "cross-reference",
+        "panizzi-91-rules",
+        "note",
+        "authorship"
+      ],
+      "sources": [
+        "lehnus1972",
+        "foundations",
+        "lc-relators"
+      ]
+    },
+    {
       "id": "note",
       "url": "https://inbluewater-dev.github.io/lis-glossary/terms/note/",
       "term": "주기",
@@ -1997,7 +2028,8 @@
       "example": null,
       "related": [
         "isbd-areas",
-        "bibliographic-record"
+        "bibliographic-record",
+        "annotator"
       ],
       "sources": [
         "isbd"

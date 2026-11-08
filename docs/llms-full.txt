@@ -1,6 +1,6 @@
 # 문헌정보학 용어사전 (Korean Glossary of Library and Information Science)
 
-> 도서관과 정보에 관한 핵심 용어 132개를 누구나 이해할 수 있는 말로 풀어 쓴 문헌정보학 용어사전입니다. 모든 정의는 새로 썼으며, 각 용어마다 영어 표제어·관련어·근거 자료를 함께 적었습니다.
+> 도서관과 정보에 관한 핵심 용어 133개를 누구나 이해할 수 있는 말로 풀어 쓴 문헌정보학 용어사전입니다. 모든 정의는 새로 썼으며, 각 용어마다 영어 표제어·관련어·근거 자료를 함께 적었습니다.
 
 - 주소: https://inbluewater-dev.github.io/lis-glossary/
 - 판: 1.6 (2026-11-09)
@@ -589,6 +589,17 @@
 관련어: 저자성(authorship), 본표제(title-proper), 서지기술 영역(isbd-areas)
 근거: IFLA, ISBD: International Standard Bibliographic Description, Consolidated Edition (2011) <https://www.ifla.org/isbd-editions/>; 한국도서관협회, 한국목록규칙(KCR)
 
+### 주해자 (Annotator)
+
+- 분야: 목록과 메타데이터
+- 주소: https://inbluewater-dev.github.io/lis-glossary/terms/annotator/
+- 다른 이름: annotator, annotators
+
+다른 사람의 저작이나 판본에 짧은 풀이, 곧 주해(notes)를 덧붙인 사람입니다. 본문을 길게 해석하고 논의하는 「주석자(commentator)」와 짝을 이루는 말입니다. 파니치의 91개조 규칙(1841)은 번역자·주석자·주해자의 이름에서 기본표목으로 참조를 두고(62조), 어떤 저자의 저작 전체나 상당 부분에 주석이나 주해가 붙었으면 그 저자 이름에서 주석자·주해자 이름으로도 참조를 두게 했습니다(65조). 오늘날 MARC 역할어의 Annotator는 「인쇄본에 손으로 주석을 써넣은 사람」이라는 좁은 뜻으로 쓰입니다. 목록학에서 「주기(注記)」는 목록자가 적는 주기사항(note area)을 가리키므로, 「주기자」라고 옮기면 뜻이 헷갈릴 수 있습니다.
+
+관련어: 책임표시(statement-of-responsibility), 참조(cross-reference), 파니치의 91개조 규칙(panizzi-91-rules), 주기(note), 저자성(authorship)
+근거: Donald J. Lehnus, A Comparison of Panizzi's 91 Rules and the AACR of 1967 (Univ. of Illinois GSLS Occasional Paper 105, 1972) — 91개조 전문 재수록 <https://core.ac.uk/download/4813959.pdf>; Michael Carpenter, Elaine Svenonius (eds.), Foundations of Cataloging: A Sourcebook (Libraries Unlimited, 1985); Library of Congress, MARC Code List for Relators — Annotator [ann], Commentator for written text [cwt] <https://www.loc.gov/marc//relaterm.html>
+
 ### 주기 (Note)
 
 - 분야: 목록과 메타데이터
@@ -597,7 +608,7 @@
 
 정해진 다른 영역에 넣기 어려운 정보를 보충해 적는 영역입니다. 원서명, 수록 내용, 서지 참고, 이용 제한, 소장본만의 특징 등을 자유로운 문장으로 적습니다.
 
-관련어: 서지기술 영역(isbd-areas), 서지 레코드(bibliographic-record)
+관련어: 서지기술 영역(isbd-areas), 서지 레코드(bibliographic-record), 주해자(annotator)
 근거: IFLA, ISBD: International Standard Bibliographic Description, Consolidated Edition (2011) <https://www.ifla.org/isbd-editions/>
 
 ### 총서 (Series)

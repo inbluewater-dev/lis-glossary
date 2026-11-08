@@ -191,3 +191,6 @@
 - id: kormarc-644
   name: "국립중앙도서관, KORMARC(KS X 6006-4) 644 총서분출방법(Series Analysis Practice)"
   url: "https://librarian.nl.go.kr/kormarc/KSX6006-4/sub/64X_644.html"
+- id: lc-relators
+  name: "Library of Congress, MARC Code List for Relators — Annotator [ann], Commentator for written text [cwt]"
+  url: "https://www.loc.gov/marc//relaterm.html"

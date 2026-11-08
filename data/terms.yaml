@@ -829,6 +829,18 @@ terms:
   related: [authorship, title-proper, isbd-areas]
   sources: [isbd, kcr]
 
+- id: annotator
+  term: 주해자
+  en: Annotator
+  aka: [annotator, annotators]
+  category: cataloging
+  definition: >-
+    다른 사람의 저작이나 판본에 짧은 풀이, 곧 주해(notes)를 덧붙인 사람입니다. 본문을 길게 해석하고 논의하는 「주석자(commentator)」와 짝을 이루는 말입니다.
+    파니치의 91개조 규칙(1841)은 번역자·주석자·주해자의 이름에서 기본표목으로 참조를 두고(62조), 어떤 저자의 저작 전체나 상당 부분에 주석이나 주해가 붙었으면 그 저자 이름에서 주석자·주해자 이름으로도 참조를 두게 했습니다(65조).
+    오늘날 MARC 역할어의 Annotator는 「인쇄본에 손으로 주석을 써넣은 사람」이라는 좁은 뜻으로 쓰입니다. 목록학에서 「주기(注記)」는 목록자가 적는 주기사항(note area)을 가리키므로, 「주기자」라고 옮기면 뜻이 헷갈릴 수 있습니다.
+  related: [statement-of-responsibility, cross-reference, panizzi-91-rules, note, authorship]
+  sources: [lehnus1972, foundations, lc-relators]
+
 - id: note
   term: 주기
   en: Note
@@ -837,7 +849,7 @@ terms:
   definition: >-
     정해진 다른 영역에 넣기 어려운 정보를 보충해 적는 영역입니다.
     원서명, 수록 내용, 서지 참고, 이용 제한, 소장본만의 특징 등을 자유로운 문장으로 적습니다.
-  related: [isbd-areas, bibliographic-record]
+  related: [isbd-areas, bibliographic-record, annotator]
   sources: [isbd]
 
 - id: series
