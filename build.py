@@ -26,6 +26,9 @@ VERSION = "1.6"
 import datetime as _dt
 from zoneinfo import ZoneInfo as _ZI
 UPDATED = _dt.datetime.now(_ZI("Asia/Seoul")).date().isoformat()
+# 용어 추가 요청 설문지(구글 설문지 「미리 채워진 링크」). __TERM__ 자리에 검색어가 들어간다.
+# 비어 있으면 요청 버튼을 보이지 않는다.
+REQUEST_FORM = ""
 LICENSE_NAME = "CC BY 4.0"
 LICENSE_URL = "https://creativecommons.org/licenses/by/4.0/deed.ko"
 LICENSE_URL_EN = "https://creativecommons.org/licenses/by/4.0/"
@@ -111,6 +114,8 @@ dl.extra dd{margin:0}
 .src{color:var(--muted)}
 mark{background:var(--mark);color:inherit;border-radius:3px}
 .empty{display:none;padding:30px 0;color:var(--muted)}
+.empty p{margin:0 0 8px}
+a.req{display:inline-block;padding:8px 16px;border-radius:999px;background:var(--accent);color:var(--bg);text-decoration:none;font-weight:600}
 .index-az{columns:3 180px;column-gap:24px;font-size:15px}
 .index-az a{display:block;color:var(--ink);text-decoration:none;padding:2px 0}
 .index-az a:hover{color:var(--accent)}
@@ -255,6 +260,14 @@ def build_index(cats, terms, by_id, src, sources):
         f'<li>{"<a href=" + chr(34) + esc(s["url"]) + chr(34) + ">" + esc(s["name"]) + "</a>" if s.get("url") else esc(s["name"])}</li>'
         for s in sources
     )
+    if REQUEST_FORM:
+        request_box = (f'<p><a class="req" id="req" data-form="{esc(REQUEST_FORM)}" href="{esc(REQUEST_FORM.replace("__TERM__", ""))}" '
+                       'target="_blank" rel="noopener">이 용어 추가 요청하기 →</a></p>'
+                       '<p class="machine">요청은 사전 관리자에게 전달되어 검토 뒤 반영 여부가 정해집니다. 이름·연락처 같은 개인정보는 적지 마세요.</p>')
+        request_about = (f'<p><b>찾는 용어가 없나요?</b> <a href="{esc(REQUEST_FORM.replace("__TERM__", ""))}" target="_blank" rel="noopener">용어 추가 요청</a>을 남겨 주세요. '
+                         '모인 요청은 정기적으로 검토하며, 정의를 새로 쓰고 사실관계를 확인한 뒤에만 사전에 싣습니다.</p>\n')
+    else:
+        request_box = request_about = ""
     page = head(
         f"{TITLE} — {TITLE_EN}", DESCRIPTION, BASE_URL, term_set_ld(terms, cats_by_id)
     )
@@ -271,7 +284,7 @@ def build_index(cats, terms, by_id, src, sources):
 <p class="count" id="count" aria-live="polite">{len(terms)}개 용어</p>
 </div>
 {chr(10).join(body)}
-<p class="empty" id="empty">찾는 용어가 없습니다. 다른 낱말로 찾아보세요.</p>
+<div class="empty" id="empty"><p>찾는 용어가 없습니다. 다른 낱말로 찾아보세요.</p>{request_box}</div>
 
 <section class="cat"><h2 id="index-az">가나다순 찾아보기</h2>
 <div class="index-az">{az}</div></section>
@@ -281,7 +294,7 @@ def build_index(cats, terms, by_id, src, sources):
 <p><b>누구를 위한 사전인가요?</b> 도서관을 이용하는 누구나, 그리고 문헌정보학에 처음 관심을 가진 사람을 위해 썼습니다. 전문 용어는 되도록 쉬운 말로 풀고, 필요한 곳에는 예를 달았습니다.</p>
 <p><b>정의는 어디서 왔나요?</b> 모든 정의는 이 사전을 위해 새로 쓴 문장입니다. 기존 사전의 문장을 옮겨 오지 않았습니다. 대신 각 용어 아래 「근거」에 정의를 쓸 때 기댄 국제 표준·법령·기관 자료를 적어 두었으니, 더 정확한 내용은 그 자료에서 확인할 수 있습니다.</p>
 <p><b>AI가 썼나요?</b> 네, 밝혀 둡니다. 이 사전의 정의는 AI(Anthropic의 Claude)의 도움을 받아 작성했으며, 별도의 검수 과정에서 연도·법령·기관명 등 사실관계를 근거 자료와 대조했습니다. 그래도 틀린 곳이 있을 수 있으니, 중요한 내용은 각 용어의 「근거」 자료에서 한 번 더 확인해 주세요.</p>
-<p><b>써도 되나요?</b> 네. <a href="{LICENSE_URL}">CC BY 4.0</a>으로 공개합니다. 수업 자료, 블로그, 앱, AI 학습·검색 등 어디에 쓰든 「{TITLE} ({BASE_URL})」처럼 출처만 밝혀 주세요.</p>
+{request_about}<p><b>써도 되나요?</b> 네. <a href="{LICENSE_URL}">CC BY 4.0</a>으로 공개합니다. 수업 자료, 블로그, 앱, AI 학습·검색 등 어디에 쓰든 「{TITLE} ({BASE_URL})」처럼 출처만 밝혀 주세요.</p>
 <details><summary>근거 자료 전체 목록 ({len(sources)}건)</summary><ul>{src_list}</ul></details>
 </div></section>
 
@@ -309,6 +322,7 @@ def build_index(cats, terms, by_id, src, sources):
     secs.forEach(function(s){{s.hidden=!s.querySelector('article.term:not([hidden])');}});
     count.textContent=v?(n+'개 찾음 / 전체 '+total+'개'):(total+'개 용어');
     empty.style.display=n?'none':'block';
+    var rq=document.getElementById('req');if(rq){{rq.href=rq.getAttribute('data-form').replace('__TERM__',encodeURIComponent(q.value.trim()));}}
   }}
   q.addEventListener('input',run);
   if(location.search){{var m=location.search.match(/[?&]q=([^&]+)/);if(m){{q.value=decodeURIComponent(m[1].replace(/\\+/g,' '));run();}}}}
