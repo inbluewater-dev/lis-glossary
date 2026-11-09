@@ -28,7 +28,7 @@ from zoneinfo import ZoneInfo as _ZI
 UPDATED = _dt.datetime.now(_ZI("Asia/Seoul")).date().isoformat()
 # 용어 추가 요청 설문지(구글 설문지 「미리 채워진 링크」). __TERM__ 자리에 검색어가 들어간다.
 # 비어 있으면 요청 버튼을 보이지 않는다.
-REQUEST_FORM = ""
+REQUEST_FORM = "https://docs.google.com/forms/d/e/1FAIpQLSfghdBqrsx0y2jgNalFOiJ4OHsbCj_-v5tXqyRdIrBE1ugS1Q/viewform?usp=pp_url&entry.1852569616=__TERM__"
 LICENSE_NAME = "CC BY 4.0"
 LICENSE_URL = "https://creativecommons.org/licenses/by/4.0/deed.ko"
 LICENSE_URL_EN = "https://creativecommons.org/licenses/by/4.0/"
