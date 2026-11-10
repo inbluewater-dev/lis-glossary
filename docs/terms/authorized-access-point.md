@@ -9,4 +9,4 @@
 예: 「Tolstoy, Leo, graf, 1828-1910」을 전거형으로 정하면 「톨스토이」, 「Толстой」 같은 형태는 이형 접근점이 됩니다.
 
 관련어: 전거제어(authority-control), 접근점(access-point), 기본표목(main-entry), 통일표제(uniform-title), 한정어구(qualifier)
-근거: RDA: Resource Description and Access (RDA Toolkit) <https://www.rdatoolkit.org/>; IFLA, Statement of International Cataloguing Principles (2009, 2016 개정)
+근거: RDA: Resource Description and Access (RDA Toolkit) <https://www.rdatoolkit.org/>; IFLA, Statement of International Cataloguing Principles (2009, 2016 개정) <https://cf3-www.ifla.org/VII/s13/icp/ICP-2009_en.pdf>

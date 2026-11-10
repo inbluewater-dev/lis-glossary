@@ -160,7 +160,7 @@
   url: "https://www.jlis.it/index.php/jlis/article/view/528"
 - id: icp2009
   name: "IFLA, Statement of International Cataloguing Principles (2009, 2016 개정)"
-  url: ""
+  url: "https://cf3-www.ifla.org/VII/s13/icp/ICP-2009_en.pdf"
 - id: tillett1987
   name: "Barbara B. Tillett, Bibliographic Relationships: Toward a Conceptual Structure of Bibliographic Information Used in Cataloging (박사학위논문, UCLA, 1987)"
   url: ""
@@ -201,8 +201,11 @@
   name: "OCLC, WorldCat"
   url: "https://www.worldcat.org/"
 - id: oclc-history
-  name: "OCLC, History (Ohio College Library Center, 1967; online shared cataloging, 1971)"
-  url: ""
+  name: "OCLC, 「OCLC at 50 years」 (Ohio College Library Center 1967 설립, 1971 온라인 공동목록 시작)"
+  url: "https://blog.oclc.org/next/oclc-at-50-years-a-moonshot-for-the-worlds-libraries/"
 - id: lc-cards
-  name: "Library of Congress, printed catalog card distribution service (1901)"
-  url: ""
+  name: "Library of Congress Information Bulletin, 「A Century of Cataloging Distribution」(2001) — 1901년 인쇄 카드 배포 시작"
+  url: "https://www.loc.gov/loc/lcib/0112/cds.html"
+- id: cutter1891
+  name: "Charles A. Cutter, Rules for a Dictionary Catalogue, 3rd ed. (1891) — Objects, Means, Reasons for choice"
+  url: "https://www.gutenberg.org/files/59215/59215-h/59215-h.htm"
