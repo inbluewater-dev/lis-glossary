@@ -1,6 +1,6 @@
 # 문헌정보학 용어사전
 
-> 도서관과 정보에 관한 핵심 용어 133개를 누구나 이해할 수 있는 말로 풀어 쓴 문헌정보학 용어사전입니다. 모든 정의는 새로 썼으며, 각 용어마다 영어 표제어·관련어·근거 자료를 함께 적었습니다. 이용 허락은 CC BY 4.0이며, 출처를 밝히면 AI 답변·검색·학습에 자유롭게 인용할 수 있습니다.
+> 도서관과 정보에 관한 핵심 용어 139개를 누구나 이해할 수 있는 말로 풀어 쓴 문헌정보학 용어사전입니다. 모든 정의는 새로 썼으며, 각 용어마다 영어 표제어·관련어·근거 자료를 함께 적었습니다. 이용 허락은 CC BY 4.0이며, 출처를 밝히면 AI 답변·검색·학습에 자유롭게 인용할 수 있습니다.
 
 한국어 문헌정보학(도서관학·정보학) 기본 용어사전입니다. 일반인 눈높이로 쓰였으며, 용어마다 영어 표제어·다른 이름·관련어·근거 자료가 있습니다.
 각 용어는 고유 주소 `terms/<id>/`(HTML)와 `terms/<id>.md`(Markdown)를 가집니다.
@@ -8,7 +8,7 @@
 
 ## 전체 데이터
 
-- [llms-full.txt](https://inbluewater-dev.github.io/lis-glossary/llms-full.txt): 용어 133개 전체 (Markdown, 한 파일)
+- [llms-full.txt](https://inbluewater-dev.github.io/lis-glossary/llms-full.txt): 용어 139개 전체 (Markdown, 한 파일)
 - [glossary.json](https://inbluewater-dev.github.io/lis-glossary/glossary.json): 같은 내용의 구조화 JSON
 
 ## 기초 개념
@@ -59,6 +59,7 @@
 
 ## 책과 서지학
 
+- [연판 (Stereotype (Plate))](https://inbluewater-dev.github.io/lis-glossary/terms/stereotype.md): 조판한 활자 면을 본떠 금속을 부어 만든 한 장짜리 인쇄판입니다.
 - [판형 (Format (Bibliographical))](https://inbluewater-dev.github.io/lis-glossary/terms/book-format.md): 서지학에서 인쇄용 전지를 몇 번 접어 책을 만들었는지에 따른 책의 형태입니다.
 - [시그니처 (Signature (Mark) / Register)](https://inbluewater-dev.github.io/lis-glossary/terms/signature-mark.md): 접은 종이 묶음(접장)을 순서대로 엮도록 각 묶음의 첫 장(과 앞쪽 몇 장) 아래에 인쇄한 문자나 숫자입니다.
 - [권두표제 (Caption Title / Head-title)](https://inbluewater-dev.github.io/lis-glossary/terms/caption-title.md): 본문 첫머리 위에 인쇄된 표제입니다.
@@ -83,6 +84,11 @@
 - [종합표제 (Collective Title)](https://inbluewater-dev.github.io/lis-glossary/terms/collective-title.md): 여러 개의 작품을 한 자료에 모았을 때, 그 자료 전체를 가리키는 하나의 표제입니다.
 - [저자성 (Authorship)](https://inbluewater-dev.github.io/lis-glossary/terms/authorship.md): 어떤 저작의 내용을 만들어 낸 책임이 누구에게 있는가 하는 개념입니다.
 - [서지적 관계 (Bibliographic Relationships)](https://inbluewater-dev.github.io/lis-glossary/terms/bibliographic-relationships.md): 서로 다른 자료나 저작 사이의 관계입니다.
+- [사전체목록 (Dictionary Catalog)](https://inbluewater-dev.github.io/lis-glossary/terms/dictionary-catalog.md): 저자명, 표제, 주제명 등 여러 종류의 기입을 한데 섞어 사전처럼 하나의 자모순으로 배열한 목록입니다.
+- [목록의 목적(커터) (Objects of the Catalog (Cutter))](https://inbluewater-dev.github.io/lis-glossary/terms/cutters-objects.md): 찰스 커터가 『사전체 목록 규칙』에서 밝힌 목록의 세 가지 목적입니다.
+- [공중의 편의 (Convenience of the Public)](https://inbluewater-dev.github.io/lis-glossary/terms/convenience-of-the-public.md): 「공중의 편의는 언제나 목록자의 편함보다 앞에 놓여야 한다」는 커터의 원칙입니다.
+- [종합목록 (Union Catalog)](https://inbluewater-dev.github.io/lis-glossary/terms/union-catalog.md): 여러 도서관의 소장 자료를 하나의 목록으로 모아, 어떤 자료가 어느 도서관에 있는지 알려 주는 목록입니다.
+- [협동목록 (Cooperative Cataloging)](https://inbluewater-dev.github.io/lis-glossary/terms/cooperative-cataloging.md): 여러 도서관이 목록작업을 나누어 맡거나, 한 도서관이 만든 서지 레코드를 다른 도서관들이 함께 쓰는 방식입니다.
 - [MARC (Machine-Readable Cataloging)](https://inbluewater-dev.github.io/lis-glossary/terms/marc.md): 서지 정보를 컴퓨터가 읽고 주고받을 수 있도록 정한 데이터 형식입니다.
 - [KORMARC (Korean MARC)](https://inbluewater-dev.github.io/lis-glossary/terms/kormarc.md): MARC를 우리나라 실정에 맞게 만든 서지 데이터 형식입니다.
 - [더블린 코어 (Dublin Core)](https://inbluewater-dev.github.io/lis-glossary/terms/dublin-core.md): 웹 자원을 비롯한 다양한 자료를 간단히 설명하기 위한 메타데이터 표준입니다.

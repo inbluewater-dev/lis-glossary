@@ -194,3 +194,15 @@
 - id: lc-relators
   name: "Library of Congress, MARC Code List for Relators — Annotator [ann], Commentator for written text [cwt]"
   url: "https://www.loc.gov/marc//relaterm.html"
+- id: cutter1904
+  name: "Charles A. Cutter, Rules for a Dictionary Catalog, 4th ed. (1904) — 목록의 목적·수단·선택의 근거, 공중의 편의"
+  url: ""
+- id: worldcat
+  name: "OCLC, WorldCat"
+  url: "https://www.worldcat.org/"
+- id: oclc-history
+  name: "OCLC, History (Ohio College Library Center, 1967; online shared cataloging, 1971)"
+  url: ""
+- id: lc-cards
+  name: "Library of Congress, printed catalog card distribution service (1901)"
+  url: ""

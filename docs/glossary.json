@@ -1,7 +1,7 @@
 {
   "name": "문헌정보학 용어사전",
   "name_en": "Korean Glossary of Library and Information Science",
-  "description": "도서관과 정보에 관한 핵심 용어 133개를 누구나 이해할 수 있는 말로 풀어 쓴 문헌정보학 용어사전입니다. 모든 정의는 새로 썼으며, 각 용어마다 영어 표제어·관련어·근거 자료를 함께 적었습니다.",
+  "description": "도서관과 정보에 관한 핵심 용어 139개를 누구나 이해할 수 있는 말로 풀어 쓴 문헌정보학 용어사전입니다. 모든 정의는 새로 썼으며, 각 용어마다 영어 표제어·관련어·근거 자료를 함께 적었습니다.",
   "url": "https://inbluewater-dev.github.io/lis-glossary/",
   "version": "1.6",
   "updated": "2026-11-10",
@@ -384,6 +384,26 @@
       "id": "lc-relators",
       "name": "Library of Congress, MARC Code List for Relators — Annotator [ann], Commentator for written text [cwt]",
       "url": "https://www.loc.gov/marc//relaterm.html"
+    },
+    {
+      "id": "cutter1904",
+      "name": "Charles A. Cutter, Rules for a Dictionary Catalog, 4th ed. (1904) — 목록의 목적·수단·선택의 근거, 공중의 편의",
+      "url": ""
+    },
+    {
+      "id": "worldcat",
+      "name": "OCLC, WorldCat",
+      "url": "https://www.worldcat.org/"
+    },
+    {
+      "id": "oclc-history",
+      "name": "OCLC, History (Ohio College Library Center, 1967; online shared cataloging, 1971)",
+      "url": ""
+    },
+    {
+      "id": "lc-cards",
+      "name": "Library of Congress, printed catalog card distribution service (1901)",
+      "url": ""
     }
   ],
   "terms": [
@@ -815,7 +835,8 @@
       "example": null,
       "related": [
         "lending",
-        "library"
+        "library",
+        "union-catalog"
       ],
       "sources": [
         "nlk"
@@ -1150,6 +1171,29 @@
       ]
     },
     {
+      "id": "stereotype",
+      "url": "https://inbluewater-dev.github.io/lis-glossary/terms/stereotype/",
+      "term": "연판",
+      "en": "Stereotype (Plate)",
+      "aka": [
+        "스테로타이프",
+        "stereotyped plates"
+      ],
+      "category": "bibliography-books",
+      "category_name": "책과 서지학",
+      "definition": "조판한 활자 면을 본떠 금속을 부어 만든 한 장짜리 인쇄판입니다. 활자를 계속 묶어 두지 않고도 나중에 같은 면을 다시 찍을 수 있습니다. 주잇은 1850년대에 서지 기록 한 건마다 연판을 따로 떠 두었다가 도서관마다 필요한 것만 골라 짜 맞춰 목록을 찍자고 제안했습니다. 이 계획은 실현되지 못했지만, 한 번 만든 기록을 여러 도서관이 나눠 쓴다는 협동목록의 생각을 처음 보여 주었습니다.",
+      "example": null,
+      "related": [
+        "cooperative-cataloging",
+        "union-catalog",
+        "book-format"
+      ],
+      "sources": [
+        "foundations",
+        "gaskell"
+      ]
+    },
+    {
       "id": "book-format",
       "url": "https://inbluewater-dev.github.io/lis-glossary/terms/book-format/",
       "term": "판형",
@@ -1277,6 +1321,8 @@
       "related": [
         "bibliographic-record",
         "opac",
+        "dictionary-catalog",
+        "union-catalog",
         "kcr",
         "rda"
       ],
@@ -2121,6 +2167,132 @@
         "tillett1987",
         "ifla-lrm",
         "foundations"
+      ]
+    },
+    {
+      "id": "dictionary-catalog",
+      "url": "https://inbluewater-dev.github.io/lis-glossary/terms/dictionary-catalog/",
+      "term": "사전체목록",
+      "en": "Dictionary Catalog",
+      "aka": [
+        "사전식 목록",
+        "dictionary catalogue"
+      ],
+      "category": "cataloging",
+      "category_name": "목록과 메타데이터",
+      "definition": "저자명, 표제, 주제명 등 여러 종류의 기입을 한데 섞어 사전처럼 하나의 자모순으로 배열한 목록입니다. 찰스 커터가 『사전체 목록 규칙』(1876)으로 체계화했고, 20세기 미국 도서관의 카드 목록에서 널리 쓰였습니다. 분류기호 순서로 배열하는 「분류목록」과 대비됩니다.",
+      "example": null,
+      "related": [
+        "catalog",
+        "cutters-objects",
+        "subject-heading",
+        "cataloging-code"
+      ],
+      "sources": [
+        "cutter1876",
+        "foundations"
+      ]
+    },
+    {
+      "id": "cutters-objects",
+      "url": "https://inbluewater-dev.github.io/lis-glossary/terms/cutters-objects/",
+      "term": "목록의 목적(커터)",
+      "en": "Objects of the Catalog (Cutter)",
+      "aka": [
+        "커터의 목록 목적",
+        "목록의 목적·수단·선택의 근거",
+        "objects means reasons for choice"
+      ],
+      "category": "cataloging",
+      "category_name": "목록과 메타데이터",
+      "definition": "찰스 커터가 『사전체 목록 규칙』에서 밝힌 목록의 세 가지 목적입니다. ① 저자·표제·주제 가운데 하나를 아는 사람이 책을 찾게 한다(찾기). ② 도서관이 어떤 저자의, 어떤 주제의, 어떤 종류의 책을 가지고 있는지 보여 준다(모으기). ③ 판과 성격을 알려 책을 고르도록 돕는다(고르기). 커터는 이어서 목적을 이루는 「수단」과 여러 방법 가운데 하나를 고르는 「선택의 근거」를 차례로 밝혔습니다. 이 틀은 1961년 파리원칙과 오늘날 IFLA의 이용자 과업 개념으로 이어집니다.",
+      "example": null,
+      "related": [
+        "dictionary-catalog",
+        "convenience-of-the-public",
+        "catalog",
+        "ifla-lrm"
+      ],
+      "sources": [
+        "cutter1904",
+        "foundations",
+        "icp2009"
+      ]
+    },
+    {
+      "id": "convenience-of-the-public",
+      "url": "https://inbluewater-dev.github.io/lis-glossary/terms/convenience-of-the-public/",
+      "term": "공중의 편의",
+      "en": "Convenience of the Public",
+      "aka": [
+        "이용자의 편의",
+        "이용자 편의 원칙",
+        "convenience of the user"
+      ],
+      "category": "cataloging",
+      "category_name": "목록과 메타데이터",
+      "definition": "「공중의 편의는 언제나 목록자의 편함보다 앞에 놓여야 한다」는 커터의 원칙입니다. 규칙이 아무리 논리적이어도 이용자가 실제로 찾는 방식과 어긋나면 이용자 쪽을 따라야 한다는 뜻입니다. IFLA 국제목록원칙(2009)도 「이용자의 편의」를 가장 앞선 원칙으로 둡니다.",
+      "example": null,
+      "related": [
+        "cutters-objects",
+        "cataloging-code",
+        "access-point"
+      ],
+      "sources": [
+        "cutter1904",
+        "foundations",
+        "icp2009"
+      ]
+    },
+    {
+      "id": "union-catalog",
+      "url": "https://inbluewater-dev.github.io/lis-glossary/terms/union-catalog/",
+      "term": "종합목록",
+      "en": "Union Catalog",
+      "aka": [
+        "union catalogue",
+        "General Catalogue(주잇)"
+      ],
+      "category": "cataloging",
+      "category_name": "목록과 메타데이터",
+      "definition": "여러 도서관의 소장 자료를 하나의 목록으로 모아, 어떤 자료가 어느 도서관에 있는지 알려 주는 목록입니다. 상호대차의 바탕이 됩니다. 19세기 중반 주잇이 미국 모든 공공도서관의 자료를 담은 종합목록을 구상했고, 오늘날에는 OCLC의 WorldCat이 세계 최대 규모의 종합목록입니다. 한 도서관 자체의 기본 목록을 「일반 목록(general catalogue)」이라고 부를 때와는 구별해야 합니다.",
+      "example": null,
+      "related": [
+        "cooperative-cataloging",
+        "interlibrary-loan",
+        "catalog",
+        "stereotype"
+      ],
+      "sources": [
+        "foundations",
+        "worldcat"
+      ]
+    },
+    {
+      "id": "cooperative-cataloging",
+      "url": "https://inbluewater-dev.github.io/lis-glossary/terms/cooperative-cataloging/",
+      "term": "협동목록",
+      "en": "Cooperative Cataloging",
+      "aka": [
+        "협력목록",
+        "공동목록",
+        "shared cataloging",
+        "분담목록"
+      ],
+      "category": "cataloging",
+      "category_name": "목록과 메타데이터",
+      "definition": "여러 도서관이 목록작업을 나누어 맡거나, 한 도서관이 만든 서지 레코드를 다른 도서관들이 함께 쓰는 방식입니다. 같은 책을 도서관마다 따로 목록하는 수고를 줄여 줍니다. 주잇이 1850년대에 처음 체계적으로 구상했고, 미국 의회도서관의 인쇄 카드 배포(1901)와 OCLC의 온라인 공동목록(1971)을 거쳐 오늘날 도서관 목록의 기본 방식이 되었습니다.",
+      "example": null,
+      "related": [
+        "union-catalog",
+        "bibliographic-record",
+        "marc",
+        "stereotype"
+      ],
+      "sources": [
+        "foundations",
+        "oclc-history",
+        "lc-cards"
       ]
     },
     {
