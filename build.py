@@ -120,6 +120,9 @@ mark{background:var(--mark);color:inherit;border-radius:3px}
 .empty p{margin:0 0 8px}
 .catlabel{display:none;margin:0 0 4px;font-size:13px;color:var(--accent)}
 #results{padding-top:18px}
+.reqbar{margin:16px 0 0;padding:12px 16px;border:1px dashed var(--accent);border-radius:12px;font-size:15px;color:var(--muted)}
+.reqbar b{color:var(--ink)}
+.reqbar a{font-weight:600;white-space:nowrap}
 #results .catlabel{display:block}
 a.req{display:inline-block;padding:8px 16px;border-radius:999px;background:var(--accent);color:var(--bg);text-decoration:none;font-weight:600}
 .index-az{columns:3 180px;column-gap:24px;font-size:15px}
@@ -274,8 +277,10 @@ def build_index(cats, terms, by_id, src, sources):
                        '<p class="machine">요청은 사전 관리자에게 전달되어 검토 뒤 반영 여부가 정해집니다. 이름·연락처 같은 개인정보는 적지 마세요.</p>')
         request_about = (f'<p><b>찾는 용어가 없나요?</b> <a href="{esc(REQUEST_FORM.replace("__TERM__", ""))}" target="_blank" rel="noopener">용어 추가 요청</a>을 남겨 주세요. '
                          '모인 요청은 정기적으로 검토하며, 정의를 새로 쓰고 사실관계를 확인한 뒤에만 사전에 싣습니다.</p>\n')
+        request_bar = (f'<p class="reqbar" id="reqbar" hidden>「<b id="reqterm"></b>」와 딱 맞는 표제어는 아직 없습니다. 아래는 비슷한 용어입니다. '
+                       f'<a id="req2" data-form="{esc(REQUEST_FORM)}" href="{esc(REQUEST_FORM.replace("__TERM__", ""))}" target="_blank" rel="noopener">이 용어 추가 요청하기 →</a></p>')
     else:
-        request_box = request_about = ""
+        request_box = request_about = request_bar = ""
     page = head(
         f"{TITLE} — {TITLE_EN}", DESCRIPTION, BASE_URL, term_set_ld(terms, cats_by_id)
     )
@@ -292,6 +297,7 @@ def build_index(cats, terms, by_id, src, sources):
 <p class="count" id="count" aria-live="polite">{len(terms)}개 용어</p>
 </div>
 {chr(10).join(body)}
+{request_bar}
 <section id="results" hidden></section>
 <div class="empty" id="empty"><p>찾는 용어가 없습니다. 다른 낱말로 찾아보세요.</p>{request_box}</div>
 
@@ -342,20 +348,22 @@ def build_index(cats, terms, by_id, src, sources):
     return hit?100:0;
   }}
   function run(){{
-    var v=q.value.trim().toLowerCase(),w=v.split(/\\s+/).filter(Boolean);
+    var v=q.value.trim().toLowerCase(),w=v.split(/\\s+/).filter(Boolean),hits=[];
     restore();
     if(!v){{
       cards.forEach(function(c){{c.hidden=false;}});secs.forEach(function(s){{s.hidden=false;}});
       res.hidden=true;count.textContent=total+'개 용어';empty.style.display='none';
     }}else{{
-      var hits=[];cards.forEach(function(c,i){{var sc=score(c,v,w);if(sc>0)hits.push([sc,i,c]);}});
+      cards.forEach(function(c,i){{var sc=score(c,v,w);if(sc>0)hits.push([sc,i,c]);}});
       hits.sort(function(a,b){{return b[0]-a[0]||a[1]-b[1];}});
       hits.forEach(function(h){{h[2].hidden=false;res.appendChild(h[2]);}});
       secs.forEach(function(s){{s.hidden=true;}});
       res.hidden=!hits.length;count.textContent=hits.length+'개 찾음 / 전체 '+total+'개 · 맞는 정도 순';
       empty.style.display=hits.length?'none':'block';
     }}
-    var rq=document.getElementById('req');if(rq){{rq.href=rq.getAttribute('data-form').replace('__TERM__',encodeURIComponent(q.value.trim()));}}
+    ['req','req2'].forEach(function(id){{var el=document.getElementById(id);if(el){{el.href=el.getAttribute('data-form').replace('__TERM__',encodeURIComponent(q.value.trim()));}}}});
+    var bar=document.getElementById('reqbar');
+    if(bar){{var show=!!v&&hits.length>0&&hits[0][0]<900;bar.hidden=!show;if(show){{document.getElementById('reqterm').textContent=q.value.trim();}}}}
   }}
   q.addEventListener('input',run);
   [].slice.call(document.querySelectorAll('.chips a,.index-az a')).forEach(function(a){{a.addEventListener('click',function(){{if(q.value){{q.value='';run();}}}});}});
