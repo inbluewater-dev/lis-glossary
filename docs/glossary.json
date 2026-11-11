@@ -1,7 +1,7 @@
 {
   "name": "문헌정보학 용어사전",
   "name_en": "Korean Glossary of Library and Information Science",
-  "description": "도서관과 정보에 관한 핵심 용어 139개를 누구나 이해할 수 있는 말로 풀어 쓴 문헌정보학 용어사전입니다. 모든 정의는 새로 썼으며, 각 용어마다 영어 표제어·관련어·근거 자료를 함께 적었습니다.",
+  "description": "도서관과 정보에 관한 핵심 용어 140개를 누구나 이해할 수 있는 말로 풀어 쓴 문헌정보학 용어사전입니다. 모든 정의는 새로 썼으며, 각 용어마다 영어 표제어·관련어·근거 자료를 함께 적었습니다.",
   "url": "https://inbluewater-dev.github.io/lis-glossary/",
   "version": "1.6",
   "updated": "2026-11-12",
@@ -409,6 +409,16 @@
       "id": "cutter1891",
       "name": "Charles A. Cutter, Rules for a Dictionary Catalogue, 3rd ed. (1891) — Objects, Means, Reasons for choice",
       "url": "https://www.gutenberg.org/files/59215/59215-h/59215-h.htm"
+    },
+    {
+      "id": "aacr1-periodical",
+      "name": "Anglo-American Cataloging Rules (1967)의 periodical 정의 — INFLIBNET e-PG Pathshala 「Periodical and Serial Publications in CCC & AACR-2R」에 인용",
+      "url": "https://ebooks.inflibnet.ac.in/lisp3/?p=219"
+    },
+    {
+      "id": "magazine-act",
+      "name": "대한민국 잡지 등 정기간행물의 진흥에 관한 법률 제2조 (국가법령정보센터)",
+      "url": ""
     }
   ],
   "terms": [
@@ -1019,6 +1029,7 @@
       "definition": "끝을 정하지 않고 같은 제목으로 권호를 이어 가며 계속 나오는 출판물입니다. 신문, 잡지, 학술지, 연감 등이 해당하며, ISSN으로 식별합니다.",
       "example": null,
       "related": [
+        "periodical",
         "academic-journal",
         "issn",
         "monograph"
@@ -1026,6 +1037,32 @@
       "sources": [
         "iso5127",
         "issn"
+      ]
+    },
+    {
+      "id": "periodical",
+      "url": "https://inbluewater-dev.github.io/lis-glossary/terms/periodical/",
+      "term": "정기간행물",
+      "en": "Periodical / Periodical Publications",
+      "aka": [
+        "periodicals",
+        "periodical publications",
+        "PERIODICAL PUBLICATIONS"
+      ],
+      "category": "collections",
+      "category_name": "장서와 자료",
+      "definition": "연속간행물 가운데 주간·월간·계간처럼 정해진 간격에 맞춰 계속 나오는 것으로, 잡지와 학술지가 대표적입니다. 영미목록규칙 초판(1967)은 대개 1년에 한 번보다 자주 나오고 각 호에 여러 글이 실리는 것으로 보아 신문과 연감은 따로 다루었습니다. 우리 「잡지 등 정기간행물의 진흥에 관한 법률」은 같은 제호로 1년에 2회 이상 계속 펴내는 간행물(신문 제외)을 정기간행물로 정하고 잡지·정보간행물·전자간행물·기타간행물로 나눕니다. 파니치의 91개조 규칙(1841)은 이런 자료를 「PERIODICAL PUBLICATIONS」라는 형식표목 아래 모았습니다.",
+      "example": null,
+      "related": [
+        "serial",
+        "academic-journal",
+        "issn",
+        "heading"
+      ],
+      "sources": [
+        "aacr1-periodical",
+        "magazine-act",
+        "lehnus1972"
       ]
     },
     {
@@ -1499,6 +1536,7 @@
         "qualifier",
         "corporate-heading",
         "academies-heading",
+        "periodical",
         "subject-heading"
       ],
       "sources": [
