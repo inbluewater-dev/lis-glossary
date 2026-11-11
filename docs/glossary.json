@@ -1619,7 +1619,10 @@
         "참조표",
         "보라 참조",
         "도보라 참조",
-        "cross-references"
+        "cross-references",
+        "references",
+        "see references",
+        "see also references"
       ],
       "category": "cataloging-rules",
       "category_name": "목록규칙과 표목",

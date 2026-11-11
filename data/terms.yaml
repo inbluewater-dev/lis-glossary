@@ -636,7 +636,7 @@ terms:
 - id: cross-reference
   term: 참조
   en: Cross-reference
-  aka: [상호참조, 참조표, 보라 참조, 도보라 참조, cross-references]
+  aka: [상호참조, 참조표, 보라 참조, 도보라 참조, cross-references, references, see references, see also references]
   category: cataloging-rules
   definition: >-
     목록에서 한 표목으로부터 다른 표목으로 이용자를 안내하는 장치입니다.
