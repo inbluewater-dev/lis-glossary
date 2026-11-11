@@ -328,8 +328,10 @@ def build_index(cats, terms, by_id, src, sources):
   var res=document.getElementById('results'),home=cards.map(function(c){{return [c,c.parentNode,c.nextSibling];}});
   function restore(){{for(var i=home.length-1;i>=0;i--){{home[i][1].insertBefore(home[i][0],home[i][2]);}}}}
   function score(c,v,w){{
-    var t=c.getAttribute('data-term'),ns=c.getAttribute('data-names').split('|'),d=c.getAttribute('data-search');
-    var vs=v.replace(/s$/,'');
+    // 띄어쓰기는 무시하고 비교한다(「연속 간행물」 = 「연속간행물」)
+    var sp=/[\\s\\-·]+/g;
+    var t=c.getAttribute('data-term').replace(sp,''),ns=c.getAttribute('data-names').split('|').map(function(x){{return x.replace(sp,'');}}),d=c.getAttribute('data-search');
+    v=v.replace(sp,'');var vs=v.replace(/s$/,'');
     if(t===v)return 1000;
     if(ns.indexOf(v)>-1||ns.indexOf(vs)>-1)return 900;
     if(t.indexOf(v)===0)return 800;
