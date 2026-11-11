@@ -51,6 +51,9 @@ def load():
         t.setdefault("related", [])
         t.setdefault("sources", [])
         t.setdefault("example", "")
+    cname = {c["id"]: c["name"] for c in cats}
+    for t in terms:
+        t["_catname"] = cname[t["category"]]
     return cats, terms, {s["id"]: s for s in sources}, sources
 
 
@@ -115,6 +118,9 @@ dl.extra dd{margin:0}
 mark{background:var(--mark);color:inherit;border-radius:3px}
 .empty{display:none;padding:30px 0;color:var(--muted)}
 .empty p{margin:0 0 8px}
+.catlabel{display:none;margin:0 0 4px;font-size:13px;color:var(--accent)}
+#results{padding-top:18px}
+#results .catlabel{display:block}
 a.req{display:inline-block;padding:8px 16px;border-radius:999px;background:var(--accent);color:var(--bg);text-decoration:none;font-weight:600}
 .index-az{columns:3 180px;column-gap:24px;font-size:15px}
 .index-az a{display:block;color:var(--ink);text-decoration:none;padding:2px 0}
@@ -225,7 +231,9 @@ def term_card(t, by_id, src, link_prefix, heading="h3", anchor=True):
     ex = f'<p class="example"><b>예</b>{esc(t["example"])}</p>' if t["example"] else ""
     idattr = f' id="{t["id"]}"' if anchor else ""
     search = esc(" ".join([t["term"], t["en"], *t["aka"], t["definition"]]).lower())
-    return f"""<article class="term"{idattr} data-search="{search}">
+    names = esc("|".join(x.lower() for x in [t["term"], t["en"], *t["aka"]]))
+    return f"""<article class="term"{idattr} data-search="{search}" data-term="{esc(t['term'].lower())}" data-names="{names}">
+<p class="catlabel">{esc(t.get('_catname',''))}</p>
 <{heading}><a href="terms/{t['id']}/" class="t">{esc(t['term'])}</a></{heading}>
 <p class="en-term" lang="en">{esc(t['en'])}</p>
 {aka}
@@ -284,6 +292,7 @@ def build_index(cats, terms, by_id, src, sources):
 <p class="count" id="count" aria-live="polite">{len(terms)}개 용어</p>
 </div>
 {chr(10).join(body)}
+<section id="results" hidden></section>
 <div class="empty" id="empty"><p>찾는 용어가 없습니다. 다른 낱말로 찾아보세요.</p>{request_box}</div>
 
 <section class="cat"><h2 id="index-az">가나다순 찾아보기</h2>
@@ -316,15 +325,38 @@ def build_index(cats, terms, by_id, src, sources):
   var q=document.getElementById('q'),cards=[].slice.call(document.querySelectorAll('article.term')),
       secs=[].slice.call(document.querySelectorAll('section.cat[data-cat]')),
       count=document.getElementById('count'),empty=document.getElementById('empty'),total=cards.length;
+  var res=document.getElementById('results'),home=cards.map(function(c){{return [c,c.parentNode,c.nextSibling];}});
+  function restore(){{for(var i=home.length-1;i>=0;i--){{home[i][1].insertBefore(home[i][0],home[i][2]);}}}}
+  function score(c,v,w){{
+    var t=c.getAttribute('data-term'),ns=c.getAttribute('data-names').split('|'),d=c.getAttribute('data-search');
+    var vs=v.replace(/s$/,'');
+    if(t===v)return 1000;
+    if(ns.indexOf(v)>-1||ns.indexOf(vs)>-1)return 900;
+    if(t.indexOf(v)===0)return 800;
+    if(t.indexOf(v)>-1)return 700;
+    for(var i=0;i<ns.length;i++){{if(ns[i].indexOf(v)===0)return 600;}}
+    for(var j=0;j<ns.length;j++){{if(ns[j].indexOf(v)>-1||ns[j].indexOf(vs)>-1)return 500;}}
+    var hit=w.every(function(x){{return d.indexOf(x)>-1||d.indexOf(x.replace(/s$/,''))>-1;}});
+    return hit?100:0;
+  }}
   function run(){{
-    var v=q.value.trim().toLowerCase(),n=0,w=v.split(/\\s+/).filter(Boolean);
-    cards.forEach(function(c){{var d=c.getAttribute('data-search'),hit=w.every(function(x){{return d.indexOf(x)>-1||d.indexOf(x.replace(/s$/,''))>-1;}});c.hidden=!hit;if(hit)n++;}});
-    secs.forEach(function(s){{s.hidden=!s.querySelector('article.term:not([hidden])');}});
-    count.textContent=v?(n+'개 찾음 / 전체 '+total+'개'):(total+'개 용어');
-    empty.style.display=n?'none':'block';
+    var v=q.value.trim().toLowerCase(),w=v.split(/\\s+/).filter(Boolean);
+    restore();
+    if(!v){{
+      cards.forEach(function(c){{c.hidden=false;}});secs.forEach(function(s){{s.hidden=false;}});
+      res.hidden=true;count.textContent=total+'개 용어';empty.style.display='none';
+    }}else{{
+      var hits=[];cards.forEach(function(c,i){{var sc=score(c,v,w);if(sc>0)hits.push([sc,i,c]);}});
+      hits.sort(function(a,b){{return b[0]-a[0]||a[1]-b[1];}});
+      hits.forEach(function(h){{h[2].hidden=false;res.appendChild(h[2]);}});
+      secs.forEach(function(s){{s.hidden=true;}});
+      res.hidden=!hits.length;count.textContent=hits.length+'개 찾음 / 전체 '+total+'개 · 맞는 정도 순';
+      empty.style.display=hits.length?'none':'block';
+    }}
     var rq=document.getElementById('req');if(rq){{rq.href=rq.getAttribute('data-form').replace('__TERM__',encodeURIComponent(q.value.trim()));}}
   }}
   q.addEventListener('input',run);
+  [].slice.call(document.querySelectorAll('.chips a,.index-az a')).forEach(function(a){{a.addEventListener('click',function(){{if(q.value){{q.value='';run();}}}});}});
   if(location.search){{var m=location.search.match(/[?&]q=([^&]+)/);if(m){{q.value=decodeURIComponent(m[1].replace(/\\+/g,' '));run();}}}}
 }})();
 </script>
