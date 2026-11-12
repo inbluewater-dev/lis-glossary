@@ -200,7 +200,7 @@
 ## 기관과 단체
 
 - [미국도서관협회 (American Library Association (ALA))](https://inbluewater-dev.github.io/lis-glossary/terms/ala.md): 미국의 도서관과 사서들이 모인 협회로, 1876년 필라델피아에서 창립되었으며 세계에서 가장 오래되고 큰 도서관 협회로 꼽힙니다.
-- [대영박물관 도서관 (British Museum Library)](https://inbluewater-dev.github.io/lis-glossary/terms/british-museum-library.md): 1753년에 세워진 영국 대영박물관의 도서관 부문으로, 1973년 영국국가도서관(British Library)으로 옮겨질 때까지 영국의 국가도서관 역할을 했습니다.
+- [대영박물관 도서관 (British Museum Library)](https://inbluewater-dev.github.io/lis-glossary/terms/british-museum-library.md): 1753년에 세워진 영국 대영박물관의 도서관 부문으로, 1973년 영국국가도서관(British Library)에 편입될 때까지 영국의 국가도서관 역할을 했습니다.
 
 ## 인물
 

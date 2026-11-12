@@ -431,13 +431,13 @@
     },
     {
       "id": "bl-history",
-      "name": "British Library, 「History of the British Library」",
-      "url": ""
+      "name": "British Museum, 「The Reading Room」 — 파니치(1837~56 인쇄본 관장), 1857 개관, 1997 이전",
+      "url": "https://www.britishmuseum.org/about-us/british-museum-story/architecture/reading-room"
     },
     {
       "id": "lubetzky-ucla",
-      "name": "Elaine Svenonius, Dorothy McGarry (eds.), Seymour Lubetzky: Writings on the Classical Art of Cataloging (2001) 등",
-      "url": ""
+      "name": "Online Archive of California, Seymour Lubetzky Papers (UCLA) — 약력",
+      "url": "https://oac.cdlib.org/findaid/ark:/13030/ft1t1n9804"
     }
   ],
   "terms": [
@@ -1092,14 +1092,11 @@
       "aka": [
         "collected works",
         "complete works",
-        "partial collections",
-        "부분 전집",
-        "collected collections",
         "Works"
       ],
       "category": "collections",
       "category_name": "장서와 자료",
-      "definition": "한 저자의 저작 전부, 또는 거의 전부를 모아 펴낸 출판물입니다. 저작의 일부만 모은 것은 「부분 전집」이라고 합니다. 파니치의 91개조 규칙(1841)은 한 저자의 표목 아래에서 원어로 된 전집을 참조 바로 다음, 맨 앞에 두고(70조), 그 번역과 부분 전집, 선집을 차례로 잇게 했습니다(73·74조). 영미목록규칙 제2판(AACR2)은 전집에 「Works」라는 관용적 통일표제를 붙여 한데 모았습니다.",
+      "definition": "한 저자의 저작 전부, 또는 거의 전부를 모아 펴낸 출판물입니다. 저작의 일부만 모은 것은 「부분 전집」이라고 합니다. 파니치의 91개조 규칙(1841)은 한 저자의 표목 아래에서 원어로 된 전집을 참조 바로 다음, 맨 앞에 두고(70조), 그 번역(71·72조)과 부분 전집(73조), 선집(74조)을 차례로 잇게 했습니다. 영미목록규칙 제2판(AACR2)은 전집에 「Works」라는 관용적 통일표제를 붙여 한데 모았습니다.",
       "example": null,
       "related": [
         "selections",
@@ -1145,8 +1142,7 @@
       "en": "Polyglot Edition",
       "aka": [
         "polyglot",
-        "polyglot editions",
-        "대역판"
+        "polyglot editions"
       ],
       "category": "collections",
       "category_name": "장서와 자료",
@@ -1218,7 +1214,7 @@
       ],
       "category": "collections",
       "category_name": "장서와 자료",
-      "definition": "정부가 법령, 고시, 인사 같은 공식 사항을 국민에게 알리기 위해 펴내는 간행물입니다. 1665년에 창간된 영국의 『런던 가제트』가 대표적인 예입니다. 도서관과 기록관에서는 정부 활동을 증명하는 1차 자료로 보존합니다. 파니치의 91개조 규칙은 관보를 「PERIODICAL PUBLICATIONS」 표목 아래 모았습니다(81조).",
+      "definition": "정부가 법령, 고시, 인사 같은 공식 사항을 국민에게 알리기 위해 펴내는 간행물입니다. 1665년 『옥스퍼드 가제트』로 창간되어 이듬해 이름을 바꾼 영국의 『런던 가제트』가 대표적인 예입니다. 도서관과 기록관에서는 정부 활동을 증명하는 1차 자료로 보존합니다. 파니치의 91개조 규칙 81조도 'gazettes'를 「PERIODICAL PUBLICATIONS」 표목에 포함했는데, 당시 이 말은 신문 일반을 뜻하기도 했습니다.",
       "example": null,
       "related": [
         "periodical",
@@ -1307,11 +1303,7 @@
       "term": "참고자료",
       "en": "Reference Material / Reference Work",
       "aka": [
-        "참고도서",
-        "lexicon",
-        "vocabulary",
-        "어휘사전",
-        "어휘집"
+        "참고도서"
       ],
       "category": "collections",
       "category_name": "장서와 자료",
@@ -1465,9 +1457,7 @@
       "aka": [
         "volume",
         "volumes",
-        "卷",
-        "책",
-        "冊"
+        "卷"
       ],
       "category": "bibliography-books",
       "category_name": "책과 서지학",
@@ -1495,7 +1485,7 @@
       ],
       "category": "bibliography-books",
       "category_name": "책과 서지학",
-      "definition": "본문 뒤에 덧붙여 본문을 보충하는 자료입니다. 같은 책에 함께 묶여 있다는 점에서, 따로 딸려 오는 지도·음반 같은 「딸림자료」와 구별됩니다. 파니치의 91개조 규칙은 이 말을 배열 방법으로도 썼습니다. 어떤 사람의 이름 아래 기입되지만 실제로는 그 사람이 쓰지 않은 저작은, 그 사람의 저작들 뒤에 「부록」으로 모아 두게 했습니다(77조).",
+      "definition": "본문 뒤에 덧붙여 본문을 보충하는 자료입니다. 같은 책에 함께 묶여 있다는 점에서, 따로 딸려 오는 지도·음반 같은 「딸림자료」와 구별됩니다. 파니치의 91개조 규칙은 이 말을 배열 방법으로도 썼습니다. 어떤 사람의 이름 아래 기입되지만 실제로는 그 사람이 쓰지 않은 저작은, 그 사람의 저작들 뒤에 「부록」으로 모아 두게 했습니다(77조). 다만 일상어의 「부록」은 별책부록처럼 따로 딸려 오는 것도 가리킵니다.",
       "example": null,
       "related": [
         "note",
@@ -1793,13 +1783,11 @@
       "term": "표목",
       "en": "Heading",
       "aka": [
-        "헤딩",
-        "general head",
-        "general heads"
+        "헤딩"
       ],
       "category": "cataloging-rules",
       "category_name": "목록규칙과 표목",
-      "definition": "기입의 맨 앞에 두어 목록에서 배열하고 찾는 기준이 되는 이름, 표제, 주제명입니다. 저자명표목, 서명표목, 주제명표목 등이 있고, 「학술단체(ACADEMIES)」나 「정기간행물(PERIODICAL PUBLICATIONS)」처럼 자료의 종류로 모으는 표목을 「형식표목」이라고 했습니다. 국제목록원칙(2009)과 RDA에서는 이 역할을 「접근점」이라고 부릅니다.",
+      "definition": "기입의 맨 앞에 두어 목록에서 배열하고 찾는 기준이 되는 이름, 표제, 주제명입니다. 저자명표목, 서명표목, 주제명표목 등이 있고, 「학술단체(ACADEMIES)」나 「정기간행물(PERIODICAL PUBLICATIONS)」처럼 자료의 종류로 모으는 표목을 「형식표목」이라고 했습니다(파니치 규칙은 성서(BIBLE) 표목과 함께 이런 표목을 general head라 불렀습니다). 국제목록원칙(2009)과 RDA에서는 이 역할을 「접근점」이라고 부릅니다.",
       "example": null,
       "related": [
         "access-point",
@@ -2414,13 +2402,11 @@
       "aka": [
         "author",
         "authors",
-        "지은이",
-        "창작자",
-        "creator"
+        "지은이"
       ],
       "category": "cataloging",
       "category_name": "목록과 메타데이터",
-      "definition": "저작의 지적·예술적 내용을 만들어 낸 데 주된 책임이 있는 사람이나 단체입니다. 목록에서는 저자가 책임표시의 중심이 되고, 저작을 찾는 주요 접근점이 됩니다. 단체를 저자로 볼 수 있는지, 편집자나 번역자는 어디까지 저자로 대우할지는 목록규칙마다 달랐습니다. RDA는 저작을 만든 사람이나 단체를 「창작자(creator)」라고 부릅니다.",
+      "definition": "저작의 지적·예술적 내용을 만들어 낸 데 주된 책임이 있는 사람이나 단체입니다. 목록에서는 저자가 책임표시의 중심이 되고, 저작을 찾는 주요 접근점이 됩니다. 단체를 저자로 볼 수 있는지, 편집자나 번역자는 어디까지 저자로 대우할지는 목록규칙마다 달랐습니다. RDA는 저작의 창작에 책임이 있는 개인·가족·단체를 「창작자(creator)」라 부르며, 저자는 그 한 유형입니다.",
       "example": null,
       "related": [
         "authorship",
@@ -2470,10 +2456,7 @@
       "en": "Commentator",
       "aka": [
         "commentator",
-        "commentators",
-        "commentary",
-        "주석",
-        "주석서"
+        "commentators"
       ],
       "category": "cataloging",
       "category_name": "목록과 메타데이터",
@@ -3899,7 +3882,7 @@
       ],
       "category": "organizations",
       "category_name": "기관과 단체",
-      "definition": "1753년에 세워진 영국 대영박물관의 도서관 부문으로, 1973년 영국국가도서관(British Library)으로 옮겨질 때까지 영국의 국가도서관 역할을 했습니다. 1837년부터 인쇄본 관장을, 1856년부터 박물관장을 지낸 앤서니 파니치가 91개조 목록규칙(1841)을 만들고 둥근 열람실(1857)을 세워, 근대 목록과 도서관 운영의 본보기가 되었습니다.",
+      "definition": "1753년에 세워진 영국 대영박물관의 도서관 부문으로, 1973년 영국국가도서관(British Library)에 편입될 때까지 영국의 국가도서관 역할을 했습니다. 1837년부터 인쇄본 관장을, 1856년부터 박물관장을 지낸 앤서니 파니치가 91개조 목록규칙(1841)을 만들고 둥근 열람실(1857)을 구상해, 근대 목록과 도서관 운영의 본보기가 되었습니다.",
       "example": null,
       "related": [
         "panizzi-91-rules",

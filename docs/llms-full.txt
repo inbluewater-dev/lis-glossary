@@ -350,9 +350,9 @@
 
 - 분야: 장서와 자료
 - 주소: https://inbluewater-dev.github.io/lis-glossary/terms/collected-works/
-- 다른 이름: collected works, complete works, partial collections, 부분 전집, collected collections, Works
+- 다른 이름: collected works, complete works, Works
 
-한 저자의 저작 전부, 또는 거의 전부를 모아 펴낸 출판물입니다. 저작의 일부만 모은 것은 「부분 전집」이라고 합니다. 파니치의 91개조 규칙(1841)은 한 저자의 표목 아래에서 원어로 된 전집을 참조 바로 다음, 맨 앞에 두고(70조), 그 번역과 부분 전집, 선집을 차례로 잇게 했습니다(73·74조). 영미목록규칙 제2판(AACR2)은 전집에 「Works」라는 관용적 통일표제를 붙여 한데 모았습니다.
+한 저자의 저작 전부, 또는 거의 전부를 모아 펴낸 출판물입니다. 저작의 일부만 모은 것은 「부분 전집」이라고 합니다. 파니치의 91개조 규칙(1841)은 한 저자의 표목 아래에서 원어로 된 전집을 참조 바로 다음, 맨 앞에 두고(70조), 그 번역(71·72조)과 부분 전집(73조), 선집(74조)을 차례로 잇게 했습니다. 영미목록규칙 제2판(AACR2)은 전집에 「Works」라는 관용적 통일표제를 붙여 한데 모았습니다.
 
 관련어: 선집(selections), 통일표제(uniform-title), 종합표제(collective-title), 단행본(monograph)
 근거: Donald J. Lehnus, A Comparison of Panizzi's 91 Rules and the AACR of 1967 (Univ. of Illinois GSLS Occasional Paper 105, 1972) — 91개조 전문 재수록 <https://core.ac.uk/download/4813959.pdf>; Michael Carpenter, Elaine Svenonius (eds.), Foundations of Cataloging: A Sourcebook (Libraries Unlimited, 1985); Anglo-American Cataloguing Rules, 2nd ed. (AACR2)
@@ -372,7 +372,7 @@
 
 - 분야: 장서와 자료
 - 주소: https://inbluewater-dev.github.io/lis-glossary/terms/polyglot-edition/
-- 다른 이름: polyglot, polyglot editions, 대역판
+- 다른 이름: polyglot, polyglot editions
 
 같은 글을 여러 언어로 나란히 실은 판으로, 성서에서 특히 많이 만들어졌습니다. 16세기 스페인의 「콤플루툼 다국어 성서」와 17세기 영국의 「런던 다국어 성서」가 유명합니다. 파니치의 91개조 규칙은 성서를 배열할 때 히브리어·그리스어 원문만 실린 판 다음에, 원문이 들어간 다국어판을 번역이 많은 것부터 두게 했습니다(79조).
 
@@ -407,7 +407,7 @@
 - 주소: https://inbluewater-dev.github.io/lis-glossary/terms/gazette/
 - 다른 이름: gazette, gazettes
 
-정부가 법령, 고시, 인사 같은 공식 사항을 국민에게 알리기 위해 펴내는 간행물입니다. 1665년에 창간된 영국의 『런던 가제트』가 대표적인 예입니다. 도서관과 기록관에서는 정부 활동을 증명하는 1차 자료로 보존합니다. 파니치의 91개조 규칙은 관보를 「PERIODICAL PUBLICATIONS」 표목 아래 모았습니다(81조).
+정부가 법령, 고시, 인사 같은 공식 사항을 국민에게 알리기 위해 펴내는 간행물입니다. 1665년 『옥스퍼드 가제트』로 창간되어 이듬해 이름을 바꾼 영국의 『런던 가제트』가 대표적인 예입니다. 도서관과 기록관에서는 정부 활동을 증명하는 1차 자료로 보존합니다. 파니치의 91개조 규칙 81조도 'gazettes'를 「PERIODICAL PUBLICATIONS」 표목에 포함했는데, 당시 이 말은 신문 일반을 뜻하기도 했습니다.
 
 관련어: 정기간행물(periodical), 연속간행물(serial), 1차 자료(primary-source), 회색문헌(grey-literature)
 근거: Donald J. Lehnus, A Comparison of Panizzi's 91 Rules and the AACR of 1967 (Univ. of Illinois GSLS Occasional Paper 105, 1972) — 91개조 전문 재수록 <https://core.ac.uk/download/4813959.pdf>; The Gazette (The London Gazette, 1665~) — 영국 정부 공식 관보 <https://www.thegazette.co.uk/>
@@ -449,7 +449,7 @@
 
 - 분야: 장서와 자료
 - 주소: https://inbluewater-dev.github.io/lis-glossary/terms/reference-material/
-- 다른 이름: 참고도서, lexicon, vocabulary, 어휘사전, 어휘집
+- 다른 이름: 참고도서
 
 처음부터 끝까지 읽기보다 필요한 부분을 찾아보도록 만든 자료입니다. 사전, 백과사전, 연감, 지도책, 인명록 등이 있으며, 보통 대출하지 않고 도서관 안에서 이용합니다.
 
@@ -529,7 +529,7 @@
 
 - 분야: 책과 서지학
 - 주소: https://inbluewater-dev.github.io/lis-glossary/terms/volume/
-- 다른 이름: volume, volumes, 卷, 책, 冊
+- 다른 이름: volume, volumes, 卷
 
 저작을 나누는 단위입니다. 내용상의 구분(예: 제1권·제2권)을 가리킬 때도, 실제로 제본된 한 덩어리를 가리킬 때도 써서 둘을 구별할 필요가 있습니다. 우리 고서 목록에서는 내용상의 구분인 「권(卷)」과 제본된 물리적 단위인 「책(冊)」을 나누어 「3권 2책」처럼 적습니다. 파니치의 91개조 규칙도 부·권·분책의 수를 표제에 쓰인 대로 적게 했습니다(25조).
 
@@ -542,7 +542,7 @@
 - 주소: https://inbluewater-dev.github.io/lis-glossary/terms/appendix/
 - 다른 이름: appendix, appendixes, appendices
 
-본문 뒤에 덧붙여 본문을 보충하는 자료입니다. 같은 책에 함께 묶여 있다는 점에서, 따로 딸려 오는 지도·음반 같은 「딸림자료」와 구별됩니다. 파니치의 91개조 규칙은 이 말을 배열 방법으로도 썼습니다. 어떤 사람의 이름 아래 기입되지만 실제로는 그 사람이 쓰지 않은 저작은, 그 사람의 저작들 뒤에 「부록」으로 모아 두게 했습니다(77조).
+본문 뒤에 덧붙여 본문을 보충하는 자료입니다. 같은 책에 함께 묶여 있다는 점에서, 따로 딸려 오는 지도·음반 같은 「딸림자료」와 구별됩니다. 파니치의 91개조 규칙은 이 말을 배열 방법으로도 썼습니다. 어떤 사람의 이름 아래 기입되지만 실제로는 그 사람이 쓰지 않은 저작은, 그 사람의 저작들 뒤에 「부록」으로 모아 두게 했습니다(77조). 다만 일상어의 「부록」은 별책부록처럼 따로 딸려 오는 것도 가리킵니다.
 
 관련어: 주기(note), 권(volume), 파니치의 91개조 규칙(panizzi-91-rules)
 근거: Donald J. Lehnus, A Comparison of Panizzi's 91 Rules and the AACR of 1967 (Univ. of Illinois GSLS Occasional Paper 105, 1972) — 91개조 전문 재수록 <https://core.ac.uk/download/4813959.pdf>
@@ -747,9 +747,9 @@
 
 - 분야: 목록과 메타데이터
 - 주소: https://inbluewater-dev.github.io/lis-glossary/terms/author/
-- 다른 이름: author, authors, 지은이, 창작자, creator
+- 다른 이름: author, authors, 지은이
 
-저작의 지적·예술적 내용을 만들어 낸 데 주된 책임이 있는 사람이나 단체입니다. 목록에서는 저자가 책임표시의 중심이 되고, 저작을 찾는 주요 접근점이 됩니다. 단체를 저자로 볼 수 있는지, 편집자나 번역자는 어디까지 저자로 대우할지는 목록규칙마다 달랐습니다. RDA는 저작을 만든 사람이나 단체를 「창작자(creator)」라고 부릅니다.
+저작의 지적·예술적 내용을 만들어 낸 데 주된 책임이 있는 사람이나 단체입니다. 목록에서는 저자가 책임표시의 중심이 되고, 저작을 찾는 주요 접근점이 됩니다. 단체를 저자로 볼 수 있는지, 편집자나 번역자는 어디까지 저자로 대우할지는 목록규칙마다 달랐습니다. RDA는 저작의 창작에 책임이 있는 개인·가족·단체를 「창작자(creator)」라 부르며, 저자는 그 한 유형입니다.
 
 관련어: 저자성(authorship), 책임표시(statement-of-responsibility), 기본표목(main-entry), 편집자(editor), 단체표목(corporate-heading)
 근거: RDA: Resource Description and Access (RDA Toolkit) <https://www.rdatoolkit.org/>; IFLA, Statement of International Cataloguing Principles (2009, 2016 개정) <https://cf3-www.ifla.org/VII/s13/icp/ICP-2009_en.pdf>; Michael Carpenter, Elaine Svenonius (eds.), Foundations of Cataloging: A Sourcebook (Libraries Unlimited, 1985)
@@ -769,7 +769,7 @@
 
 - 분야: 목록과 메타데이터
 - 주소: https://inbluewater-dev.github.io/lis-glossary/terms/commentator/
-- 다른 이름: commentator, commentators, commentary, 주석, 주석서
+- 다른 이름: commentator, commentators
 
 다른 사람의 저작을 풀이하고 해석하는 긴 글, 곧 주석(commentary)을 쓴 사람입니다. 짧은 풀이를 덧붙이는 「주해자(annotator)」와 짝을 이루는 말입니다. 파니치의 91개조 규칙은 번역자·주석자·주해자의 이름에서 기본표목으로 참조를 두게 했고(62조), 성서를 배열할 때 주석이 달린 판은 따로 모았습니다(79조).
 
@@ -1004,9 +1004,9 @@ MARC를 우리나라 실정에 맞게 만든 서지 데이터 형식입니다. �
 
 - 분야: 목록규칙과 표목
 - 주소: https://inbluewater-dev.github.io/lis-glossary/terms/heading/
-- 다른 이름: 헤딩, general head, general heads
+- 다른 이름: 헤딩
 
-기입의 맨 앞에 두어 목록에서 배열하고 찾는 기준이 되는 이름, 표제, 주제명입니다. 저자명표목, 서명표목, 주제명표목 등이 있고, 「학술단체(ACADEMIES)」나 「정기간행물(PERIODICAL PUBLICATIONS)」처럼 자료의 종류로 모으는 표목을 「형식표목」이라고 했습니다. 국제목록원칙(2009)과 RDA에서는 이 역할을 「접근점」이라고 부릅니다.
+기입의 맨 앞에 두어 목록에서 배열하고 찾는 기준이 되는 이름, 표제, 주제명입니다. 저자명표목, 서명표목, 주제명표목 등이 있고, 「학술단체(ACADEMIES)」나 「정기간행물(PERIODICAL PUBLICATIONS)」처럼 자료의 종류로 모으는 표목을 「형식표목」이라고 했습니다(파니치 규칙은 성서(BIBLE) 표목과 함께 이런 표목을 general head라 불렀습니다). 국제목록원칙(2009)과 RDA에서는 이 역할을 「접근점」이라고 부릅니다.
 
 관련어: 접근점(access-point), 기입(entry), 기본표목(main-entry), 한정어구(qualifier), 단체표목(corporate-heading), 학술단체 표목(academies-heading), 정기간행물(periodical), 주제명표목(subject-heading)
 근거: IFLA, Statement of International Cataloguing Principles (2009, 2016 개정) <https://cf3-www.ifla.org/VII/s13/icp/ICP-2009_en.pdf>; Michael Carpenter, Elaine Svenonius (eds.), Foundations of Cataloging: A Sourcebook (Libraries Unlimited, 1985)
@@ -1749,10 +1749,10 @@ AND(그리고), OR(또는), NOT(빼기) 같은 논리 연산자로 검색어를 
 - 주소: https://inbluewater-dev.github.io/lis-glossary/terms/british-museum-library/
 - 다른 이름: 대영박물관, British Museum, 영국박물관
 
-1753년에 세워진 영국 대영박물관의 도서관 부문으로, 1973년 영국국가도서관(British Library)으로 옮겨질 때까지 영국의 국가도서관 역할을 했습니다. 1837년부터 인쇄본 관장을, 1856년부터 박물관장을 지낸 앤서니 파니치가 91개조 목록규칙(1841)을 만들고 둥근 열람실(1857)을 세워, 근대 목록과 도서관 운영의 본보기가 되었습니다.
+1753년에 세워진 영국 대영박물관의 도서관 부문으로, 1973년 영국국가도서관(British Library)에 편입될 때까지 영국의 국가도서관 역할을 했습니다. 1837년부터 인쇄본 관장을, 1856년부터 박물관장을 지낸 앤서니 파니치가 91개조 목록규칙(1841)을 만들고 둥근 열람실(1857)을 구상해, 근대 목록과 도서관 운영의 본보기가 되었습니다.
 
 관련어: 파니치의 91개조 규칙(panizzi-91-rules), 국가도서관(national-library), 학술단체 표목(academies-heading)
-근거: British Library, 「History of the British Library」; Michael Carpenter, Elaine Svenonius (eds.), Foundations of Cataloging: A Sourcebook (Libraries Unlimited, 1985)
+근거: British Museum, 「The Reading Room」 — 파니치(1837~56 인쇄본 관장), 1857 개관, 1997 이전 <https://www.britishmuseum.org/about-us/british-museum-story/architecture/reading-room>; Michael Carpenter, Elaine Svenonius (eds.), Foundations of Cataloging: A Sourcebook (Libraries Unlimited, 1985)
 
 ## 인물
 
@@ -1765,4 +1765,4 @@ AND(그리고), OR(또는), NOT(빼기) 같은 논리 연산자로 검색어를 
 20세기 미국의 대표적인 목록 이론가입니다. 미국 의회도서관에서 일하며 1953년 『목록규칙과 원칙(Cataloging Rules and Principles)』에서 당시 규칙이 사례를 늘어놓을 뿐 원칙이 없다고 비판했습니다. 「저작」과 「책」을 구별하고 목록의 목적에서 규칙을 끌어내야 한다는 그의 생각은 1961년 파리원칙과 영미목록규칙(1967)의 바탕이 되었습니다. 뒤에 UCLA에서 가르쳤습니다.
 
 관련어: 목록의 목적(커터)(cutters-objects), 목록규칙(cataloging-code), 저작·표현형·구현형·개별자료(wemi), 기본표목(main-entry)
-근거: Michael Carpenter, Elaine Svenonius (eds.), Foundations of Cataloging: A Sourcebook (Libraries Unlimited, 1985); Elaine Svenonius, Dorothy McGarry (eds.), Seymour Lubetzky: Writings on the Classical Art of Cataloging (2001) 등
+근거: Michael Carpenter, Elaine Svenonius (eds.), Foundations of Cataloging: A Sourcebook (Libraries Unlimited, 1985); Online Archive of California, Seymour Lubetzky Papers (UCLA) — 약력 <https://oac.cdlib.org/findaid/ark:/13030/ft1t1n9804>
