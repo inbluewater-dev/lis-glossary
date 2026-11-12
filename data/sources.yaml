@@ -215,3 +215,12 @@
 - id: magazine-act
   name: "대한민국 잡지 등 정기간행물의 진흥에 관한 법률 제2조 (국가법령정보센터)"
   url: ""
+- id: london-gazette
+  name: "The Gazette (The London Gazette, 1665~) — 영국 정부 공식 관보"
+  url: "https://www.thegazette.co.uk/"
+- id: bl-history
+  name: "British Library, 「History of the British Library」"
+  url: ""
+- id: lubetzky-ucla
+  name: "Elaine Svenonius, Dorothy McGarry (eds.), Seymour Lubetzky: Writings on the Classical Art of Cataloging (2001) 등"
+  url: ""

@@ -1,6 +1,6 @@
 # 문헌정보학 용어사전
 
-> 도서관과 정보에 관한 핵심 용어 140개를 누구나 이해할 수 있는 말로 풀어 쓴 문헌정보학 용어사전입니다. 모든 정의는 새로 썼으며, 각 용어마다 영어 표제어·관련어·근거 자료를 함께 적었습니다. 이용 허락은 CC BY 4.0이며, 출처를 밝히면 AI 답변·검색·학습에 자유롭게 인용할 수 있습니다.
+> 도서관과 정보에 관한 핵심 용어 156개를 누구나 이해할 수 있는 말로 풀어 쓴 문헌정보학 용어사전입니다. 모든 정의는 새로 썼으며, 각 용어마다 영어 표제어·관련어·근거 자료를 함께 적었습니다. 이용 허락은 CC BY 4.0이며, 출처를 밝히면 AI 답변·검색·학습에 자유롭게 인용할 수 있습니다.
 
 한국어 문헌정보학(도서관학·정보학) 기본 용어사전입니다. 일반인 눈높이로 쓰였으며, 용어마다 영어 표제어·다른 이름·관련어·근거 자료가 있습니다.
 각 용어는 고유 주소 `terms/<id>/`(HTML)와 `terms/<id>.md`(Markdown)를 가집니다.
@@ -8,7 +8,7 @@
 
 ## 전체 데이터
 
-- [llms-full.txt](https://inbluewater-dev.github.io/lis-glossary/llms-full.txt): 용어 140개 전체 (Markdown, 한 파일)
+- [llms-full.txt](https://inbluewater-dev.github.io/lis-glossary/llms-full.txt): 용어 156개 전체 (Markdown, 한 파일)
 - [glossary.json](https://inbluewater-dev.github.io/lis-glossary/glossary.json): 같은 내용의 구조화 JSON
 
 ## 기초 개념
@@ -50,6 +50,13 @@
 - [단행본 (Monograph)](https://inbluewater-dev.github.io/lis-glossary/terms/monograph.md): 한 권으로 끝나거나, 정해진 몇 권으로 완결되는 출판물입니다.
 - [연속간행물 (Serial)](https://inbluewater-dev.github.io/lis-glossary/terms/serial.md): 끝을 정하지 않고 같은 제목으로 권호를 이어 가며 계속 나오는 출판물입니다.
 - [정기간행물 (Periodical / Periodical Publications)](https://inbluewater-dev.github.io/lis-glossary/terms/periodical.md): 연속간행물 가운데 주간·월간·계간처럼 정해진 간격에 맞춰 계속 나오는 것으로, 잡지와 학술지가 대표적입니다.
+- [전집 (Collected Works / Complete Works)](https://inbluewater-dev.github.io/lis-glossary/terms/collected-works.md): 한 저자의 저작 전부, 또는 거의 전부를 모아 펴낸 출판물입니다.
+- [선집 (Selections)](https://inbluewater-dev.github.io/lis-glossary/terms/selections.md): 한 저자의 저작 가운데 일부를 골라 모은 출판물입니다.
+- [다국어판 (Polyglot Edition)](https://inbluewater-dev.github.io/lis-glossary/terms/polyglot-edition.md): 같은 글을 여러 언어로 나란히 실은 판으로, 성서에서 특히 많이 만들어졌습니다.
+- [신문 (Newspaper)](https://inbluewater-dev.github.io/lis-glossary/terms/newspaper.md): 시사 소식과 논평을 날마다 또는 주마다 짧은 간격으로 계속 펴내는 연속간행물입니다.
+- [잡지 (Magazine)](https://inbluewater-dev.github.io/lis-glossary/terms/magazine.md): 여러 필자의 글을 묶어 일정한 간격으로 펴내는 책자 형태의 정기간행물로, 일반 독자를 대상으로 하는 경우가 많습니다.
+- [관보 (Official Gazette)](https://inbluewater-dev.github.io/lis-glossary/terms/gazette.md): 정부가 법령, 고시, 인사 같은 공식 사항을 국민에게 알리기 위해 펴내는 간행물입니다.
+- [평론지 (Review (Periodical))](https://inbluewater-dev.github.io/lis-glossary/terms/review-periodical.md): 새로 나온 책과 문학·정치·사회 문제에 대한 긴 평론을 싣는 정기간행물입니다.
 - [학술지 (Academic Journal / Scholarly Journal)](https://inbluewater-dev.github.io/lis-glossary/terms/academic-journal.md): 연구자들이 연구 결과를 논문으로 발표하는 연속간행물입니다.
 - [회색문헌 (Grey Literature)](https://inbluewater-dev.github.io/lis-glossary/terms/grey-literature.md): 일반 출판사·서점 유통을 거치지 않아 구하거나 찾기 어려운 자료입니다.
 - [참고자료 (Reference Material / Reference Work)](https://inbluewater-dev.github.io/lis-glossary/terms/reference-material.md): 처음부터 끝까지 읽기보다 필요한 부분을 찾아보도록 만든 자료입니다.
@@ -61,6 +68,9 @@
 ## 책과 서지학
 
 - [연판 (Stereotype (Plate))](https://inbluewater-dev.github.io/lis-glossary/terms/stereotype.md): 조판한 활자 면을 본떠 금속을 부어 만든 한 장짜리 인쇄판입니다.
+- [판권기 (Copyright Page / Imprint Page (Korean books))](https://inbluewater-dev.github.io/lis-glossary/terms/colophon-page.md): 우리 책의 맨 뒤(또는 앞)에 서명, 지은이, 펴낸이, 펴낸 곳, 펴낸 날과 판·쇄, ISBN 같은 정보를 모아 적어 둔 부분입니다.
+- [권 (Volume)](https://inbluewater-dev.github.io/lis-glossary/terms/volume.md): 저작을 나누는 단위입니다.
+- [부록 (Appendix)](https://inbluewater-dev.github.io/lis-glossary/terms/appendix.md): 본문 뒤에 덧붙여 본문을 보충하는 자료입니다.
 - [판형 (Format (Bibliographical))](https://inbluewater-dev.github.io/lis-glossary/terms/book-format.md): 서지학에서 인쇄용 전지를 몇 번 접어 책을 만들었는지에 따른 책의 형태입니다.
 - [시그니처 (Signature (Mark) / Register)](https://inbluewater-dev.github.io/lis-glossary/terms/signature-mark.md): 접은 종이 묶음(접장)을 순서대로 엮도록 각 묶음의 첫 장(과 앞쪽 몇 장) 아래에 인쇄한 문자나 숫자입니다.
 - [권두표제 (Caption Title / Head-title)](https://inbluewater-dev.github.io/lis-glossary/terms/caption-title.md): 본문 첫머리 위에 인쇄된 표제입니다.
@@ -78,8 +88,12 @@
 - [서지기술 영역 (Areas of Bibliographic Description)](https://inbluewater-dev.github.io/lis-glossary/terms/isbd-areas.md): 서지 정보를 적는 순서와 묶음을 정한 칸들입니다.
 - [본표제 (Title Proper)](https://inbluewater-dev.github.io/lis-glossary/terms/title-proper.md): 자료의 대표 이름으로 기록하는 주된 표제입니다.
 - [축약표제 (Abridged Title / Abridgment of Titles)](https://inbluewater-dev.github.io/lis-glossary/terms/abridgment-of-titles.md): 아주 긴 표제를 목록에 적을 때 중요하지 않은 뒷부분을 줄여 적은 표제, 또는 그렇게 줄여 적는 일입니다.
+- [발행사항 (Imprint / Publication Statement)](https://inbluewater-dev.github.io/lis-glossary/terms/imprint.md): 자료가 어디서, 누구에 의해, 언제 펴내졌는지(발행지·발행처·발행년)를 적는 부분입니다.
 - [책임표시 (Statement of Responsibility)](https://inbluewater-dev.github.io/lis-glossary/terms/statement-of-responsibility.md): 자료의 내용을 만드는 데 책임이 있는 사람이나 단체(지은이, 엮은이, 옮긴이, 그린이 등)를 자료에 적힌 대로 기록한 것입니다.
 - [주해자 (Annotator)](https://inbluewater-dev.github.io/lis-glossary/terms/annotator.md): 다른 사람의 저작이나 판본에 짧은 풀이, 곧 주해(notes)를 덧붙인 사람입니다.
+- [저자 (Author)](https://inbluewater-dev.github.io/lis-glossary/terms/author.md): 저작의 지적·예술적 내용을 만들어 낸 데 주된 책임이 있는 사람이나 단체입니다.
+- [편집자 (Editor)](https://inbluewater-dev.github.io/lis-glossary/terms/editor.md): 다른 사람들의 글이나 자료를 골라 모으고 다듬어 한 권의 출판물로 펴내는 책임을 맡은 사람입니다.
+- [주석자 (Commentator)](https://inbluewater-dev.github.io/lis-glossary/terms/commentator.md): 다른 사람의 저작을 풀이하고 해석하는 긴 글, 곧 주석(commentary)을 쓴 사람입니다.
 - [주기 (Note)](https://inbluewater-dev.github.io/lis-glossary/terms/note.md): 정해진 다른 영역에 넣기 어려운 정보를 보충해 적는 영역입니다.
 - [총서 (Series)](https://inbluewater-dev.github.io/lis-glossary/terms/series.md): 각각 제목을 가진 여러 자료를 하나의 공통 제목 아래 묶어 펴내는 것, 또는 그 공통 제목입니다.
 - [종합표제 (Collective Title)](https://inbluewater-dev.github.io/lis-glossary/terms/collective-title.md): 여러 개의 작품을 한 자료에 모았을 때, 그 자료 전체를 가리키는 하나의 표제입니다.
@@ -186,3 +200,8 @@
 ## 기관과 단체
 
 - [미국도서관협회 (American Library Association (ALA))](https://inbluewater-dev.github.io/lis-glossary/terms/ala.md): 미국의 도서관과 사서들이 모인 협회로, 1876년 필라델피아에서 창립되었으며 세계에서 가장 오래되고 큰 도서관 협회로 꼽힙니다.
+- [대영박물관 도서관 (British Museum Library)](https://inbluewater-dev.github.io/lis-glossary/terms/british-museum-library.md): 1753년에 세워진 영국 대영박물관의 도서관 부문으로, 1973년 영국국가도서관(British Library)으로 옮겨질 때까지 영국의 국가도서관 역할을 했습니다.
+
+## 인물
+
+- [시모어 루베츠키 (Seymour Lubetzky (1898–2003))](https://inbluewater-dev.github.io/lis-glossary/terms/lubetzky.md): 20세기 미국의 대표적인 목록 이론가입니다.

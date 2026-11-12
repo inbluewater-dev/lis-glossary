@@ -1,9 +1,9 @@
 # 문헌정보학 용어사전 (Korean Glossary of Library and Information Science)
 
-> 도서관과 정보에 관한 핵심 용어 140개를 누구나 이해할 수 있는 말로 풀어 쓴 문헌정보학 용어사전입니다. 모든 정의는 새로 썼으며, 각 용어마다 영어 표제어·관련어·근거 자료를 함께 적었습니다.
+> 도서관과 정보에 관한 핵심 용어 156개를 누구나 이해할 수 있는 말로 풀어 쓴 문헌정보학 용어사전입니다. 모든 정의는 새로 썼으며, 각 용어마다 영어 표제어·관련어·근거 자료를 함께 적었습니다.
 
 - 주소: https://inbluewater-dev.github.io/lis-glossary/
-- 판: 1.6 (2026-11-12)
+- 판: 1.7 (2026-11-13)
 - 이용 허락: CC BY 4.0 <https://creativecommons.org/licenses/by/4.0/> — 출처「문헌정보학 용어사전 (https://inbluewater-dev.github.io/lis-glossary/)」를 밝히면 자유롭게 이용 가능
 - 정의는 모두 새로 쓴 문장이며, '근거'는 정의를 쓸 때 기댄 표준·법령·기관 자료입니다.
 - 이 사전의 정의는 AI(Anthropic의 Claude)의 도움을 받아 작성했으며, 별도의 검수 과정에서 연도·법령·기관명 등 사실관계를 근거 자료와 대조했습니다.
@@ -346,11 +346,88 @@
 관련어: 연속간행물(serial), 학술지(academic-journal), 국제표준연속간행물번호(issn), 표목(heading)
 근거: Anglo-American Cataloging Rules (1967)의 periodical 정의 — INFLIBNET e-PG Pathshala 「Periodical and Serial Publications in CCC & AACR-2R」에 인용 <https://ebooks.inflibnet.ac.in/lisp3/?p=219>; 대한민국 잡지 등 정기간행물의 진흥에 관한 법률 제2조 (국가법령정보센터); Donald J. Lehnus, A Comparison of Panizzi's 91 Rules and the AACR of 1967 (Univ. of Illinois GSLS Occasional Paper 105, 1972) — 91개조 전문 재수록 <https://core.ac.uk/download/4813959.pdf>
 
+### 전집 (Collected Works / Complete Works)
+
+- 분야: 장서와 자료
+- 주소: https://inbluewater-dev.github.io/lis-glossary/terms/collected-works/
+- 다른 이름: collected works, complete works, partial collections, 부분 전집, collected collections, Works
+
+한 저자의 저작 전부, 또는 거의 전부를 모아 펴낸 출판물입니다. 저작의 일부만 모은 것은 「부분 전집」이라고 합니다. 파니치의 91개조 규칙(1841)은 한 저자의 표목 아래에서 원어로 된 전집을 참조 바로 다음, 맨 앞에 두고(70조), 그 번역과 부분 전집, 선집을 차례로 잇게 했습니다(73·74조). 영미목록규칙 제2판(AACR2)은 전집에 「Works」라는 관용적 통일표제를 붙여 한데 모았습니다.
+
+관련어: 선집(selections), 통일표제(uniform-title), 종합표제(collective-title), 단행본(monograph)
+근거: Donald J. Lehnus, A Comparison of Panizzi's 91 Rules and the AACR of 1967 (Univ. of Illinois GSLS Occasional Paper 105, 1972) — 91개조 전문 재수록 <https://core.ac.uk/download/4813959.pdf>; Michael Carpenter, Elaine Svenonius (eds.), Foundations of Cataloging: A Sourcebook (Libraries Unlimited, 1985); Anglo-American Cataloguing Rules, 2nd ed. (AACR2)
+
+### 선집 (Selections)
+
+- 분야: 장서와 자료
+- 주소: https://inbluewater-dev.github.io/lis-glossary/terms/selections/
+- 다른 이름: selections, selected works, 선집류
+
+한 저자의 저작 가운데 일부를 골라 모은 출판물입니다. 여러 저자의 작품을 골라 모은 것도 흔히 선집이라고 부릅니다. 파니치의 91개조 규칙은 저자의 저작에서 뽑은 선집을 부분 전집 뒤에 두었고(74조), 영미목록규칙 제2판(AACR2)은 「Selections」라는 관용적 통일표제로 모았습니다. 장서 전체를 뜻하는 「collection(장서)」과는 다른 말입니다.
+
+관련어: 전집(collected-works), 종합표제(collective-title), 통일표제(uniform-title), 장서(collection)
+근거: Donald J. Lehnus, A Comparison of Panizzi's 91 Rules and the AACR of 1967 (Univ. of Illinois GSLS Occasional Paper 105, 1972) — 91개조 전문 재수록 <https://core.ac.uk/download/4813959.pdf>; Anglo-American Cataloguing Rules, 2nd ed. (AACR2)
+
+### 다국어판 (Polyglot Edition)
+
+- 분야: 장서와 자료
+- 주소: https://inbluewater-dev.github.io/lis-glossary/terms/polyglot-edition/
+- 다른 이름: polyglot, polyglot editions, 대역판
+
+같은 글을 여러 언어로 나란히 실은 판으로, 성서에서 특히 많이 만들어졌습니다. 16세기 스페인의 「콤플루툼 다국어 성서」와 17세기 영국의 「런던 다국어 성서」가 유명합니다. 파니치의 91개조 규칙은 성서를 배열할 때 히브리어·그리스어 원문만 실린 판 다음에, 원문이 들어간 다국어판을 번역이 많은 것부터 두게 했습니다(79조).
+
+관련어: 판(edition), 통일표제(uniform-title), 전집(collected-works)
+근거: Donald J. Lehnus, A Comparison of Panizzi's 91 Rules and the AACR of 1967 (Univ. of Illinois GSLS Occasional Paper 105, 1972) — 91개조 전문 재수록 <https://core.ac.uk/download/4813959.pdf>; Michael Carpenter, Elaine Svenonius (eds.), Foundations of Cataloging: A Sourcebook (Libraries Unlimited, 1985)
+
+### 신문 (Newspaper)
+
+- 분야: 장서와 자료
+- 주소: https://inbluewater-dev.github.io/lis-glossary/terms/newspaper/
+- 다른 이름: newspapers
+
+시사 소식과 논평을 날마다 또는 주마다 짧은 간격으로 계속 펴내는 연속간행물입니다. 양이 많고 종이가 쉽게 상해서, 도서관은 마이크로필름이나 디지털 파일로 바꾸어 보존하는 경우가 많습니다. 영미목록규칙 초판(1967)은 신문을 정기간행물과 따로 다루었고, 파니치의 91개조 규칙은 「PERIODICAL PUBLICATIONS」 표목 아래에 함께 모았습니다(81조).
+
+관련어: 연속간행물(serial), 정기간행물(periodical), 보존(preservation), 디지털화(digitization)
+근거: Anglo-American Cataloging Rules (1967)의 periodical 정의 — INFLIBNET e-PG Pathshala 「Periodical and Serial Publications in CCC & AACR-2R」에 인용 <https://ebooks.inflibnet.ac.in/lisp3/?p=219>; Donald J. Lehnus, A Comparison of Panizzi's 91 Rules and the AACR of 1967 (Univ. of Illinois GSLS Occasional Paper 105, 1972) — 91개조 전문 재수록 <https://core.ac.uk/download/4813959.pdf>
+
+### 잡지 (Magazine)
+
+- 분야: 장서와 자료
+- 주소: https://inbluewater-dev.github.io/lis-glossary/terms/magazine/
+- 다른 이름: magazines
+
+여러 필자의 글을 묶어 일정한 간격으로 펴내는 책자 형태의 정기간행물로, 일반 독자를 대상으로 하는 경우가 많습니다. 전문가의 동료심사를 거친 논문을 싣는 「학술지」와 구별해 씁니다. 우리 「잡지 등 정기간행물의 진흥에 관한 법률」은 같은 제호로 월 1회 이하 정기적으로 펴내는 책자 형태의 간행물을 잡지로 정합니다.
+
+관련어: 정기간행물(periodical), 학술지(academic-journal), 연속간행물(serial)
+근거: 대한민국 잡지 등 정기간행물의 진흥에 관한 법률 제2조 (국가법령정보센터); Donald J. Lehnus, A Comparison of Panizzi's 91 Rules and the AACR of 1967 (Univ. of Illinois GSLS Occasional Paper 105, 1972) — 91개조 전문 재수록 <https://core.ac.uk/download/4813959.pdf>
+
+### 관보 (Official Gazette)
+
+- 분야: 장서와 자료
+- 주소: https://inbluewater-dev.github.io/lis-glossary/terms/gazette/
+- 다른 이름: gazette, gazettes
+
+정부가 법령, 고시, 인사 같은 공식 사항을 국민에게 알리기 위해 펴내는 간행물입니다. 1665년에 창간된 영국의 『런던 가제트』가 대표적인 예입니다. 도서관과 기록관에서는 정부 활동을 증명하는 1차 자료로 보존합니다. 파니치의 91개조 규칙은 관보를 「PERIODICAL PUBLICATIONS」 표목 아래 모았습니다(81조).
+
+관련어: 정기간행물(periodical), 연속간행물(serial), 1차 자료(primary-source), 회색문헌(grey-literature)
+근거: Donald J. Lehnus, A Comparison of Panizzi's 91 Rules and the AACR of 1967 (Univ. of Illinois GSLS Occasional Paper 105, 1972) — 91개조 전문 재수록 <https://core.ac.uk/download/4813959.pdf>; The Gazette (The London Gazette, 1665~) — 영국 정부 공식 관보 <https://www.thegazette.co.uk/>
+
+### 평론지 (Review (Periodical))
+
+- 분야: 장서와 자료
+- 주소: https://inbluewater-dev.github.io/lis-glossary/terms/review-periodical/
+- 다른 이름: reviews, review, 리뷰, 평론 잡지
+
+새로 나온 책과 문학·정치·사회 문제에 대한 긴 평론을 싣는 정기간행물입니다. 19세기 영국의 『에든버러 리뷰』(1802)와 『쿼털리 리뷰』(1809)가 대표적이며, 파니치의 91개조 규칙은 이런 「리뷰」를 「PERIODICAL PUBLICATIONS」 표목 아래 모았습니다(81조). 책 한 권을 평가하는 글인 「서평(book review)」이나, 한 분야의 연구를 정리한 「리뷰 논문」과는 다른 뜻입니다.
+
+관련어: 정기간행물(periodical), 잡지(magazine), 학술지(academic-journal)
+근거: Donald J. Lehnus, A Comparison of Panizzi's 91 Rules and the AACR of 1967 (Univ. of Illinois GSLS Occasional Paper 105, 1972) — 91개조 전문 재수록 <https://core.ac.uk/download/4813959.pdf>; Michael Carpenter, Elaine Svenonius (eds.), Foundations of Cataloging: A Sourcebook (Libraries Unlimited, 1985)
+
 ### 학술지 (Academic Journal / Scholarly Journal)
 
 - 분야: 장서와 자료
 - 주소: https://inbluewater-dev.github.io/lis-glossary/terms/academic-journal/
-- 다른 이름: 저널
+- 다른 이름: 저널, journals, journal
 
 연구자들이 연구 결과를 논문으로 발표하는 연속간행물입니다. 대부분 다른 전문가의 동료심사를 거친 논문을 싣습니다.
 
@@ -372,7 +449,7 @@
 
 - 분야: 장서와 자료
 - 주소: https://inbluewater-dev.github.io/lis-glossary/terms/reference-material/
-- 다른 이름: 참고도서
+- 다른 이름: 참고도서, lexicon, vocabulary, 어휘사전, 어휘집
 
 처음부터 끝까지 읽기보다 필요한 부분을 찾아보도록 만든 자료입니다. 사전, 백과사전, 연감, 지도책, 인명록 등이 있으며, 보통 대출하지 않고 도서관 안에서 이용합니다.
 
@@ -436,6 +513,39 @@
 
 관련어: 협동목록(cooperative-cataloging), 종합목록(union-catalog), 판형(book-format)
 근거: Charles C. Jewett, On the Construction of Catalogues of Libraries (Smithsonian Institution, 1852) <https://www.gutenberg.org/files/47865/47865-h/47865-h.htm>; Michael Carpenter, Elaine Svenonius (eds.), Foundations of Cataloging: A Sourcebook (Libraries Unlimited, 1985); Philip Gaskell, A New Introduction to Bibliography (Oxford University Press, 1972)
+
+### 판권기 (Copyright Page / Imprint Page (Korean books))
+
+- 분야: 책과 서지학
+- 주소: https://inbluewater-dev.github.io/lis-glossary/terms/colophon-page/
+- 다른 이름: 판권면, 판권지, 판권 페이지
+
+우리 책의 맨 뒤(또는 앞)에 서명, 지은이, 펴낸이, 펴낸 곳, 펴낸 날과 판·쇄, ISBN 같은 정보를 모아 적어 둔 부분입니다. 옛 책의 「간기」가 하던 역할을 이어받은 것으로, 목록작업에서 발행사항과 판 정보를 확인하는 중요한 출처입니다.
+
+관련어: 간기(colophon), 발행사항(imprint), 판(edition), 국제표준도서번호(isbn)
+근거: 한국도서관협회, 한국목록규칙(KCR)
+
+### 권 (Volume)
+
+- 분야: 책과 서지학
+- 주소: https://inbluewater-dev.github.io/lis-glossary/terms/volume/
+- 다른 이름: volume, volumes, 卷, 책, 冊
+
+저작을 나누는 단위입니다. 내용상의 구분(예: 제1권·제2권)을 가리킬 때도, 실제로 제본된 한 덩어리를 가리킬 때도 써서 둘을 구별할 필요가 있습니다. 우리 고서 목록에서는 내용상의 구분인 「권(卷)」과 제본된 물리적 단위인 「책(冊)」을 나누어 「3권 2책」처럼 적습니다. 파니치의 91개조 규칙도 부·권·분책의 수를 표제에 쓰인 대로 적게 했습니다(25조).
+
+관련어: 총서(series), 고서(old-book), 판형(book-format)
+근거: Donald J. Lehnus, A Comparison of Panizzi's 91 Rules and the AACR of 1967 (Univ. of Illinois GSLS Occasional Paper 105, 1972) — 91개조 전문 재수록 <https://core.ac.uk/download/4813959.pdf>; 한국도서관협회, 한국목록규칙(KCR)
+
+### 부록 (Appendix)
+
+- 분야: 책과 서지학
+- 주소: https://inbluewater-dev.github.io/lis-glossary/terms/appendix/
+- 다른 이름: appendix, appendixes, appendices
+
+본문 뒤에 덧붙여 본문을 보충하는 자료입니다. 같은 책에 함께 묶여 있다는 점에서, 따로 딸려 오는 지도·음반 같은 「딸림자료」와 구별됩니다. 파니치의 91개조 규칙은 이 말을 배열 방법으로도 썼습니다. 어떤 사람의 이름 아래 기입되지만 실제로는 그 사람이 쓰지 않은 저작은, 그 사람의 저작들 뒤에 「부록」으로 모아 두게 했습니다(77조).
+
+관련어: 주기(note), 권(volume), 파니치의 91개조 규칙(panizzi-91-rules)
+근거: Donald J. Lehnus, A Comparison of Panizzi's 91 Rules and the AACR of 1967 (Univ. of Illinois GSLS Occasional Paper 105, 1972) — 91개조 전문 재수록 <https://core.ac.uk/download/4813959.pdf>
 
 ### 판형 (Format (Bibliographical))
 
@@ -598,6 +708,17 @@
 관련어: 본표제(title-proper), 서지기술 영역(isbd-areas), 기술목록(descriptive-cataloging)
 근거: AACR2 1.1B4 (Abridgement of title proper) — IASA Cataloguing Rules 1.B에 인용된 원문 <https://iasa-web.org/node/198>
 
+### 발행사항 (Imprint / Publication Statement)
+
+- 분야: 목록과 메타데이터
+- 주소: https://inbluewater-dev.github.io/lis-glossary/terms/imprint/
+- 다른 이름: imprint, 출판사항, publication statement
+
+자료가 어디서, 누구에 의해, 언제 펴내졌는지(발행지·발행처·발행년)를 적는 부분입니다. ISBD에서는 제4영역인 「발행·제작·배포 등」에 해당하며, MARC에서는 260 필드(RDA에서는 264 필드)에 기록합니다. 우리 책에서는 주로 판권기에서 이 정보를 확인합니다.
+
+관련어: 서지기술 영역(isbd-areas), 판권기(colophon-page), 간기(colophon), 판(edition)
+근거: IFLA, ISBD: International Standard Bibliographic Description, Consolidated Edition (2011) <https://www.ifla.org/isbd-editions/>; Library of Congress, MARC 21 Formats <https://www.loc.gov/marc/>
+
 ### 책임표시 (Statement of Responsibility)
 
 - 분야: 목록과 메타데이터
@@ -621,6 +742,39 @@
 
 관련어: 책임표시(statement-of-responsibility), 참조(cross-reference), 파니치의 91개조 규칙(panizzi-91-rules), 주기(note), 저자성(authorship)
 근거: Donald J. Lehnus, A Comparison of Panizzi's 91 Rules and the AACR of 1967 (Univ. of Illinois GSLS Occasional Paper 105, 1972) — 91개조 전문 재수록 <https://core.ac.uk/download/4813959.pdf>; Michael Carpenter, Elaine Svenonius (eds.), Foundations of Cataloging: A Sourcebook (Libraries Unlimited, 1985); Library of Congress, MARC Code List for Relators — Annotator [ann], Commentator for written text [cwt] <https://www.loc.gov/marc//relaterm.html>
+
+### 저자 (Author)
+
+- 분야: 목록과 메타데이터
+- 주소: https://inbluewater-dev.github.io/lis-glossary/terms/author/
+- 다른 이름: author, authors, 지은이, 창작자, creator
+
+저작의 지적·예술적 내용을 만들어 낸 데 주된 책임이 있는 사람이나 단체입니다. 목록에서는 저자가 책임표시의 중심이 되고, 저작을 찾는 주요 접근점이 됩니다. 단체를 저자로 볼 수 있는지, 편집자나 번역자는 어디까지 저자로 대우할지는 목록규칙마다 달랐습니다. RDA는 저작을 만든 사람이나 단체를 「창작자(creator)」라고 부릅니다.
+
+관련어: 저자성(authorship), 책임표시(statement-of-responsibility), 기본표목(main-entry), 편집자(editor), 단체표목(corporate-heading)
+근거: RDA: Resource Description and Access (RDA Toolkit) <https://www.rdatoolkit.org/>; IFLA, Statement of International Cataloguing Principles (2009, 2016 개정) <https://cf3-www.ifla.org/VII/s13/icp/ICP-2009_en.pdf>; Michael Carpenter, Elaine Svenonius (eds.), Foundations of Cataloging: A Sourcebook (Libraries Unlimited, 1985)
+
+### 편집자 (Editor)
+
+- 분야: 목록과 메타데이터
+- 주소: https://inbluewater-dev.github.io/lis-glossary/terms/editor/
+- 다른 이름: editor, editors, 엮은이, 편자
+
+다른 사람들의 글이나 자료를 골라 모으고 다듬어 한 권의 출판물로 펴내는 책임을 맡은 사람입니다. 책임표시에서는 흔히 「엮음」으로 나타납니다. 여러 저자의 글을 모은 자료를 편집자 이름 아래 기입할지 표제 아래 기입할지는 오래 논쟁거리였습니다. 파니치의 91개조 규칙은 편집자 이름이 드러나지 않은 모음집을 종합표제 아래 기입했고(46조), 영미목록규칙 제2판(AACR2)은 이런 모음집을 대개 표제 아래 기입하고 편집자는 부출표목으로 두었습니다.
+
+관련어: 저자(author), 책임표시(statement-of-responsibility), 종합표제(collective-title), 부출표목(added-entry), 전집(collected-works)
+근거: Donald J. Lehnus, A Comparison of Panizzi's 91 Rules and the AACR of 1967 (Univ. of Illinois GSLS Occasional Paper 105, 1972) — 91개조 전문 재수록 <https://core.ac.uk/download/4813959.pdf>; Anglo-American Cataloguing Rules, 2nd ed. (AACR2); Michael Carpenter, Elaine Svenonius (eds.), Foundations of Cataloging: A Sourcebook (Libraries Unlimited, 1985)
+
+### 주석자 (Commentator)
+
+- 분야: 목록과 메타데이터
+- 주소: https://inbluewater-dev.github.io/lis-glossary/terms/commentator/
+- 다른 이름: commentator, commentators, commentary, 주석, 주석서
+
+다른 사람의 저작을 풀이하고 해석하는 긴 글, 곧 주석(commentary)을 쓴 사람입니다. 짧은 풀이를 덧붙이는 「주해자(annotator)」와 짝을 이루는 말입니다. 파니치의 91개조 규칙은 번역자·주석자·주해자의 이름에서 기본표목으로 참조를 두게 했고(62조), 성서를 배열할 때 주석이 달린 판은 따로 모았습니다(79조).
+
+관련어: 주해자(annotator), 책임표시(statement-of-responsibility), 참조(cross-reference), 파니치의 91개조 규칙(panizzi-91-rules)
+근거: Donald J. Lehnus, A Comparison of Panizzi's 91 Rules and the AACR of 1967 (Univ. of Illinois GSLS Occasional Paper 105, 1972) — 91개조 전문 재수록 <https://core.ac.uk/download/4813959.pdf>; Michael Carpenter, Elaine Svenonius (eds.), Foundations of Cataloging: A Sourcebook (Libraries Unlimited, 1985)
 
 ### 주기 (Note)
 
@@ -850,7 +1004,7 @@ MARC를 우리나라 실정에 맞게 만든 서지 데이터 형식입니다. �
 
 - 분야: 목록규칙과 표목
 - 주소: https://inbluewater-dev.github.io/lis-glossary/terms/heading/
-- 다른 이름: 헤딩
+- 다른 이름: 헤딩, general head, general heads
 
 기입의 맨 앞에 두어 목록에서 배열하고 찾는 기준이 되는 이름, 표제, 주제명입니다. 저자명표목, 서명표목, 주제명표목 등이 있고, 「학술단체(ACADEMIES)」나 「정기간행물(PERIODICAL PUBLICATIONS)」처럼 자료의 종류로 모으는 표목을 「형식표목」이라고 했습니다. 국제목록원칙(2009)과 RDA에서는 이 역할을 「접근점」이라고 부릅니다.
 
@@ -1588,3 +1742,27 @@ AND(그리고), OR(또는), NOT(빼기) 같은 논리 연산자로 검색어를 
 
 관련어: 듀이십진분류법(ddc), 정보리터러시(information-literacy), 도서관(library), 사서(librarian)
 근거: American Library Association, ALA Fact Sheet <https://www.ala.org/news/american-library-association-fact-sheet>
+
+### 대영박물관 도서관 (British Museum Library)
+
+- 분야: 기관과 단체
+- 주소: https://inbluewater-dev.github.io/lis-glossary/terms/british-museum-library/
+- 다른 이름: 대영박물관, British Museum, 영국박물관
+
+1753년에 세워진 영국 대영박물관의 도서관 부문으로, 1973년 영국국가도서관(British Library)으로 옮겨질 때까지 영국의 국가도서관 역할을 했습니다. 1837년부터 인쇄본 관장을, 1856년부터 박물관장을 지낸 앤서니 파니치가 91개조 목록규칙(1841)을 만들고 둥근 열람실(1857)을 세워, 근대 목록과 도서관 운영의 본보기가 되었습니다.
+
+관련어: 파니치의 91개조 규칙(panizzi-91-rules), 국가도서관(national-library), 학술단체 표목(academies-heading)
+근거: British Library, 「History of the British Library」; Michael Carpenter, Elaine Svenonius (eds.), Foundations of Cataloging: A Sourcebook (Libraries Unlimited, 1985)
+
+## 인물
+
+### 시모어 루베츠키 (Seymour Lubetzky (1898–2003))
+
+- 분야: 인물
+- 주소: https://inbluewater-dev.github.io/lis-glossary/terms/lubetzky/
+- 다른 이름: 루베츠키, Lubetzky
+
+20세기 미국의 대표적인 목록 이론가입니다. 미국 의회도서관에서 일하며 1953년 『목록규칙과 원칙(Cataloging Rules and Principles)』에서 당시 규칙이 사례를 늘어놓을 뿐 원칙이 없다고 비판했습니다. 「저작」과 「책」을 구별하고 목록의 목적에서 규칙을 끌어내야 한다는 그의 생각은 1961년 파리원칙과 영미목록규칙(1967)의 바탕이 되었습니다. 뒤에 UCLA에서 가르쳤습니다.
+
+관련어: 목록의 목적(커터)(cutters-objects), 목록규칙(cataloging-code), 저작·표현형·구현형·개별자료(wemi), 기본표목(main-entry)
+근거: Michael Carpenter, Elaine Svenonius (eds.), Foundations of Cataloging: A Sourcebook (Libraries Unlimited, 1985); Elaine Svenonius, Dorothy McGarry (eds.), Seymour Lubetzky: Writings on the Classical Art of Cataloging (2001) 등

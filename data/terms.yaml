@@ -27,6 +27,8 @@ categories:
     name: 디지털과 보존
   - id: organizations
     name: 기관과 단체
+  - id: people
+    name: 인물
 
 terms:
 
@@ -363,10 +365,87 @@ terms:
   related: [serial, academic-journal, issn, heading]
   sources: [aacr1-periodical, magazine-act, lehnus1972]
 
+- id: collected-works
+  term: 전집
+  en: Collected Works / Complete Works
+  aka: [collected works, complete works, partial collections, 부분 전집, collected collections, Works]
+  category: collections
+  definition: >-
+    한 저자의 저작 전부, 또는 거의 전부를 모아 펴낸 출판물입니다. 저작의 일부만 모은 것은 「부분 전집」이라고 합니다.
+    파니치의 91개조 규칙(1841)은 한 저자의 표목 아래에서 원어로 된 전집을 참조 바로 다음, 맨 앞에 두고(70조), 그 번역과 부분 전집, 선집을 차례로 잇게 했습니다(73·74조). 영미목록규칙 제2판(AACR2)은 전집에 「Works」라는 관용적 통일표제를 붙여 한데 모았습니다.
+  related: [selections, uniform-title, collective-title, monograph]
+  sources: [lehnus1972, foundations, aacr2]
+
+- id: selections
+  term: 선집
+  en: Selections
+  aka: [selections, selected works, 선집류]
+  category: collections
+  definition: >-
+    한 저자의 저작 가운데 일부를 골라 모은 출판물입니다. 여러 저자의 작품을 골라 모은 것도 흔히 선집이라고 부릅니다.
+    파니치의 91개조 규칙은 저자의 저작에서 뽑은 선집을 부분 전집 뒤에 두었고(74조), 영미목록규칙 제2판(AACR2)은 「Selections」라는 관용적 통일표제로 모았습니다. 장서 전체를 뜻하는 「collection(장서)」과는 다른 말입니다.
+  related: [collected-works, collective-title, uniform-title, collection]
+  sources: [lehnus1972, aacr2]
+
+- id: polyglot-edition
+  term: 다국어판
+  en: Polyglot Edition
+  aka: [polyglot, polyglot editions, 대역판]
+  category: collections
+  definition: >-
+    같은 글을 여러 언어로 나란히 실은 판으로, 성서에서 특히 많이 만들어졌습니다. 16세기 스페인의 「콤플루툼 다국어 성서」와 17세기 영국의 「런던 다국어 성서」가 유명합니다.
+    파니치의 91개조 규칙은 성서를 배열할 때 히브리어·그리스어 원문만 실린 판 다음에, 원문이 들어간 다국어판을 번역이 많은 것부터 두게 했습니다(79조).
+  related: [edition, uniform-title, collected-works]
+  sources: [lehnus1972, foundations]
+
+- id: newspaper
+  term: 신문
+  en: Newspaper
+  aka: [newspapers]
+  category: collections
+  definition: >-
+    시사 소식과 논평을 날마다 또는 주마다 짧은 간격으로 계속 펴내는 연속간행물입니다.
+    양이 많고 종이가 쉽게 상해서, 도서관은 마이크로필름이나 디지털 파일로 바꾸어 보존하는 경우가 많습니다. 영미목록규칙 초판(1967)은 신문을 정기간행물과 따로 다루었고, 파니치의 91개조 규칙은 「PERIODICAL PUBLICATIONS」 표목 아래에 함께 모았습니다(81조).
+  related: [serial, periodical, preservation, digitization]
+  sources: [aacr1-periodical, lehnus1972]
+
+- id: magazine
+  term: 잡지
+  en: Magazine
+  aka: [magazines]
+  category: collections
+  definition: >-
+    여러 필자의 글을 묶어 일정한 간격으로 펴내는 책자 형태의 정기간행물로, 일반 독자를 대상으로 하는 경우가 많습니다.
+    전문가의 동료심사를 거친 논문을 싣는 「학술지」와 구별해 씁니다. 우리 「잡지 등 정기간행물의 진흥에 관한 법률」은 같은 제호로 월 1회 이하 정기적으로 펴내는 책자 형태의 간행물을 잡지로 정합니다.
+  related: [periodical, academic-journal, serial]
+  sources: [magazine-act, lehnus1972]
+
+- id: gazette
+  term: 관보
+  en: Official Gazette
+  aka: [gazette, gazettes]
+  category: collections
+  definition: >-
+    정부가 법령, 고시, 인사 같은 공식 사항을 국민에게 알리기 위해 펴내는 간행물입니다. 1665년에 창간된 영국의 『런던 가제트』가 대표적인 예입니다.
+    도서관과 기록관에서는 정부 활동을 증명하는 1차 자료로 보존합니다. 파니치의 91개조 규칙은 관보를 「PERIODICAL PUBLICATIONS」 표목 아래 모았습니다(81조).
+  related: [periodical, serial, primary-source, grey-literature]
+  sources: [lehnus1972, london-gazette]
+
+- id: review-periodical
+  term: 평론지
+  en: Review (Periodical)
+  aka: [reviews, review, 리뷰, 평론 잡지]
+  category: collections
+  definition: >-
+    새로 나온 책과 문학·정치·사회 문제에 대한 긴 평론을 싣는 정기간행물입니다. 19세기 영국의 『에든버러 리뷰』(1802)와 『쿼털리 리뷰』(1809)가 대표적이며, 파니치의 91개조 규칙은 이런 「리뷰」를 「PERIODICAL PUBLICATIONS」 표목 아래 모았습니다(81조).
+    책 한 권을 평가하는 글인 「서평(book review)」이나, 한 분야의 연구를 정리한 「리뷰 논문」과는 다른 뜻입니다.
+  related: [periodical, magazine, academic-journal]
+  sources: [lehnus1972, foundations]
+
 - id: academic-journal
   term: 학술지
   en: Academic Journal / Scholarly Journal
-  aka: [저널]
+  aka: [저널, journals, journal]
   category: collections
   definition: >-
     연구자들이 연구 결과를 논문으로 발표하는 연속간행물입니다.
@@ -388,7 +467,7 @@ terms:
 - id: reference-material
   term: 참고자료
   en: Reference Material / Reference Work
-  aka: [참고도서]
+  aka: [참고도서, lexicon, vocabulary, 어휘사전, 어휘집]
   category: collections
   definition: >-
     처음부터 끝까지 읽기보다 필요한 부분을 찾아보도록 만든 자료입니다.
@@ -452,6 +531,39 @@ terms:
     주잇은 1850년대에 서지 기록 한 건마다 낱장의 스테로판을 따로 떠 두었다가 도서관마다 필요한 것만 골라 짜 맞춰 목록을 찍자고 제안했습니다. 판은 값비싼 활자 합금 대신 새로 고안한 값싼 재료로 만들 계획이었습니다. 이 계획은 실현되지 못했지만, 한 번 만든 기록을 여러 도서관이 나눠 쓴다는 협동목록의 생각을 이른 시기에 체계적으로 보여 주었습니다.
   related: [cooperative-cataloging, union-catalog, book-format]
   sources: [jewett1852, foundations, gaskell]
+
+- id: colophon-page
+  term: 판권기
+  en: Copyright Page / Imprint Page (Korean books)
+  aka: [판권면, 판권지, 판권 페이지]
+  category: bibliography-books
+  definition: >-
+    우리 책의 맨 뒤(또는 앞)에 서명, 지은이, 펴낸이, 펴낸 곳, 펴낸 날과 판·쇄, ISBN 같은 정보를 모아 적어 둔 부분입니다.
+    옛 책의 「간기」가 하던 역할을 이어받은 것으로, 목록작업에서 발행사항과 판 정보를 확인하는 중요한 출처입니다.
+  related: [colophon, imprint, edition, isbn]
+  sources: [kcr]
+
+- id: volume
+  term: 권
+  en: Volume
+  aka: [volume, volumes, 卷, 책, 冊]
+  category: bibliography-books
+  definition: >-
+    저작을 나누는 단위입니다. 내용상의 구분(예: 제1권·제2권)을 가리킬 때도, 실제로 제본된 한 덩어리를 가리킬 때도 써서 둘을 구별할 필요가 있습니다.
+    우리 고서 목록에서는 내용상의 구분인 「권(卷)」과 제본된 물리적 단위인 「책(冊)」을 나누어 「3권 2책」처럼 적습니다. 파니치의 91개조 규칙도 부·권·분책의 수를 표제에 쓰인 대로 적게 했습니다(25조).
+  related: [series, old-book, book-format]
+  sources: [lehnus1972, kcr]
+
+- id: appendix
+  term: 부록
+  en: Appendix
+  aka: [appendix, appendixes, appendices]
+  category: bibliography-books
+  definition: >-
+    본문 뒤에 덧붙여 본문을 보충하는 자료입니다. 같은 책에 함께 묶여 있다는 점에서, 따로 딸려 오는 지도·음반 같은 「딸림자료」와 구별됩니다.
+    파니치의 91개조 규칙은 이 말을 배열 방법으로도 썼습니다. 어떤 사람의 이름 아래 기입되지만 실제로는 그 사람이 쓰지 않은 저작은, 그 사람의 저작들 뒤에 「부록」으로 모아 두게 했습니다(77조).
+  related: [note, volume, panizzi-91-rules]
+  sources: [lehnus1972]
 
 - id: book-format
   term: 판형
@@ -589,7 +701,7 @@ terms:
 - id: heading
   term: 표목
   en: Heading
-  aka: [헤딩]
+  aka: [헤딩, general head, general heads]
   category: cataloging-rules
   definition: >-
     기입의 맨 앞에 두어 목록에서 배열하고 찾는 기준이 되는 이름, 표제, 주제명입니다.
@@ -841,6 +953,17 @@ terms:
   related: [title-proper, isbd-areas, descriptive-cataloging]
   sources: [aacr2-1b4]
 
+- id: imprint
+  term: 발행사항
+  en: Imprint / Publication Statement
+  aka: [imprint, 출판사항, publication statement]
+  category: cataloging
+  definition: >-
+    자료가 어디서, 누구에 의해, 언제 펴내졌는지(발행지·발행처·발행년)를 적는 부분입니다. ISBD에서는 제4영역인 「발행·제작·배포 등」에 해당하며, MARC에서는 260 필드(RDA에서는 264 필드)에 기록합니다.
+    우리 책에서는 주로 판권기에서 이 정보를 확인합니다.
+  related: [isbd-areas, colophon-page, colophon, edition]
+  sources: [isbd, marc21]
+
 - id: statement-of-responsibility
   term: 책임표시
   en: Statement of Responsibility
@@ -864,6 +987,39 @@ terms:
     오늘날 MARC 역할어의 Annotator는 「인쇄본에 손으로 주석을 써넣은 사람」이라는 좁은 뜻으로 쓰입니다. 목록학에서 「주기(注記)」는 목록자가 적는 주기사항(note area)을 가리키므로, 「주기자」라고 옮기면 뜻이 헷갈릴 수 있습니다.
   related: [statement-of-responsibility, cross-reference, panizzi-91-rules, note, authorship]
   sources: [lehnus1972, foundations, lc-relators]
+
+- id: author
+  term: 저자
+  en: Author
+  aka: [author, authors, 지은이, 창작자, creator]
+  category: cataloging
+  definition: >-
+    저작의 지적·예술적 내용을 만들어 낸 데 주된 책임이 있는 사람이나 단체입니다. 목록에서는 저자가 책임표시의 중심이 되고, 저작을 찾는 주요 접근점이 됩니다.
+    단체를 저자로 볼 수 있는지, 편집자나 번역자는 어디까지 저자로 대우할지는 목록규칙마다 달랐습니다. RDA는 저작을 만든 사람이나 단체를 「창작자(creator)」라고 부릅니다.
+  related: [authorship, statement-of-responsibility, main-entry, editor, corporate-heading]
+  sources: [rda, icp2009, foundations]
+
+- id: editor
+  term: 편집자
+  en: Editor
+  aka: [editor, editors, 엮은이, 편자]
+  category: cataloging
+  definition: >-
+    다른 사람들의 글이나 자료를 골라 모으고 다듬어 한 권의 출판물로 펴내는 책임을 맡은 사람입니다. 책임표시에서는 흔히 「엮음」으로 나타납니다.
+    여러 저자의 글을 모은 자료를 편집자 이름 아래 기입할지 표제 아래 기입할지는 오래 논쟁거리였습니다. 파니치의 91개조 규칙은 편집자 이름이 드러나지 않은 모음집을 종합표제 아래 기입했고(46조), 영미목록규칙 제2판(AACR2)은 이런 모음집을 대개 표제 아래 기입하고 편집자는 부출표목으로 두었습니다.
+  related: [author, statement-of-responsibility, collective-title, added-entry, collected-works]
+  sources: [lehnus1972, aacr2, foundations]
+
+- id: commentator
+  term: 주석자
+  en: Commentator
+  aka: [commentator, commentators, commentary, 주석, 주석서]
+  category: cataloging
+  definition: >-
+    다른 사람의 저작을 풀이하고 해석하는 긴 글, 곧 주석(commentary)을 쓴 사람입니다. 짧은 풀이를 덧붙이는 「주해자(annotator)」와 짝을 이루는 말입니다.
+    파니치의 91개조 규칙은 번역자·주석자·주해자의 이름에서 기본표목으로 참조를 두게 했고(62조), 성서를 배열할 때 주석이 달린 판은 따로 모았습니다(79조).
+  related: [annotator, statement-of-responsibility, cross-reference, panizzi-91-rules]
+  sources: [lehnus1972, foundations]
 
 - id: note
   term: 주기
@@ -1576,4 +1732,27 @@ terms:
     창립에는 멜빌 듀이, 찰스 커터 등이 참여했습니다. 도서관 이용자의 알 권리와 지적 자유를 밝힌 「도서관 권리장전(Library Bill of Rights, 1939)」을 채택했고, 미국·캐나다 문헌정보학 대학원 과정을 인증하며, 어린이책 상인 뉴베리상과 칼데콧상을 수여합니다.
   related: [ddc, information-literacy, library, librarian]
   sources: [ala]
+
+- id: british-museum-library
+  term: 대영박물관 도서관
+  en: British Museum Library
+  aka: [대영박물관, British Museum, 영국박물관]
+  category: organizations
+  definition: >-
+    1753년에 세워진 영국 대영박물관의 도서관 부문으로, 1973년 영국국가도서관(British Library)으로 옮겨질 때까지 영국의 국가도서관 역할을 했습니다.
+    1837년부터 인쇄본 관장을, 1856년부터 박물관장을 지낸 앤서니 파니치가 91개조 목록규칙(1841)을 만들고 둥근 열람실(1857)을 세워, 근대 목록과 도서관 운영의 본보기가 되었습니다.
+  related: [panizzi-91-rules, national-library, academies-heading]
+  sources: [bl-history, foundations]
+
+# ───────── 인물 ─────────
+- id: lubetzky
+  term: 시모어 루베츠키
+  en: Seymour Lubetzky (1898–2003)
+  aka: [루베츠키, Lubetzky]
+  category: people
+  definition: >-
+    20세기 미국의 대표적인 목록 이론가입니다. 미국 의회도서관에서 일하며 1953년 『목록규칙과 원칙(Cataloging Rules and Principles)』에서 당시 규칙이 사례를 늘어놓을 뿐 원칙이 없다고 비판했습니다.
+    「저작」과 「책」을 구별하고 목록의 목적에서 규칙을 끌어내야 한다는 그의 생각은 1961년 파리원칙과 영미목록규칙(1967)의 바탕이 되었습니다. 뒤에 UCLA에서 가르쳤습니다.
+  related: [cutters-objects, cataloging-code, wemi, main-entry]
+  sources: [foundations, lubetzky-ucla]
 

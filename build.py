@@ -20,7 +20,7 @@ OUT = ROOT / "docs"
 BASE_URL = "https://inbluewater-dev.github.io/lis-glossary/"
 TITLE = "문헌정보학 용어사전"
 TITLE_EN = "Korean Glossary of Library and Information Science"
-VERSION = "1.6"
+VERSION = "1.7"
 # 갱신일은 빌드할 때 자동으로 오늘 날짜(한국 시간)가 들어간다.
 # 판(VERSION)은 용어를 크게 묶어 더하거나 체계를 바꿀 때만 손으로 올린다 — 작은 수정·추가는 판을 그대로 둔다.
 import datetime as _dt

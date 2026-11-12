@@ -2,7 +2,7 @@
 
 - 분야: 목록규칙과 표목
 - 주소: https://inbluewater-dev.github.io/lis-glossary/terms/heading/
-- 다른 이름: 헤딩
+- 다른 이름: 헤딩, general head, general heads
 
 기입의 맨 앞에 두어 목록에서 배열하고 찾는 기준이 되는 이름, 표제, 주제명입니다. 저자명표목, 서명표목, 주제명표목 등이 있고, 「학술단체(ACADEMIES)」나 「정기간행물(PERIODICAL PUBLICATIONS)」처럼 자료의 종류로 모으는 표목을 「형식표목」이라고 했습니다. 국제목록원칙(2009)과 RDA에서는 이 역할을 「접근점」이라고 부릅니다.
 
