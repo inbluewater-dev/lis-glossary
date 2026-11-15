@@ -7,5 +7,5 @@
 
 예: 『어린 왕자』(저작) → 어느 번역가의 한국어 번역(표현형) → 그 번역의 특정 출판사 판(구현형) → 우리 학교 도서관에 꽂힌 그 책 한 권(개별자료).
 
-관련어: IFLA LRM(ifla-lrm), 판(edition)
+관련어: IFLA LRM(ifla-lrm), 판(edition), 서지 가족(bibliographic-family)
 근거: IFLA Library Reference Model (IFLA LRM), 2017 <https://repository.ifla.org/items/214c74cb-c075-4428-a138-39f8d06c55aa>

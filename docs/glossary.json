@@ -1,10 +1,10 @@
 {
   "name": "문헌정보학 용어사전",
   "name_en": "Korean Glossary of Library and Information Science",
-  "description": "도서관과 정보에 관한 핵심 용어 156개를 누구나 이해할 수 있는 말로 풀어 쓴 문헌정보학 용어사전입니다. 모든 정의는 새로 썼으며, 각 용어마다 영어 표제어·관련어·근거 자료를 함께 적었습니다.",
+  "description": "도서관과 정보에 관한 핵심 용어 157개를 누구나 이해할 수 있는 말로 풀어 쓴 문헌정보학 용어사전입니다. 모든 정의는 새로 썼으며, 각 용어마다 영어 표제어·관련어·근거 자료를 함께 적었습니다.",
   "url": "https://inbluewater-dev.github.io/lis-glossary/",
   "version": "1.7",
-  "updated": "2026-11-13",
+  "updated": "2026-11-15",
   "language": "ko",
   "license": {
     "name": "CC BY 4.0",
@@ -438,6 +438,11 @@
       "id": "lubetzky-ucla",
       "name": "Online Archive of California, Seymour Lubetzky Papers (UCLA) — 약력",
       "url": "https://oac.cdlib.org/findaid/ark:/13030/ft1t1n9804"
+    },
+    {
+      "id": "isko-work",
+      "name": "Richard P. Smiraglia, 「Work」, ISKO Encyclopedia of Knowledge Organization",
+      "url": "https://www.isko.org/cyclo/work"
     }
   ],
   "terms": [
@@ -2574,12 +2579,41 @@
         "wemi",
         "ifla-lrm",
         "uniform-title",
-        "cross-reference"
+        "cross-reference",
+        "bibliographic-family"
       ],
       "sources": [
         "tillett1987",
         "ifla-lrm",
         "foundations"
+      ]
+    },
+    {
+      "id": "bibliographic-family",
+      "url": "https://inbluewater-dev.github.io/lis-glossary/terms/bibliographic-family/",
+      "term": "서지 가족",
+      "en": "Bibliographic Family",
+      "aka": [
+        "서지적 가족",
+        "저작의 가족",
+        "bibliographic families",
+        "instantiation network",
+        "superwork",
+        "슈퍼저작"
+      ],
+      "category": "cataloging",
+      "category_name": "목록과 메타데이터",
+      "definition": "처음 출판된 한 저작과, 그 저작에서 갈라져 나온 여러 판·번역·축약판·발췌, 그리고 넓게는 영화 같은 각색 작품까지를 한 묶음으로 보는 개념입니다. 묶음의 출발점이 되는, 처음 출판된 형태를 영어로 「progenitor」라고 부릅니다. 리처드 스미랄리아(Richard P. Smiraglia) 등이 패트릭 윌슨(Patrick Wilson)의 표현을 빌려 이 말을 썼으며, 「instantiation network」나 「슈퍼저작(superwork)」도 비슷한 생각을 가리킵니다. 목록이 한 가족을 모아 보여 주면, 이용자는 원하는 언어나 판을 고르기 쉬워집니다.",
+      "example": "마거릿 미첼의 소설 『바람과 함께 사라지다』를 출발점으로, 그 뒤에 나온 여러 판(기념판 등)·여러 나라 말 번역본·영화 등이 하나의 서지 가족을 이룹니다.",
+      "related": [
+        "bibliographic-relationships",
+        "wemi",
+        "ifla-lrm",
+        "uniform-title",
+        "edition"
+      ],
+      "sources": [
+        "isko-work"
       ]
     },
     {
@@ -2713,7 +2747,8 @@
       "en": "Machine-Readable Cataloging",
       "aka": [
         "마크",
-        "MARC 21"
+        "MARC 21",
+        "기계가독목록"
       ],
       "category": "cataloging",
       "category_name": "목록과 메타데이터",
@@ -2803,7 +2838,8 @@
       "example": "『어린 왕자』(저작) → 어느 번역가의 한국어 번역(표현형) → 그 번역의 특정 출판사 판(구현형) → 우리 학교 도서관에 꽂힌 그 책 한 권(개별자료).",
       "related": [
         "ifla-lrm",
-        "edition"
+        "edition",
+        "bibliographic-family"
       ],
       "sources": [
         "ifla-lrm"

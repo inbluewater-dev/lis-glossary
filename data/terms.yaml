@@ -1073,8 +1073,22 @@ terms:
   definition: >-
     서로 다른 자료나 저작 사이의 관계입니다. 바바라 틸렛(Barbara Tillett)은 이를 동등(같은 내용의 복제·재쇄), 파생(번역·개작), 기술(비평·해설), 전체-부분, 딸림(부록·해답집), 연속(속편·후속 간행물), 공통 특성의 일곱 가지로 정리했습니다.
     이런 관계를 기록하면 목록이 단순한 찾기 목록을 넘어, 한 저작의 여러 판과 번역과 해설서를 함께 보여 줄 수 있습니다.
-  related: [wemi, ifla-lrm, uniform-title, cross-reference]
+  related: [wemi, ifla-lrm, uniform-title, cross-reference, bibliographic-family]
   sources: [tillett1987, ifla-lrm, foundations]
+
+- id: bibliographic-family
+  term: 서지 가족
+  en: Bibliographic Family
+  aka: [서지적 가족, 저작의 가족, bibliographic families, instantiation network, superwork, 슈퍼저작]
+  category: cataloging
+  definition: >-
+    처음 출판된 한 저작과, 그 저작에서 갈라져 나온 여러 판·번역·축약판·발췌, 그리고 넓게는 영화 같은 각색 작품까지를 한 묶음으로 보는 개념입니다.
+    묶음의 출발점이 되는, 처음 출판된 형태를 영어로 「progenitor」라고 부릅니다.
+    리처드 스미랄리아(Richard P. Smiraglia) 등이 패트릭 윌슨(Patrick Wilson)의 표현을 빌려 이 말을 썼으며, 「instantiation network」나 「슈퍼저작(superwork)」도 비슷한 생각을 가리킵니다.
+    목록이 한 가족을 모아 보여 주면, 이용자는 원하는 언어나 판을 고르기 쉬워집니다.
+  example: "마거릿 미첼의 소설 『바람과 함께 사라지다』를 출발점으로, 그 뒤에 나온 여러 판(기념판 등)·여러 나라 말 번역본·영화 등이 하나의 서지 가족을 이룹니다."
+  related: [bibliographic-relationships, wemi, ifla-lrm, uniform-title, edition]
+  sources: [isko-work]
 
 - id: dictionary-catalog
   term: 사전체목록
@@ -1134,7 +1148,7 @@ terms:
 - id: marc
   term: MARC
   en: Machine-Readable Cataloging
-  aka: [마크, MARC 21]
+  aka: [마크, MARC 21, 기계가독목록]
   category: cataloging
   definition: >-
     서지 정보를 컴퓨터가 읽고 주고받을 수 있도록 정한 데이터 형식입니다.
@@ -1182,7 +1196,7 @@ terms:
     하나의 작품을 네 층으로 나누어 보는 IFLA LRM의 개념입니다.
     저작은 작품 자체의 생각, 표현형은 특정 언어나 형태로 나타난 모습(예: 번역본), 구현형은 특정 출판사가 펴낸 판, 개별자료는 손에 쥐는 책 한 권입니다.
   example: "『어린 왕자』(저작) → 어느 번역가의 한국어 번역(표현형) → 그 번역의 특정 출판사 판(구현형) → 우리 학교 도서관에 꽂힌 그 책 한 권(개별자료)."
-  related: [ifla-lrm, edition]
+  related: [ifla-lrm, edition, bibliographic-family]
   sources: [ifla-lrm]
 
 - id: bibframe

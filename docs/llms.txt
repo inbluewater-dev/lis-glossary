@@ -1,6 +1,6 @@
 # 문헌정보학 용어사전
 
-> 도서관과 정보에 관한 핵심 용어 156개를 누구나 이해할 수 있는 말로 풀어 쓴 문헌정보학 용어사전입니다. 모든 정의는 새로 썼으며, 각 용어마다 영어 표제어·관련어·근거 자료를 함께 적었습니다. 이용 허락은 CC BY 4.0이며, 출처를 밝히면 AI 답변·검색·학습에 자유롭게 인용할 수 있습니다.
+> 도서관과 정보에 관한 핵심 용어 157개를 누구나 이해할 수 있는 말로 풀어 쓴 문헌정보학 용어사전입니다. 모든 정의는 새로 썼으며, 각 용어마다 영어 표제어·관련어·근거 자료를 함께 적었습니다. 이용 허락은 CC BY 4.0이며, 출처를 밝히면 AI 답변·검색·학습에 자유롭게 인용할 수 있습니다.
 
 한국어 문헌정보학(도서관학·정보학) 기본 용어사전입니다. 일반인 눈높이로 쓰였으며, 용어마다 영어 표제어·다른 이름·관련어·근거 자료가 있습니다.
 각 용어는 고유 주소 `terms/<id>/`(HTML)와 `terms/<id>.md`(Markdown)를 가집니다.
@@ -8,7 +8,7 @@
 
 ## 전체 데이터
 
-- [llms-full.txt](https://inbluewater-dev.github.io/lis-glossary/llms-full.txt): 용어 156개 전체 (Markdown, 한 파일)
+- [llms-full.txt](https://inbluewater-dev.github.io/lis-glossary/llms-full.txt): 용어 157개 전체 (Markdown, 한 파일)
 - [glossary.json](https://inbluewater-dev.github.io/lis-glossary/glossary.json): 같은 내용의 구조화 JSON
 
 ## 기초 개념
@@ -99,6 +99,7 @@
 - [종합표제 (Collective Title)](https://inbluewater-dev.github.io/lis-glossary/terms/collective-title.md): 여러 개의 작품을 한 자료에 모았을 때, 그 자료 전체를 가리키는 하나의 표제입니다.
 - [저자성 (Authorship)](https://inbluewater-dev.github.io/lis-glossary/terms/authorship.md): 어떤 저작의 내용을 만들어 낸 책임이 누구에게 있는가 하는 개념입니다.
 - [서지적 관계 (Bibliographic Relationships)](https://inbluewater-dev.github.io/lis-glossary/terms/bibliographic-relationships.md): 서로 다른 자료나 저작 사이의 관계입니다.
+- [서지 가족 (Bibliographic Family)](https://inbluewater-dev.github.io/lis-glossary/terms/bibliographic-family.md): 처음 출판된 한 저작과, 그 저작에서 갈라져 나온 여러 판·번역·축약판·발췌, 그리고 넓게는 영화 같은 각색 작품까지를 한 묶음으로 보는 개념입니다.
 - [사전체목록 (Dictionary Catalog)](https://inbluewater-dev.github.io/lis-glossary/terms/dictionary-catalog.md): 저자명, 표제, 주제명 등 여러 종류의 기입을 한데 섞어 사전처럼 하나의 자모순으로 배열한 목록입니다.
 - [목록의 목적(커터) (Objects of the Catalog (Cutter))](https://inbluewater-dev.github.io/lis-glossary/terms/cutters-objects.md): 찰스 커터가 『사전체 목록 규칙』에서 밝힌 목록의 세 가지 목적입니다.
 - [공중의 편의 (Convenience of the Public)](https://inbluewater-dev.github.io/lis-glossary/terms/convenience-of-the-public.md): 「공중의 편의는 언제나 목록자의 편함보다 앞에 놓여야 한다」는 커터의 원칙입니다.
